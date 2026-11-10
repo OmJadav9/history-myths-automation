@@ -1,7 +1,7 @@
 """Frame timeline built from measured narration lengths. Remotion places every scene where this says."""
 STAMP_DELAY = 0.15      # stamp lands this long after the verdict scene starts
-VERDICT_SPEECH_DELAY = 0.45
-BEAT_SPEECH_DELAY = 0.2
+VERDICT_SPEECH_DELAY = 0.35
+BEAT_SPEECH_DELAY = 0.15    # the page-turn whoosh (audio.WHOOSH_SECONDS) ends before the first word
 OUTRO_TAIL = 0.6
 
 

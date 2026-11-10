@@ -63,7 +63,7 @@ def test_ticks_and_stamp_cues(cfg):
 def test_beats_to_keep_drops_weakest_last_beats(cfg):
     reel = cfg["reel"]
     assert timeline.beats_to_keep(reel, durations(reality=5, each=4.0), 5) == 5
-    long = durations(reality=5, each=9.0)
+    long = durations(reality=5, each=10.0)
     kept = timeline.beats_to_keep(reel, long, 5)
     assert 3 <= kept < 5
     trimmed = {k: v for k, v in long.items() if not (k.startswith("reality_") and int(k[8:]) >= kept)}
@@ -73,3 +73,13 @@ def test_beats_to_keep_drops_weakest_last_beats(cfg):
 def test_beats_to_keep_never_below_minimum(cfg):
     huge = durations(reality=4, each=20.0)
     assert timeline.beats_to_keep(cfg["reel"], huge, 4) == 3
+
+
+def test_whoosh_never_overlaps_speech(cfg):
+    from mythreels.audio import WHOOSH_SECONDS
+    d = durations(reality=3, origin=2)
+    t = timeline.build(cfg["reel"], d)
+    speech = [(s["start"], s["start"] + d[s["id"]]) for s in t["speech"]]
+    for cue in (c for c in t["sfx"] if c["kind"] == "whoosh"):
+        a, b = cue["start"], cue["start"] + WHOOSH_SECONDS
+        assert all(b <= s0 + 1e-6 or a >= s1 - 1e-6 for s0, s1 in speech), cue

@@ -31,9 +31,14 @@ class Clip:
     cues: list[dict]        # subtitle cues relative to the clip start
 
 
+# edge-tts only delivers 24 kHz / 48 kbps MP3: resample cleanly, cut rumble and the codec's high-end swirl,
+# and soften harsh sibilants. Piper clips go through the same chain so both engines sound alike.
+VOICE_CLEANUP = "aresample={rate}:resampler=soxr:precision=28,highpass=f=70,lowpass=f=11500,deesser=i=0.35"
+
+
 def _to_wav(src: Path, dst: Path, rate: int) -> None:
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-ac", "1", "-ar", str(rate), str(dst)],
-                   check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-ac", "1",
+                    "-af", VOICE_CLEANUP.format(rate=rate), str(dst)], check=True)
 
 
 def wav_duration(path: Path) -> float:
