@@ -1,0 +1,6 @@
+#!/bin/sh
+# Refuse commits that contain anything that looks like a token or secret.
+PY=python
+[ -x .venv/Scripts/python ] && PY=.venv/Scripts/python
+[ -x .venv/bin/python ] && PY=.venv/bin/python
+exec "$PY" scripts/check_secrets.py --staged

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.tmp
+output/
+.cache/
+remotion/node_modules/
+remotion/public/run/
+remotion/out/
+.playwright-mcp/

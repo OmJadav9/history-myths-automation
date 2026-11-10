@@ -1,0 +1,102 @@
+# History myth-busting reels for @did.you.know9104
+account: did.you.know9104
+repo: OmJadav9/history-myths-automation
+ist_offset_minutes: 330          # IST = UTC+5:30
+start_date: 2026-11-12           # Day 1 of the posting ramp (IST date)
+
+schedule:
+  # Must match the cron in .github/workflows/post.yml: "41 2,6,10,14 * * *"
+  slots_utc: {1: "02:41", 2: "06:41", 3: "10:41", 4: "14:41"}   # ~08:11 12:11 16:11 20:11 IST
+  ramp:                          # from_day is 1-based; the last matching entry wins
+    - {from_day: 1, slots: [4]}
+    - {from_day: 15, slots: [2, 4]}
+    - {from_day: 31, slots: [1, 2, 4]}
+  max_reels_per_day: 3           # hard cap
+  run_budget_minutes: 12         # don't start another reel in the same run after this
+
+content:
+  categories:
+    - Ancient World
+    - Medieval
+    - Early Modern
+    - Modern (1800-1950)
+    - Indian History
+    - Science & Inventions
+    - Famous Misquotes
+    - Everyday Life in the Past
+  fact_ratio: 0.2                # ~20% of reels confirm a true-but-surprising claim
+  backlog_target: 40
+  backlog_warn_below: 10
+  refill_budget_minutes: 38
+  refill_workers: 3              # parallel research passes
+  candidates_per_call: 8
+  person_cooldown_days: 30
+  claim_similarity: 85           # rapidfuzz token_set_ratio threshold for duplicates
+  min_years_ago: 30
+  min_sources: 2                 # independent reliable domains per factual sentence
+  wikipedia_domains: [wikipedia.org, wikimedia.org, wikiwand.com]
+  blocked_source_domains:
+    [reddit.com, quora.com, medium.com, facebook.com, instagram.com, tiktok.com, x.com, twitter.com,
+     pinterest.com, youtube.com, listverse.com, ranker.com, buzzfeed.com, boredpanda.com, factinate.com,
+     thefactsite.com, mentalfloss.com, ripleys.com, grunge.com, ati.com, allthatsinteresting.com,
+     historydefined.net, quizlet.com, answers.com, chatgpt.com]
+  # Local belt-and-braces filter on top of the adversarial pass (whole-word, case-insensitive).
+  # Checked against the topic only (claim, event, key people), so a passing mention in narration is fine.
+  excluded_keywords:
+    [god, gods, goddess, jesus, christ, prophet, muhammad, allah, quran, bible, church, mosque, temple,
+     hindu, hinduism, muslim, islam, islamic, christian, christianity, sikh, jain, buddhist, jewish, judaism,
+     ramayana, mahabharata, rama, krishna, caste, brahmin, dalit, communal, partition, riot, riots, genocide,
+     holocaust, massacre, atrocity, atrocities, kashmir, ayodhya, babri, khalistan, pakistan, china border,
+     election, bjp, congress party, modi, gandhi family, conspiracy, illuminati, aliens]
+
+reel:
+  width: 1080
+  height: 1920
+  fps: 30
+  min_seconds: 30
+  max_seconds: 75
+  countdown_seconds: 3
+  sources_card_seconds: 2.5
+  pad_seconds: 0.35
+  min_reality_beats: 3
+
+voice:
+  edge_voice: en-US-AndrewNeural
+  edge_rate: "-4%"
+  edge_retries: 3
+  piper_voice: en_US-ryan-high
+  # Global spoken-form overrides (each myth can add its own). Subtitles still show the original word.
+  pronunciations:
+    Doepler: Dupp-ler
+    Rousseau: Roo-so
+    Antoinette: Antwa-net
+
+audio:
+  sample_rate: 48000
+  tick_db: -18
+  thud_db: -20
+  whoosh_db: -24
+  music_db: -25
+  duck_db: -10
+  target_lufs: -14
+
+instagram:
+  graph_version: v27.0
+  share_to_feed: true
+  poll_seconds: 20
+  poll_timeout_seconds: 600
+
+palette:
+  burgundy: "#6E1622"
+  gold: "#D4A848"
+  parchment: "#EFE3C8"
+  ink: "#2A1B12"
+era_accents:
+  Ancient World: "#B5651D"
+  Medieval: "#5B6E3A"
+  Early Modern: "#2F5D7C"
+  Modern (1800-1950): "#4A4A6A"
+  Indian History: "#C1652F"
+  Science & Inventions: "#2E7D78"
+  Famous Misquotes: "#7A3E65"
+  Everyday Life in the Past: "#8A6B2E"

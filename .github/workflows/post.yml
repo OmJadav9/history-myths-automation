@@ -1,0 +1,139 @@
+name: Post myth reel
+
+on:
+  schedule:
+    # ~08:11, 12:11, 16:11, 20:11 IST. Must match schedule.slots_utc in config.yaml.
+    - cron: "41 2,6,10,14 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render only: upload the MP4 + research log as artifacts, post nothing"
+        type: boolean
+        default: true
+      publish_test:
+        description: "Publish ONE real reel now (ignores slot times, respects the daily cap)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: myth-reels          # shared by every workflow in this repo, so runs never overlap
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Secret scan
+        run: python scripts/check_secrets.py --all
+
+      - name: Decide what to do
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python -m mythreels due
+            echo "mode=schedule" >> "$GITHUB_OUTPUT"
+          elif [ "${{ inputs.publish_test }}" = "true" ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"; echo "mode=publish-test" >> "$GITHUB_OUTPUT"
+          elif [ "${{ inputs.dry_run }}" = "true" ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"; echo "mode=dry-run" >> "$GITHUB_OUTPUT"
+          else
+            python -m mythreels due
+            echo "mode=schedule" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Everything below is skipped in seconds when no slot is due.
+      - name: System packages (Chrome deps for Remotion + ffmpeg)
+        if: steps.mode.outputs.due == 'true'
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q --no-install-recommends ffmpeg libnss3 libdbus-1-3 libatk1.0-0 \
+            libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libgbm-dev \
+            libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0
+
+      - uses: actions/setup-node@v4
+        if: steps.mode.outputs.due == 'true'
+        with:
+          node-version: "22"
+
+      - name: Cache node_modules + Chrome Headless Shell
+        id: nodecache
+        if: steps.mode.outputs.due == 'true'
+        uses: actions/cache@v4
+        with:
+          path: remotion/node_modules
+          key: remotion-${{ runner.os }}-${{ hashFiles('remotion/package-lock.json') }}
+
+      - name: Install Remotion
+        if: steps.mode.outputs.due == 'true' && steps.nodecache.outputs.cache-hit != 'true'
+        working-directory: remotion
+        run: npm ci --no-audit --no-fund
+
+      - name: Ensure headless browser
+        if: steps.mode.outputs.due == 'true'
+        working-directory: remotion
+        run: npx remotion browser ensure
+
+      - name: Cache Piper voice
+        if: steps.mode.outputs.due == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .cache/piper
+          key: piper-en_US-ryan-high
+
+      - name: Prefetch Piper fallback voice
+        if: steps.mode.outputs.due == 'true'
+        run: python -c "from mythreels import tts, config; tts.piper_model(config.load_config())"
+
+      - name: Install Claude Code CLI
+        if: steps.mode.outputs.due == 'true'
+        run: npm install -g @anthropic-ai/claude-code@2.1.322
+
+      - name: Git identity for state commits
+        if: steps.mode.outputs.due == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Post
+        if: steps.mode.outputs.due == 'true' && steps.mode.outputs.mode != 'dry-run'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python -m mythreels post --mode "${{ steps.mode.outputs.mode }}"
+
+      - name: Dry run (render only)
+        if: steps.mode.outputs.due == 'true' && steps.mode.outputs.mode == 'dry-run'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python -m mythreels dry-run
+
+      - name: Upload dry-run artifacts
+        if: always() && steps.mode.outputs.mode == 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-reel
+          path: output/dry-run/
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Report crash
+        if: failure()
+        run: python -m mythreels issue "Posting workflow crashed" "A step failed before the reel code could report it. Open the run for logs."

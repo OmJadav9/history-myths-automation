@@ -1,0 +1,73 @@
+name: Refill myth backlog
+
+on:
+  schedule:
+    - cron: "5 21 * * 6"     # Sunday ~02:35 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write             # keep-alive: re-enable scheduled workflows
+
+concurrency:
+  group: myth-reels
+  cancel-in-progress: false
+
+jobs:
+  refill:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONUNBUFFERED: "1"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Secret scan
+        run: python scripts/check_secrets.py --all
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code@2.1.322
+
+      - name: Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Research and approve myths
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python -m mythreels refill --commit
+
+      - name: Upload refill report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refill-report
+          path: output/refill_report.json
+          retention-days: 14
+          if-no-files-found: ignore
+
+      # GitHub disables scheduled workflows after 60 days without repo activity. State commits normally
+      # prevent that; this re-enables both workflows weekly as insurance (works with the default token).
+      - name: Keep schedules alive
+        if: always()
+        run: |
+          gh workflow enable post.yml --repo "$GITHUB_REPOSITORY" || true
+          gh workflow enable refill.yml --repo "$GITHUB_REPOSITORY" || true
+
+      - name: Report crash
+        if: failure()
+        run: python -m mythreels issue "Refill workflow crashed" "The backlog refill failed. Open the run for logs."
