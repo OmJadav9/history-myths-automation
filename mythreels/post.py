@@ -88,8 +88,8 @@ def post_slot(cfg: dict, ig: Instagram, slot) -> None:
     if reel.problems:
         raise ValidationFailed("reel failed validation:\n- " + "\n- ".join(reel.problems))
 
-    container = ig.create_reel_container(reel.caption)
-    ig.upload(container, reel.mp4)
+    container, upload_uri = ig.create_reel_container(reel.caption)
+    ig.upload(upload_uri, reel.mp4)
     ig.wait_until_ready(container)
     pending = _record(myth, run_key, today.isoformat(), slot, reel, status="pending", container_id=container)
     state.save_history(state.upsert(state.load_history(), pending))

@@ -5,9 +5,11 @@ import os
 import subprocess
 from datetime import datetime, timedelta, timezone
 
+from mythreels.config import OUTPUT_DIR
 from scripts.check_secrets import redact
 
 log = logging.getLogger(__name__)
+ISSUE_MARKER = OUTPUT_DIR / "issue_opened"
 LABEL = "automation-failure"
 DEDUP_HOURS = 24
 
@@ -29,6 +31,8 @@ def open_issue(kind: str, details: str) -> None:
     if not os.environ.get("GITHUB_ACTIONS"):
         log.error("%s\n%s", title, body)
         return
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    ISSUE_MARKER.touch()     # tells the workflow's crash step that the failure is already reported
     _gh("label", "create", LABEL, "--color", "B60205", "--description", "Opened by the reel automation", "--force")
     listed = _gh("issue", "list", "--label", LABEL, "--state", "all", "--search", f'"{kind}" in:title',
                  "--json", "title,createdAt", "--limit", "20")

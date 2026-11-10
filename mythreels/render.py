@@ -25,7 +25,8 @@ def render(props: dict, props_file: Path, out_mp4: Path) -> float:
     if proc.returncode != 0:
         raise RuntimeError(f"Remotion render failed:\n{proc.stdout[-2000:]}\n{proc.stderr[-2000:]}")
     seconds = time.monotonic() - started
+    # Instagram wants the moov atom first and no edit lists; plain remux, no re-encode.
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-c", "copy", "-movflags", "+faststart",
-                    str(out_mp4)], check=True)
+                    "-use_editlist", "0", str(out_mp4)], check=True)
     raw.unlink(missing_ok=True)
     return seconds

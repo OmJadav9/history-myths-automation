@@ -136,4 +136,4 @@ jobs:
 
       - name: Report crash
         if: failure()
-        run: python -m mythreels issue "Posting workflow crashed" "A step failed before the reel code could report it. Open the run for logs."
+        run: test -f output/issue_opened || python -m mythreels issue "Posting workflow crashed" "A step failed before the reel code could report it. Open the run for logs."

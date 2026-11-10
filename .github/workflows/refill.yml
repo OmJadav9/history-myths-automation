@@ -70,4 +70,4 @@ jobs:
 
       - name: Report crash
         if: failure()
-        run: python -m mythreels issue "Refill workflow crashed" "The backlog refill failed. Open the run for logs."
+        run: test -f output/issue_opened || python -m mythreels issue "Refill workflow crashed" "The backlog refill failed. Open the run for logs."

@@ -69,3 +69,14 @@ def test_real_file_is_probed(tmp_path, cfg):
     problems = video_check.probe_problems(info, cfg["reel"])
     assert any("duration" in p for p in problems) and any("resolution" in p for p in problems)
     assert video_check.measure_speech_ratio(out, 2.0) > 0.9
+
+
+def test_edit_lists_and_moov_position_are_checked(tmp_path):
+    src, fixed = tmp_path / "src.mp4", tmp_path / "fixed.mp4"
+    subprocess.run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "testsrc=s=128x128:r=30:d=1",
+                    "-f", "lavfi", "-i", "sine=duration=1:sample_rate=48000",
+                    "-c:v", "libx264", "-bf", "2", "-c:a", "aac", "-shortest", str(src)], check=True)
+    assert video_check.container_problems(src)      # ffmpeg defaults: edit list, moov at the end
+    subprocess.run(["ffmpeg", "-v", "error", "-i", str(src), "-c", "copy", "-movflags", "+faststart",
+                    "-use_editlist", "0", str(fixed)], check=True)
+    assert video_check.container_problems(fixed) == []

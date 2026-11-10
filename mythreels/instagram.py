@@ -45,20 +45,26 @@ class Instagram:
     def account(self) -> dict:
         return self._call("GET", f"{self.base}/{self.user}", params={"fields": "id,username"})
 
-    def create_reel_container(self, caption: str) -> str:
+    def create_reel_container(self, caption: str) -> tuple[str, str]:
+        """Returns (container id, upload uri). Meta returns the exact upload URI; use it as given."""
         data = {"media_type": "REELS", "upload_type": "resumable", "caption": caption}
+        url = f"{self.base}/{self.user}/media"
+        body = None
         if self.ig["share_to_feed"]:
             try:
-                return self._call("POST", f"{self.base}/{self.user}/media", data={**data, "share_to_feed": "true"})["id"]
+                body = self._call("POST", url, data={**data, "share_to_feed": "true"})
             except PublishError as e:   # share_to_feed isn't documented for resumable uploads
                 log.warning("container with share_to_feed rejected (%s); retrying without it", e)
-        return self._call("POST", f"{self.base}/{self.user}/media", data=data)["id"]
+        body = body or self._call("POST", url, data=data)
+        uri = body.get("uri") or f"{RUPLOAD}/{self.version}/{body['id']}"
+        log.info("container %s created; upload uri host %s", body["id"], uri.split("/")[2])
+        return body["id"], uri
 
-    def upload(self, container_id: str, video: Path) -> None:
-        size = video.stat().st_size
-        with open(video, "rb") as f:
-            body = self._call("POST", f"{RUPLOAD}/{self.version}/{container_id}", data=f,
-                              headers={"offset": "0", "file_size": str(size)}, timeout=UPLOAD_TIMEOUT)
+    def upload(self, upload_uri: str, video: Path) -> None:
+        payload = video.read_bytes()          # reels are well under the 300 MB limit
+        body = self._call("POST", upload_uri, data=payload, timeout=UPLOAD_TIMEOUT,
+                          headers={"offset": "0", "file_size": str(len(payload)),
+                                   "Content-Type": "application/octet-stream"})
         if not body.get("success"):
             raise PublishError(f"upload not accepted: {body}")
 

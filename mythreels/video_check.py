@@ -10,6 +10,7 @@ MIN_SPEECH_RATIO = 0.5
 SILENCE_DB = -40
 SILENCE_MIN_SECONDS = 0.6
 AV_TOLERANCE = 0.5
+HEADER_SCAN_BYTES = 8_000_000
 
 
 def probe(path: Path) -> dict:
@@ -82,9 +83,23 @@ def package_problems(myth: dict, props: dict, caption: str, cfg: dict) -> list[s
     return problems
 
 
+def container_problems(path: Path) -> list[str]:
+    """Instagram rejects MP4s with edit lists and needs the moov atom before the media data."""
+    with open(path, "rb") as f:
+        head = f.read(HEADER_SCAN_BYTES)
+    moov, mdat = head.find(b"moov"), head.find(b"mdat")
+    problems = []
+    if moov < 0 or (0 <= mdat < moov):
+        problems.append("moov atom is not at the front (needs faststart)")
+    if b"elst" in head[: mdat if mdat > 0 else len(head)]:
+        problems.append("MP4 contains an edit list (Instagram rejects these)")
+    return problems
+
+
 def check_reel(path: Path, myth: dict, props: dict, caption: str, speech_seconds: float, cfg: dict) -> list[str]:
     info = probe(path)
-    problems = probe_problems(info, cfg["reel"]) + package_problems(myth, props, caption, cfg)
+    problems = (probe_problems(info, cfg["reel"]) + container_problems(path)
+                + package_problems(myth, props, caption, cfg))
     duration = float(info["format"]["duration"])
     if any(s["codec_type"] == "audio" for s in info["streams"]):
         ratio = measure_speech_ratio(path, duration)
