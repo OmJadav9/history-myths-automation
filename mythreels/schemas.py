@@ -75,10 +75,11 @@ ADVERSARIAL = {
     "properties": {
         "genuine_dispute": {"type": "boolean"},
         "exclusion_hit": {"type": "boolean"},
-        "fixes_needed": {"type": "array", "items": _STR},
+        "blocking_fixes": {"type": "array", "items": _STR},
+        "minor_fixes": {"type": "array", "items": _STR},
         "reason": _STR,
     },
-    "required": ["genuine_dispute", "exclusion_hit", "fixes_needed", "reason"],
+    "required": ["genuine_dispute", "exclusion_hit", "blocking_fixes", "minor_fixes", "reason"],
     "additionalProperties": False,
 }
 

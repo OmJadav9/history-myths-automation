@@ -3,8 +3,9 @@ import pytest
 from mythreels import research, schemas
 
 
-def review(dispute=False, exclusion=False, fixes=()):
-    return {"genuine_dispute": dispute, "exclusion_hit": exclusion, "fixes_needed": list(fixes), "reason": "r"}
+def review(dispute=False, exclusion=False, fixes=(), minor=()):
+    return {"genuine_dispute": dispute, "exclusion_hit": exclusion, "blocking_fixes": list(fixes),
+            "minor_fixes": list(minor), "reason": "r"}
 
 
 @pytest.fixture
@@ -42,12 +43,22 @@ def test_fixable_points_get_one_revision_then_approve(fake_claude, myth, cfg):
     assert calls == ["research", "review", "revise", "review"]
 
 
-def test_fixes_still_needed_after_revision_rejects(fake_claude, myth, cfg):
-    queues, _, good = fake_claude
-    queues["research"] = [good, good]
-    queues["review"] = [review(fixes=["a"]), review(fixes=["b"])]
+def test_minor_points_alone_approve_without_revision(fake_claude, myth, cfg):
+    queues, calls, good = fake_claude
+    queues["research"] = [good]
+    queues["review"] = [review(minor=["swap syndicated URL"])]
+    approved, _ = research.vet(cfg, myth, [], [])
+    assert approved["review"]["open_minor_points"] == ["swap syndicated URL"]
+    assert calls == ["research", "review"]
+
+
+def test_two_revisions_allowed_then_reject(fake_claude, myth, cfg):
+    queues, calls, good = fake_claude
+    queues["research"] = [good, good, good]
+    queues["review"] = [review(fixes=["a"]), review(fixes=["b"]), review(fixes=["c"])]
     approved, log = research.vet(cfg, myth, [], [])
-    assert approved is None and "fixes still needed" in log["rejected_by"]
+    assert approved is None and "blocking fixes still needed" in log["rejected_by"]
+    assert calls == ["research", "review", "revise", "review", "revise", "review"]
 
 
 @pytest.mark.parametrize("verdict", [review(dispute=True), review(exclusion=True)])

@@ -92,10 +92,13 @@ Script with its sources (JSON):
 Answer with:
 - genuine_dispute=true only if historians genuinely disagree about the verdict, or the verdict is wrong.
 - exclusion_hit=true if any hard exclusion applies.
-- fixes_needed: every concrete change that must be made before publishing (overstated or unsupported claims,
-  misrepresented or unreliable sources, wrong or loosely rounded numbers/dates/names, missing hedges, a hook
-  that contradicts the body). Be specific: quote the text and say what it should become. [] if publishable.
+- blocking_fixes: changes without which something a viewer will HEAR or READ (claim, hook, narration, key_line,
+  summary) would be false, overstated, misleading, wrongly dated/numbered/named, or not supported by at least
+  two of its cited sources. Quote the text and say exactly what it should become. [] if none.
+- minor_fixes: everything else worth improving that does not change the accuracy of what viewers hear or read
+  (tidying source lists, a weaker extra source, swapping a syndicated URL for the original, style). [] if none.
 - reason: your overall assessment.
+Don't invent problems to fill the lists: an accurate, well-hedged, well-sourced script has no blocking fixes.
 
 {HARD_EXCLUSIONS}
 {RELIABLE}"""

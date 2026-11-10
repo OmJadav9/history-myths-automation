@@ -14,7 +14,7 @@ RESEARCH_TIMEOUT = 600
 REVIEW_TIMEOUT = 480
 GENERATE_TIMEOUT = 300
 MIN_MINUTES_FOR_BATCH = 15
-MAX_REVISIONS = 1
+MAX_REVISIONS = 2
 
 
 def myth_id(claim: str) -> str:
@@ -53,11 +53,11 @@ def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> 
             review["rounds"].append(verdict)
             if verdict["genuine_dispute"] or verdict["exclusion_hit"]:
                 return None, {**review, "rejected_by": "adversarial"}
-            if not verdict["fixes_needed"]:
+            if not verdict["blocking_fixes"]:
                 break
             if round_no == MAX_REVISIONS:
-                return None, {**review, "rejected_by": "adversarial (fixes still needed after revision)"}
-            revised = _sourced(prompts.revise(myth, verdict["fixes_needed"]))
+                return None, {**review, "rejected_by": "adversarial (blocking fixes still needed after revisions)"}
+            revised = _sourced(prompts.revise(myth, verdict["blocking_fixes"] + verdict["minor_fixes"]))
             if not revised["keep"]:
                 return None, {**review, "rejected_by": "revision", "revision": revised["reason"]}
             myth = revised["myth"]
@@ -65,7 +65,8 @@ def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> 
         return None, {**review, "rejected_by": "error", "error": str(e)}
     approved = {**myth, "id": myth_id(myth["claim"]), "approved_at": datetime.now(timezone.utc).isoformat(),
                 "review": {"research": review["research"], "adversarial": verdict["reason"],
-                           "fixes_applied": [f for r in review["rounds"] for f in r["fixes_needed"]]}}
+                           "fixes_applied": [f for r in review["rounds"][:-1] for f in r["blocking_fixes"]],
+                           "open_minor_points": verdict["minor_fixes"]}}
     return approved, {**review, "approved": True}
 
 
