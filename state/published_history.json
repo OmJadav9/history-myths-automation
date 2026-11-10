@@ -6,5 +6,26 @@
     "status": "failed",
     "error": "Instagram API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
     "failed_at": "2026-11-10T20:01:13.138576+00:00"
+  },
+  {
+    "run_key": "2026-11-11-test-200553",
+    "date_ist": "2026-11-11",
+    "slot": "test",
+    "myth_id": "vikings-wore-horned-helmets-5501",
+    "claim": "Vikings wore horned helmets.",
+    "event": "The Viking horned helmet myth",
+    "key_people": [
+      "Carl Emil Doepler",
+      "Richard Wagner",
+      "Johan August Malmström"
+    ],
+    "category": "Medieval",
+    "verdict": "MYTH",
+    "caption_head": "An 1876 opera helped give Vikings their horns.\n\nNo horned he",
+    "voice_engine": "edge-tts",
+    "render_seconds": 86.3,
+    "duration_seconds": 69.2,
+    "status": "pending",
+    "container_id": "17986232177899023"
   }
 ]
