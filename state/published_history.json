@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "run_key": "2026-11-11-test",
+    "date_ist": "2026-11-11",
+    "slot": "test",
+    "status": "failed",
+    "error": "Instagram API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+    "failed_at": "2026-11-10T19:54:56.432578+00:00"
+  }
+]
