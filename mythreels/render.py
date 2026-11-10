@@ -18,7 +18,7 @@ def render(props: dict, props_file: Path, out_mp4: Path) -> float:
     raw = out_mp4.with_name(out_mp4.stem + "_raw.mp4")
     npx = shutil.which("npx") or "npx"
     cmd = [npx, "remotion", "render", "src/index.ts", COMPOSITION, str(raw), f"--props={props_file}",
-           "--codec=h264", "--crf=20", "--x264-preset=medium", f"--concurrency={os.cpu_count() or 2}",
+           "--codec=h264", "--crf=23", "--x264-preset=medium", f"--concurrency={os.cpu_count() or 2}",
            "--audio-codec=aac", "--audio-bitrate=128K", "--enforce-audio-track", "--log=error"]
     started = time.monotonic()
     proc = subprocess.run(cmd, cwd=REMOTION_DIR, capture_output=True, text=True, timeout=RENDER_TIMEOUT)

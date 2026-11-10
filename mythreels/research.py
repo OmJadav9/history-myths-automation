@@ -27,7 +27,9 @@ def generate(cfg: dict, n: int, backlog: list[dict], history: list[dict], seed_c
     counts = Counter(m["category"] for m in backlog)
     preferred = sorted(cats, key=lambda c: counts[c])[:4]
     avoid = [m["claim"] for m in backlog] + [h["claim"] for h in history if h.get("claim")]
-    prompt = prompts.generate(n, cats, preferred, round(cfg["content"]["fact_ratio"] * 100), avoid, seed_claim)
+    c = cfg["content"]
+    prompt = prompts.generate(n, cats, preferred, round(c["fact_ratio"] * 100), avoid, seed_claim,
+                              c["max_narration_words"], c["max_beat_words"])
     out = claude_cli.run(prompt, schemas.CANDIDATES, timeout=GENERATE_TIMEOUT, max_turns=4)
     return out["candidates"]
 
@@ -40,7 +42,8 @@ def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> 
     """Research, then review. Genuine dispute or an exclusion rejects; fixable points get one sourced revision."""
     review = {"claim": candidate["claim"], "rounds": []}
     try:
-        checked = _sourced(prompts.research(candidate))
+        limits = (cfg["content"]["max_narration_words"], cfg["content"]["max_beat_words"])
+        checked = _sourced(prompts.research(candidate, *limits))
         review["research"] = checked["reason"]
         if not checked["keep"]:
             return None, {**review, "rejected_by": "research"}
@@ -49,24 +52,30 @@ def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> 
             problems = myth_rules.validate(myth, cfg, history, others, datetime.now(timezone.utc).year)
             if problems:
                 return None, {**review, "rejected_by": "local checks", "problems": problems}
-            verdict = claude_cli.run(prompts.adversarial(myth), schemas.ADVERSARIAL, web=True, timeout=REVIEW_TIMEOUT)
-            review["rounds"].append(verdict)
-            if verdict["genuine_dispute"] or verdict["exclusion_hit"]:
-                return None, {**review, "rejected_by": "adversarial"}
-            if not verdict["blocking_fixes"]:
-                break
+            if too_long := myth_rules.length_fix(myth, cfg):
+                fixes = [too_long]          # shorten first; the reviewer checks the shorter version
+            else:
+                verdict = claude_cli.run(prompts.adversarial(myth), schemas.ADVERSARIAL, web=True,
+                                         timeout=REVIEW_TIMEOUT)
+                review["rounds"].append(verdict)
+                if verdict["genuine_dispute"] or verdict["exclusion_hit"]:
+                    return None, {**review, "rejected_by": "adversarial"}
+                if not verdict["blocking_fixes"]:
+                    break
+                fixes = verdict["blocking_fixes"] + verdict["minor_fixes"]
             if round_no == MAX_REVISIONS:
-                return None, {**review, "rejected_by": "adversarial (blocking fixes still needed after revisions)"}
-            revised = _sourced(prompts.revise(myth, verdict["blocking_fixes"] + verdict["minor_fixes"]))
+                return None, {**review, "rejected_by": "blocking fixes or length still unresolved after revisions"}
+            revised = _sourced(prompts.revise(myth, fixes, *limits))
             if not revised["keep"]:
                 return None, {**review, "rejected_by": "revision", "revision": revised["reason"]}
             myth = revised["myth"]
     except claude_cli.ClaudeError as e:
         return None, {**review, "rejected_by": "error", "error": str(e)}
+    last = review["rounds"][-1]
     approved = {**myth, "id": myth_id(myth["claim"]), "approved_at": datetime.now(timezone.utc).isoformat(),
-                "review": {"research": review["research"], "adversarial": verdict["reason"],
+                "review": {"research": review["research"], "adversarial": last["reason"],
                            "fixes_applied": [f for r in review["rounds"][:-1] for f in r["blocking_fixes"]],
-                           "open_minor_points": verdict["minor_fixes"]}}
+                           "open_minor_points": last["minor_fixes"]}}
     return approved, {**review, "approved": True}
 
 

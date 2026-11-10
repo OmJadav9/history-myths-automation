@@ -77,6 +77,23 @@ def duplicate_reason(myth: dict, seen: list[dict], cfg: dict) -> str | None:
     return None
 
 
+def narration_words(myth: dict) -> int:
+    return sum(len(b["narration"].split()) for b in myth["reality"] + myth["origin"])
+
+
+def length_fix(myth: dict, cfg: dict) -> str | None:
+    """A revision instruction if the script is too long to fit the reel, else None."""
+    c = cfg["content"]
+    total = narration_words(myth)
+    longest = max(len(b["narration"].split()) for b in myth["reality"] + myth["origin"])
+    if total <= c["max_narration_words"] and longest <= c["max_beat_words"]:
+        return None
+    return (f"Too long for a 75-second reel: the reality + origin narration totals {total} words (longest beat "
+            f"{longest}). Cut it to at most {c['max_narration_words']} words in total and {c['max_beat_words']} per "
+            "beat, by dropping the weakest details or the weakest beat (keep 3 reality beats and 1-2 origin beats). "
+            "Keep every remaining sentence accurate, hedged and sourced exactly as before.")
+
+
 def validate(myth: dict, cfg: dict, history: list[dict], others: list[dict], year_now: int) -> list[str]:
     problems = source_problems(myth, cfg)
     if hits := exclusion_hits(myth, cfg):

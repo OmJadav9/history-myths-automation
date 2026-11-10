@@ -34,6 +34,8 @@ content:
   claim_similarity: 85           # rapidfuzz token_set_ratio threshold for duplicates
   min_years_ago: 30
   min_sources: 2                 # independent reliable domains per factual sentence
+  max_narration_words: 115       # reality + origin; ~2.5 words/s + ~24 s fixed parts keeps reels under 75 s
+  max_beat_words: 28
   wikipedia_domains: [wikipedia.org, wikimedia.org, wikiwand.com]
   blocked_source_domains:
     [reddit.com, quora.com, medium.com, facebook.com, instagram.com, tiktok.com, x.com, twitter.com,

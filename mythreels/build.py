@@ -87,6 +87,10 @@ def build_reel(myth: dict, cfg: dict, workdir: Path, keep_assets: bool = False) 
         log.info("trimming reality beats %d -> %d to fit %ss", len(myth["reality"]), keep, cfg["reel"]["max_seconds"])
         myth = {**myth, "reality": myth["reality"][:keep]}
         durations = {k: v for k, v in durations.items() if not (k.startswith("reality_") and int(k[8:]) >= keep)}
+    if timeline.total_seconds(cfg["reel"], durations) > cfg["reel"]["max_seconds"] and len(myth["origin"]) > 1:
+        log.info("dropping the second origin beat to fit %ss", cfg["reel"]["max_seconds"])
+        myth = {**myth, "origin": myth["origin"][:1]}
+        durations = {k: v for k, v in durations.items() if k != "origin_1"}
     tl = timeline.build(cfg["reel"], durations)
 
     run = f"{myth['id']}-{datetime.now(timezone.utc):%Y%m%d%H%M%S}"

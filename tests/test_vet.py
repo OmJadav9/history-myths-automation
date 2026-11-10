@@ -57,7 +57,7 @@ def test_two_revisions_allowed_then_reject(fake_claude, myth, cfg):
     queues["research"] = [good, good, good]
     queues["review"] = [review(fixes=["a"]), review(fixes=["b"]), review(fixes=["c"])]
     approved, log = research.vet(cfg, myth, [], [])
-    assert approved is None and "blocking fixes still needed" in log["rejected_by"]
+    assert approved is None and "still unresolved after revisions" in log["rejected_by"]
     assert calls == ["research", "review", "revise", "review", "revise", "review"]
 
 
@@ -76,3 +76,12 @@ def test_research_drop_rejects_before_review(fake_claude, myth, cfg):
     queues["research"] = [{**good, "keep": False}]
     approved, log = research.vet(cfg, myth, [], [])
     assert approved is None and log["rejected_by"] == "research" and calls == ["research"]
+
+
+def test_too_long_script_is_shortened_before_review(fake_claude, myth, cfg):
+    queues, calls, good = fake_claude
+    long = {**good, "myth": {**good["myth"], "reality": [{**b, "narration": "word " * 40} for b in myth["reality"]]}}
+    queues["research"] = [long, good]
+    queues["review"] = [review()]
+    approved, _ = research.vet(cfg, myth, [], [])
+    assert approved and calls == ["research", "revise", "review"]

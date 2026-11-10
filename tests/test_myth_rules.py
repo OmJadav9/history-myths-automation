@@ -128,3 +128,14 @@ def test_pick_returns_none_when_nothing_eligible(myth, cfg):
     history = [{"date_ist": "2026-12-01", "status": "published", "key_people": [], "category": "Medieval",
                 "verdict": "MYTH"}]
     assert myth_rules.pick_next([myth], history, date(2026, 12, 1), cfg) is None
+
+
+def test_length_fix_none_when_script_fits(myth, cfg):
+    assert myth_rules.narration_words(myth) <= cfg["content"]["max_narration_words"]
+    assert myth_rules.length_fix(myth, cfg) is None
+
+
+def test_length_fix_asks_to_cut_long_scripts(myth, cfg):
+    long = {**myth, "reality": [{**b, "narration": "word " * 40} for b in myth["reality"]]}
+    fix = myth_rules.length_fix(long, cfg)
+    assert fix and str(cfg["content"]["max_narration_words"]) in fix and "longest beat 40" in fix

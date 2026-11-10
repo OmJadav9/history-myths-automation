@@ -12,7 +12,7 @@ Never cite forums, social media, Q&A sites, listicle/content-farm sites or AI-ge
 
 
 def generate(n: int, categories: list[str], preferred: list[str], fact_pct: int, avoid: list[str],
-             seed_claim: str | None) -> str:
+             seed_claim: str | None, max_words: int, beat_words: int) -> str:
     seed = f'\nCandidate 1 MUST be about exactly this claim: "{seed_claim}".' if seed_claim else ""
     return f"""You write candidate scripts for @did.you.know9104, an Instagram account of 30-75 second narrated
 reels. Each reel takes ONE popular history "fact" and reveals the truth: "Myth or fact?" -> the viewer guesses
@@ -48,12 +48,13 @@ Field rules:
   e.g. {{"word": "Gjermundbu", "say": "Yer-mund-boo"}}. [] if none.
 
 Write for the ear: short sentences, no parentheses, no abbreviations except BC and AD, no URLs. Don't write a
-verdict line, intro or outro: those are added automatically. Aim for 110-150 words of narration in total
-(reality + origin), so the reel lands at 45-65 seconds. Use hedged wording ("historians believe", "the earliest
+verdict line, intro or outro: those are added automatically. Aim for 85-105 words of narration in total
+(reality + origin), never more than {max_words}, and at most {beat_words} words per beat, so the reel lands at
+45-70 seconds. Use hedged wording ("historians believe", "the earliest
 record is") wherever the evidence calls for it."""
 
 
-def research(candidate: dict) -> str:
+def research(candidate: dict, max_words: int, beat_words: int) -> str:
     return f"""You are the fact-checker for a history myth-busting Instagram account. Accuracy is the top priority:
 a wrong "reality" spreads a new myth.
 
@@ -70,6 +71,8 @@ Rules:
 - Dates, numbers and names must match the sources exactly. Rewrite narration and key_line to match what the
   sources say, and hedge wherever they do. Keep narration short and written for the ear.
 - Drop or rewrite any beat you cannot support. Keep 3-5 reality beats (strongest first) and 1-2 origin beats.
+- Length: the reality + origin narration must stay at or under {max_words} words in total and {beat_words} per
+  beat. Precision comes from exact wording, not extra sentences: cut detail rather than grow the script.
 - Keep every other field, correcting it if inaccurate.
 - If the verdict is wrong or disputed, or you cannot source it properly, set keep=false and explain why.
 
@@ -104,7 +107,7 @@ Don't invent problems to fill the lists: an accurate, well-hedged, well-sourced 
 {RELIABLE}"""
 
 
-def revise(myth: dict, fixes: list[str]) -> str:
+def revise(myth: dict, fixes: list[str], max_words: int, beat_words: int) -> str:
     return f"""You are the fact-checker for a history myth-busting Instagram account. A skeptical historian reviewed
 this script and requires the fixes below before it can be published.
 
@@ -118,7 +121,7 @@ Apply EVERY fix. Use WebSearch/WebFetch wherever a fix needs new or better sourc
 still apply: every beat and the verdict need at least 2 sources from 2 different organisations that you have
 opened; dates, numbers and names must match the sources exactly; hedge wherever the evidence does; 3-5 reality
 beats (strongest first) and 1-2 origin beats; short sentences written for the ear; the hook and summary must
-agree with the body. If the fixes can't be made while keeping a sound, sourced script, set keep=false.
+agree with the body; reality + origin narration at most {max_words} words in total and {beat_words} per beat. If the fixes can't be made while keeping a sound, sourced script, set keep=false.
 
 {RELIABLE}
 {HARD_EXCLUSIONS}"""
