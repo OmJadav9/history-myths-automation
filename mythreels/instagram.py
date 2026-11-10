@@ -60,6 +60,13 @@ class Instagram:
         log.info("container %s created; upload uri host %s", body["id"], uri.split("/")[2])
         return body["id"], uri
 
+    def create_reel_container_from_url(self, caption: str, video_url: str) -> str:
+        """Standard (non-resumable) flow: Instagram fetches the MP4 from a public HTTPS URL."""
+        data = {"media_type": "REELS", "video_url": video_url, "caption": caption}
+        if self.ig["share_to_feed"]:
+            data["share_to_feed"] = "true"
+        return self._call("POST", f"{self.base}/{self.user}/media", data=data)["id"]
+
     def upload(self, upload_uri: str, video: Path) -> None:
         payload = video.read_bytes()          # reels are well under the 300 MB limit
         body = self._call("POST", upload_uri, data=payload, timeout=UPLOAD_TIMEOUT,

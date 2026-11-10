@@ -32,6 +32,9 @@ def probe_problems(info: dict, reel: dict) -> list[str]:
         problems.append(f"resolution {video['width']}x{video['height']}")
     if video["codec_name"] != "h264":
         problems.append(f"video codec {video['codec_name']}")
+    if video.get("pix_fmt") != "yuv420p" or video.get("color_range") == "pc":
+        problems.append(f"pixel format {video.get('pix_fmt')} / range {video.get('color_range')} "
+                        "(Instagram needs yuv420p, TV range)")
     num, den = map(int, video["r_frame_rate"].split("/"))
     if abs(num / den - reel["fps"]) > 0.01:
         problems.append(f"fps {num / den:.2f}")

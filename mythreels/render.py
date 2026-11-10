@@ -19,6 +19,7 @@ def render(props: dict, props_file: Path, out_mp4: Path) -> float:
     npx = shutil.which("npx") or "npx"
     cmd = [npx, "remotion", "render", "src/index.ts", COMPOSITION, str(raw), f"--props={props_file}",
            "--codec=h264", "--crf=23", "--x264-preset=medium", f"--concurrency={os.cpu_count() or 2}",
+           "--color-space=bt709",   # standard yuv420p / TV range instead of Remotion's full-range default
            "--audio-codec=aac", "--audio-bitrate=128K", "--enforce-audio-track", "--log=error"]
     started = time.monotonic()
     proc = subprocess.run(cmd, cwd=REMOTION_DIR, capture_output=True, text=True, timeout=RENDER_TIMEOUT)

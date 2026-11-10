@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from mythreels import build, claude_cli, issues, myth_rules, research, schedule, state, tts
+from mythreels import build, claude_cli, issues, media_host, myth_rules, research, schedule, state, tts
 from mythreels.config import BACKLOG_FILE, HISTORY_FILE, OUTPUT_DIR
 from mythreels.instagram import AuthError, Instagram, PublishError
 
@@ -77,6 +77,26 @@ def _choose_myth(cfg: dict, today) -> dict:
     return research.make_one(cfg)
 
 
+def _upload(ig: Instagram, reel: build.Reel) -> tuple[str, bool]:
+    """Resumable upload first; if Meta rejects it, host the MP4 on the media branch and let Instagram fetch it.
+    Returns (FINISHED container id, whether the media branch was used and needs cleanup)."""
+    try:
+        container, upload_uri = ig.create_reel_container(reel.caption)
+        ig.upload(upload_uri, reel.mp4)
+        ig.wait_until_ready(container)
+        return container, False
+    except PublishError as e:
+        log.warning("resumable upload failed (%s); falling back to a hosted video_url", e)
+    url = media_host.host(reel.mp4)
+    try:
+        container = ig.create_reel_container_from_url(reel.caption, url)
+        ig.wait_until_ready(container)
+    except Exception:
+        media_host.cleanup()
+        raise
+    return container, True
+
+
 def post_slot(cfg: dict, ig: Instagram, slot) -> None:
     today = schedule.ist_date(cfg, datetime.now(timezone.utc))
     run_key = f"{today.isoformat()}-{slot}"
@@ -88,14 +108,16 @@ def post_slot(cfg: dict, ig: Instagram, slot) -> None:
     if reel.problems:
         raise ValidationFailed("reel failed validation:\n- " + "\n- ".join(reel.problems))
 
-    container, upload_uri = ig.create_reel_container(reel.caption)
-    ig.upload(upload_uri, reel.mp4)
-    ig.wait_until_ready(container)
-    pending = _record(myth, run_key, today.isoformat(), slot, reel, status="pending", container_id=container)
-    state.save_history(state.upsert(state.load_history(), pending))
-    _commit(f"state: publishing slot {slot}")
-
-    media_id = ig.publish(container)
+    hosted = False
+    try:
+        container, hosted = _upload(ig, reel)
+        pending = _record(myth, run_key, today.isoformat(), slot, reel, status="pending", container_id=container)
+        state.save_history(state.upsert(state.load_history(), pending))
+        _commit(f"state: publishing slot {slot}")
+        media_id = ig.publish(container)
+    finally:
+        if hosted:
+            media_host.cleanup()
     done = {**pending, "status": "published", "media_id": media_id,
             "published_at": datetime.now(timezone.utc).isoformat()}
     state.save_history(state.upsert(state.load_history(), done))

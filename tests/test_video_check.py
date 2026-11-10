@@ -12,9 +12,10 @@ SILENCE_LOG = """
 """
 
 
-def probe(duration=50.0, width=1080, height=1920, fps="30/1", audio=True, audio_dur=None, rate="48000"):
+def probe(duration=50.0, width=1080, height=1920, fps="30/1", audio=True, audio_dur=None, rate="48000",
+          pix_fmt="yuv420p", color_range="tv"):
     streams = [{"codec_type": "video", "codec_name": "h264", "width": width, "height": height,
-                "r_frame_rate": fps, "duration": str(duration)}]
+                "r_frame_rate": fps, "duration": str(duration), "pix_fmt": pix_fmt, "color_range": color_range}]
     if audio:
         streams.append({"codec_type": "audio", "codec_name": "aac", "sample_rate": rate,
                         "duration": str(audio_dur if audio_dur is not None else duration)})
@@ -46,6 +47,7 @@ def test_good_probe_has_no_problems(cfg):
     ({"audio": False}, "audio"),
     ({"audio_dur": 40.0}, "audio length"),
     ({"rate": "96000"}, "sample rate"),
+    ({"pix_fmt": "yuvj420p", "color_range": "pc"}, "pixel format"),
 ])
 def test_bad_probes_are_rejected(cfg, kwargs, needle):
     problems = video_check.probe_problems(probe(**kwargs), cfg["reel"])
