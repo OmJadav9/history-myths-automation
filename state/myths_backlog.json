@@ -1,1 +1,208 @@
-[]
+[
+  {
+    "claim": "Vikings wore horned helmets.",
+    "verdict": "MYTH",
+    "hook": "An 1876 opera helped give Vikings their horns.",
+    "summary": "No horned helmet from the Viking Age has ever been found. One of the very few Viking helmets that survive, found at Gjermundbu in Norway, is a rounded iron cap with no horns. The horned look began with 19th century artists and was made famous by the costumes for the 1876 Bayreuth staging of Wagner's Ring cycle.",
+    "category": "Medieval",
+    "era": "Viking Age",
+    "year": 1876,
+    "key_people": [
+      "Carl Emil Doepler",
+      "Richard Wagner",
+      "Johan August Malmström"
+    ],
+    "event": "The Viking horned helmet myth",
+    "key_places": [
+      "Gjermundbu, Norway",
+      "Viksø (Veksø), Denmark",
+      "Bayreuth, Germany"
+    ],
+    "image_search_terms": [
+      "Viking warriors painting",
+      "Gjermundbu helmet",
+      "Doepler Ring des Nibelungen costume illustration",
+      "Viksø helmets National Museum of Denmark",
+      "Malmström Viking illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#vikings",
+      "#mythorfact",
+      "#historymyths",
+      "#vikingage",
+      "#didyouknow",
+      "#historyfacts",
+      "#archaeology",
+      "#norse",
+      "#mythbusting"
+    ],
+    "pronunciations": [
+      {
+        "word": "Gjermundbu",
+        "say": "Yer-mund-boo"
+      },
+      {
+        "word": "Viksø",
+        "say": "Vik-suh"
+      },
+      {
+        "word": "Doepler",
+        "say": "Dur-pler"
+      },
+      {
+        "word": "Wagner",
+        "say": "Vahg-ner"
+      },
+      {
+        "word": "Bayreuth",
+        "say": "By-royt"
+      },
+      {
+        "word": "Malmström",
+        "say": "Malm-strem"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Archaeologists have yet to find a single Viking-era helmet with horns. A few Viking-age images do show horned figures, possibly for ritual or display.",
+        "key_line": "No horned Viking helmet has ever been found",
+        "sources": [
+          {
+            "title": "Did Vikings really wear horned helmets?",
+            "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Viking helmets",
+            "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/",
+            "publisher": "National Museum of Denmark"
+          },
+          {
+            "title": "Facts vs. fiction: How the real Vikings compared to the brutal warriors of lore",
+            "url": "https://www.nationalgeographic.com/history/article/facts-vs-fiction-how-the-real-vikings-compared-to-the-brutal-warriors-of-lore",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "One of the very few Viking helmets ever found comes from Gjermundbu in Norway. It is a rounded iron cap with no horns.",
+        "key_line": "The real thing: a rounded iron cap",
+        "sources": [
+          {
+            "title": "Did Vikings really wear horned helmets?",
+            "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Did this Viking helmet belong to a Norwegian warrior who served rulers in the East?",
+            "url": "https://sciencenorway.no/archaeology-viking-age-vikings/did-this-viking-helmet-belong-to-a-norwegian-warrior-who-served-rulers-in-the-east/1964783",
+            "publisher": "Science Norway"
+          },
+          {
+            "title": "Viking helmets",
+            "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/",
+            "publisher": "National Museum of Denmark"
+          },
+          {
+            "title": "The horned helmet",
+            "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes",
+            "publisher": "The World-Tree Project, University College Cork"
+          }
+        ]
+      },
+      {
+        "narration": "Horned helmets did exist in Scandinavia. But the famous pair from Viksø, Denmark, dates to around 900 BC, long before the Vikings.",
+        "key_line": "Real horned helmets are Bronze Age",
+        "sources": [
+          {
+            "title": "Researchers Date Horned Helmets Discovered in Denmark",
+            "url": "https://archaeology.org/news/2022/01/07/220107-denmark-horned-helmets",
+            "publisher": "Archaeology Magazine (Archaeological Institute of America)"
+          },
+          {
+            "title": "The Viksø helmets",
+            "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/",
+            "publisher": "National Museum of Denmark"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "In the 1800s, artists began giving Vikings horned helmets. One was the Swedish painter Malmström.",
+        "key_line": "1800s: artists add the horns",
+        "sources": [
+          {
+            "title": "Did Vikings really wear horned helmets?",
+            "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Facts vs. fiction: How the real Vikings compared to the brutal warriors of lore",
+            "url": "https://www.nationalgeographic.com/history/article/facts-vs-fiction-how-the-real-vikings-compared-to-the-brutal-warriors-of-lore",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Then in 1876, costume designer Carl Emil Doepler put horned helmets on some of the singers in Wagner's Ring cycle at Bayreuth. The image stuck.",
+        "key_line": "1876: an opera makes it famous",
+        "sources": [
+          {
+            "title": "10 myths about the vikings",
+            "url": "https://blog.oup.com/2016/10/ten-myths-vikings/",
+            "publisher": "Oxford University Press (OUPblog)"
+          },
+          {
+            "title": "The horned helmet",
+            "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes",
+            "publisher": "The World-Tree Project, University College Cork"
+          },
+          {
+            "title": "Facts vs. fiction: How the real Vikings compared to the brutal warriors of lore",
+            "url": "https://www.nationalgeographic.com/history/article/facts-vs-fiction-how-the-real-vikings-compared-to-the-brutal-warriors-of-lore",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Did Vikings really wear horned helmets?",
+        "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets",
+        "publisher": "HISTORY (A&E Television Networks)"
+      },
+      {
+        "title": "10 myths about the vikings",
+        "url": "https://blog.oup.com/2016/10/ten-myths-vikings/",
+        "publisher": "Oxford University Press (OUPblog)"
+      },
+      {
+        "title": "The horned helmet",
+        "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes",
+        "publisher": "The World-Tree Project, University College Cork"
+      },
+      {
+        "title": "Facts vs. fiction: How the real Vikings compared to the brutal warriors of lore",
+        "url": "https://www.nationalgeographic.com/history/article/facts-vs-fiction-how-the-real-vikings-compared-to-the-brutal-warriors-of-lore",
+        "publisher": "National Geographic"
+      }
+    ],
+    "id": "vikings-wore-horned-helmets-5501",
+    "approved_at": "2026-11-10T19:07:34.215850+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported (HISTORY, Oxford University Press blog, University College Cork's World-Tree Project, National Museum of Denmark) and is not disputed by historians. Changes made: (1) Malmström beat rewritten without the name or the 1820s date. Sources conflict on the artist's first name (HISTORY says Gustav; the Swedish Nationalmuseum lists Johan August Malmström, 1829-1901, so he could not have drawn anything in the 1820s) and on the edition date, so the beat now says only what two sources agree on: 1800s Scandinavian artists and an illustrated edition of Frithiof's Saga. Malmström removed from key_people and pronunciations. (2) Dropped the 'horns were a liability in battle' beat: only one reliable source (HISTORY) supported it. (3) Gjermundbu: 'about 970 AD' changed to '10th century', which is what the opened sources say; 'best preserved' softened to 'one of the very few ever found' because Science Norway notes a second near-complete Viking helmet (found in the UK) is now recognised. (4) Veksø: '1,700 years before the Viking Age' replaced with 'well over a thousand years', since Archaeology Magazine says 'some 1,500 years' and other outlets give different gaps; date kept as 'around 900 BC' (when they were placed in the bog). (5) Hook softened from 'invented for an opera' to 'came from an opera costume', because horned Vikings appeared in a few illustrations before 1876. (6) 'year' changed from 970 (not confirmed in any opened source) to 1876, the one exactly sourced date for the event 'the horned helmet myth'. Caveats: Britannica, Smithsonian, History Extra and Snopes pages could not be opened (blocked), so they are not cited. The National Museum of Denmark notes Viking-era art shows some horned figures, possibly in ritual contexts; the script therefore claims only that no horned Viking helmet has been found, not that horned headgear was unknown in imagery.",
+      "adversarial": "The verdict is sound and there is no scholarly dispute: no horned helmet from the Viking Age has been found, and the horned image is a 19th-century creation popularised by Doepler's costumes for the 1876 Bayreuth Ring. I opened all eight cited pages; they are real, reliable (museum, university, academic publisher, reputable history outlets) and each narrated claim is supported by at least two of its cited sources. I did not run a separate search for counter-evidence beyond the cited pages; none of them indicates any disagreement.\\n\\n- **No horned Viking helmet found:** HISTORY says archaeologists 'have yet to uncover a Viking-era helmet embellished with horns'; the National Museum of Denmark and National Geographic agree.\\n- **Viking-age horned figures:** the National Museum of Denmark (Oseberg tapestry) and National Geographic both confirm these exist, and the script hedges their meaning.\\n- **Gjermundbu:** HISTORY describes 'a rounded iron cap… and no horns'; the National Museum of Denmark and the World-Tree Project confirm it has no horns. 'One of the very few' is correctly hedged, since a second near-complete helmet is known from the UK.\\n- **Viksø helmets:** Archaeology Magazine gives 'around 900 B.C.' and the National Museum of Denmark gives the early first millennium BC, for a pair of bronze helmets.\\n- **Malmström and 19th-century artists:** HISTORY and National Geographic both support this.\\n- **Doepler, Wagner, Bayreuth, 1876:** OUPblog, the World-Tree Project and National Geographic all support the names and date. 'Some of the singers' and 'helped give' are appropriately hedged.\\n\\nNo hard exclusion applies: the subject is costume and archaeology, with no living people, recent events, religion or contested politics. The remaining issues are source tidying and optional nuance.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Reality beat 2: the Science Norway article does not describe the Gjermundbu helmet's material or shape, or mention horns. It only supports rarity (it mentions a second near-complete Viking helmet from the UK, which backs 'one of the very few'). Keep it for that or drop it; the beat is still carried by HISTORY, the National Museum of Denmark and the World-Tree Project.",
+        "Reality beat 1: the HISTORY article does not mention Viking-age images of horned figures; that sentence rests on the National Museum of Denmark (Oseberg tapestry) and National Geographic. This is enough, but note that National Geographic reads them as 'gods or monsters rather than mortal warriors', so 'possibly for ritual or display' could become 'probably gods or ritual figures, not ordinary warriors'.",
+        "Origin beat 1: the HISTORY article misnames the painter as 'Gustav Malmström'. The script's 'Johan August Malmström' is correct (per National Geographic); do not copy HISTORY's name into any caption or on-screen text.",
+        "Hook and key_line ('An 1876 opera…', '1876: an opera makes it famous'): the Ring is a cycle of four operas, first staged complete at Bayreuth in 1876. Optionally change to 'An 1876 opera production' or 'Wagner's 1876 Ring cycle'.",
+        "Optional nuance: the Ring's characters are figures of Germanic and Norse legend, not Vikings as such. The script's wording ('some of the singers') already avoids HISTORY's 'Viking characters' error; keep it that way in captions.",
+        "Image search term 'Viking warriors painting' is likely to return 19th-century horned-helmet art. Make sure any such image is shown only as an example of the myth, not in the reality section."
+      ]
+    }
+  }
+]

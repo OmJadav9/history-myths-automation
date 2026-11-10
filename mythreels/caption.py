@@ -1,3 +1,5 @@
+from collections import Counter
+
 from mythreels.myth_rules import domain_of
 
 MAX_CAPTION = 2200
@@ -7,15 +9,17 @@ CTA = "Did you believe this one? Comment a myth you want busted next 👇"
 
 
 def source_names(myth: dict, limit: int = MAX_SOURCES) -> list[str]:
-    """Distinct publishers, most-cited first (verdict sources lead)."""
-    sources = myth["verdict_sources"] + [s for b in myth["reality"] + myth["origin"] for s in b["sources"]]
-    names, seen = [], set()
-    for s in sources:
-        d = domain_of(s["url"])
-        if d not in seen:
-            seen.add(d)
-            names.append(s.get("publisher") or d)
-    return names[:limit]
+    """Distinct publishers, ranked by how many beats (and the verdict) cite them; ties keep first appearance."""
+    groups = [myth["verdict_sources"]] + [b["sources"] for b in myth["reality"] + myth["origin"]]
+    counts, names = Counter(), {}
+    for group in groups:
+        for d in {domain_of(s["url"]) for s in group}:
+            counts[d] += 1
+        for s in group:
+            names.setdefault(domain_of(s["url"]), s.get("publisher") or domain_of(s["url"]))
+    order = list(names)
+    ranked = sorted(order, key=lambda d: (-counts[d], order.index(d)))
+    return [names[d] for d in ranked[:limit]]
 
 
 def _credit(c: dict) -> str:

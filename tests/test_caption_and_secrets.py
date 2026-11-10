@@ -35,3 +35,11 @@ def test_secret_scanner_flags_tokens():
 def test_secret_scanner_ignores_normal_text():
     assert find_secrets("Vikings wore plain iron helmets in 900 AD. sha 0123456789abcdef") == []
     assert find_secrets("gh secret set IG_ACCESS_TOKEN --repo OmJadav9/history-myths-automation") == []
+
+
+def test_sources_ranked_by_how_many_claims_they_back(myth):
+    from mythreels.caption import source_names
+    weak = {"title": "w", "url": "https://blog.oup.com/x", "publisher": "OUPblog"}
+    myth = {**myth, "verdict_sources": [weak] + myth["verdict_sources"]}
+    assert source_names(myth)[:2] == ["Encyclopaedia Britannica", "National Museum of Denmark"]
+    assert source_names(myth)[2] == "OUPblog"
