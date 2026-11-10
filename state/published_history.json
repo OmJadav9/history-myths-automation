@@ -5,6 +5,6 @@
     "slot": "test",
     "status": "failed",
     "error": "Instagram API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
-    "failed_at": "2026-11-10T19:54:56.432578+00:00"
+    "failed_at": "2026-11-10T20:01:13.138576+00:00"
   }
 ]
