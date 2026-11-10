@@ -73,12 +73,12 @@ RESEARCH = {
 ADVERSARIAL = {
     "type": "object",
     "properties": {
-        "reject": {"type": "boolean"},
-        "reason": _STR,
-        "disputed_points": {"type": "array", "items": {"type": "string"}},
+        "genuine_dispute": {"type": "boolean"},
         "exclusion_hit": {"type": "boolean"},
+        "fixes_needed": {"type": "array", "items": _STR},
+        "reason": _STR,
     },
-    "required": ["reject", "reason", "disputed_points", "exclusion_hit"],
+    "required": ["genuine_dispute", "exclusion_hit", "fixes_needed", "reason"],
     "additionalProperties": False,
 }
 

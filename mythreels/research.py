@@ -14,6 +14,7 @@ RESEARCH_TIMEOUT = 600
 REVIEW_TIMEOUT = 480
 GENERATE_TIMEOUT = 300
 MIN_MINUTES_FOR_BATCH = 15
+MAX_REVISIONS = 1
 
 
 def myth_id(claim: str) -> str:
@@ -31,27 +32,40 @@ def generate(cfg: dict, n: int, backlog: list[dict], history: list[dict], seed_c
     return out["candidates"]
 
 
+def _sourced(prompt: str) -> dict:
+    return claude_cli.run(prompt, schemas.RESEARCH, web=True, timeout=RESEARCH_TIMEOUT)
+
+
 def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> tuple[dict | None, dict]:
-    """Return (approved myth or None, review log)."""
-    review = {"claim": candidate["claim"]}
+    """Research, then review. Genuine dispute or an exclusion rejects; fixable points get one sourced revision."""
+    review = {"claim": candidate["claim"], "rounds": []}
     try:
-        checked = claude_cli.run(prompts.research(candidate), schemas.RESEARCH, web=True, timeout=RESEARCH_TIMEOUT)
+        checked = _sourced(prompts.research(candidate))
         review["research"] = checked["reason"]
         if not checked["keep"]:
             return None, {**review, "rejected_by": "research"}
         myth = checked["myth"]
-        problems = myth_rules.validate(myth, cfg, history, others, datetime.now(timezone.utc).year)
-        if problems:
-            return None, {**review, "rejected_by": "local checks", "problems": problems}
-        verdict = claude_cli.run(prompts.adversarial(myth), schemas.ADVERSARIAL, web=True, timeout=REVIEW_TIMEOUT)
-        review["adversarial"] = verdict
-        if verdict["reject"] or verdict["exclusion_hit"]:
-            return None, {**review, "rejected_by": "adversarial"}
+        for round_no in range(MAX_REVISIONS + 1):
+            problems = myth_rules.validate(myth, cfg, history, others, datetime.now(timezone.utc).year)
+            if problems:
+                return None, {**review, "rejected_by": "local checks", "problems": problems}
+            verdict = claude_cli.run(prompts.adversarial(myth), schemas.ADVERSARIAL, web=True, timeout=REVIEW_TIMEOUT)
+            review["rounds"].append(verdict)
+            if verdict["genuine_dispute"] or verdict["exclusion_hit"]:
+                return None, {**review, "rejected_by": "adversarial"}
+            if not verdict["fixes_needed"]:
+                break
+            if round_no == MAX_REVISIONS:
+                return None, {**review, "rejected_by": "adversarial (fixes still needed after revision)"}
+            revised = _sourced(prompts.revise(myth, verdict["fixes_needed"]))
+            if not revised["keep"]:
+                return None, {**review, "rejected_by": "revision", "revision": revised["reason"]}
+            myth = revised["myth"]
     except claude_cli.ClaudeError as e:
         return None, {**review, "rejected_by": "error", "error": str(e)}
     approved = {**myth, "id": myth_id(myth["claim"]), "approved_at": datetime.now(timezone.utc).isoformat(),
                 "review": {"research": review["research"], "adversarial": verdict["reason"],
-                           "minor_points": verdict["disputed_points"]}}
+                           "fixes_applied": [f for r in review["rounds"] for f in r["fixes_needed"]]}}
     return approved, {**review, "approved": True}
 
 

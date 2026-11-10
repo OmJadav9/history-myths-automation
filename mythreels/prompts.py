@@ -89,8 +89,33 @@ Script with its sources (JSON):
 3. Check that dates, numbers and names are exact, and that uncertain points are hedged.
 4. Check the HARD EXCLUSIONS below; set exclusion_hit=true if any apply.
 
-Set reject=true for genuine scholarly dispute, an unsupported or overstated claim, a misrepresented or unreliable
-source, a wrong number/date/name, or any exclusion hit. List every problem in disputed_points.
+Answer with:
+- genuine_dispute=true only if historians genuinely disagree about the verdict, or the verdict is wrong.
+- exclusion_hit=true if any hard exclusion applies.
+- fixes_needed: every concrete change that must be made before publishing (overstated or unsupported claims,
+  misrepresented or unreliable sources, wrong or loosely rounded numbers/dates/names, missing hedges, a hook
+  that contradicts the body). Be specific: quote the text and say what it should become. [] if publishable.
+- reason: your overall assessment.
 
 {HARD_EXCLUSIONS}
 {RELIABLE}"""
+
+
+def revise(myth: dict, fixes: list[str]) -> str:
+    return f"""You are the fact-checker for a history myth-busting Instagram account. A skeptical historian reviewed
+this script and requires the fixes below before it can be published.
+
+Script with its sources (JSON):
+{json.dumps(myth, ensure_ascii=False, indent=1)}
+
+Required fixes:
+{json.dumps(fixes, ensure_ascii=False, indent=1)}
+
+Apply EVERY fix. Use WebSearch/WebFetch wherever a fix needs new or better sources. All the original rules
+still apply: every beat and the verdict need at least 2 sources from 2 different organisations that you have
+opened; dates, numbers and names must match the sources exactly; hedge wherever the evidence does; 3-5 reality
+beats (strongest first) and 1-2 origin beats; short sentences written for the ear; the hook and summary must
+agree with the body. If the fixes can't be made while keeping a sound, sourced script, set keep=false.
+
+{RELIABLE}
+{HARD_EXCLUSIONS}"""
