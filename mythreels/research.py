@@ -72,6 +72,7 @@ def vet(cfg: dict, candidate: dict, history: list[dict], others: list[dict]) -> 
     except claude_cli.ClaudeError as e:
         return None, {**review, "rejected_by": "error", "error": str(e)}
     last = review["rounds"][-1]
+    myth = myth_rules.without_weak_sources(myth, cfg)
     approved = {**myth, "id": myth_id(myth["claim"]), "approved_at": datetime.now(timezone.utc).isoformat(),
                 "review": {"research": review["research"], "adversarial": last["reason"],
                            "fixes_applied": [f for r in review["rounds"][:-1] for f in r["blocking_fixes"]],

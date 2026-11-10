@@ -204,5 +204,1725 @@
         "Image search term 'Viking warriors painting' is likely to return 19th-century horned-helmet art. Make sure any such image is shown only as an example of the myth, not in the reality section."
       ]
     }
+  },
+  {
+    "claim": "Romans had rooms called vomitoriums for throwing up during feasts.",
+    "verdict": "MYTH",
+    "hook": "What was a Roman vomitorium really for?",
+    "summary": "A vomitorium was not a room for being sick. It was a passageway that let crowds pour in and out of a Roman amphitheatre or stadium. The confusion likely came from the word itself and from Roman writers' attacks on greedy diners.",
+    "category": "Ancient World",
+    "era": "Roman Empire",
+    "year": 80,
+    "key_people": [
+      "Macrobius",
+      "Seneca",
+      "Aldous Huxley"
+    ],
+    "event": "The Roman vomitorium myth",
+    "key_places": [
+      "Rome",
+      "Colosseum"
+    ],
+    "image_search_terms": [
+      "Colosseum engraving Piranesi",
+      "Roman banquet painting",
+      "Roman amphitheatre interior engraving",
+      "Roman feast illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#ancientrome",
+      "#romanempire",
+      "#colosseum",
+      "#historymyths",
+      "#didyouknow",
+      "#latin",
+      "#historyfacts"
+    ],
+    "pronunciations": [
+      {
+        "word": "vomitorium",
+        "say": "vom-ih-tor-ee-um"
+      },
+      {
+        "word": "Macrobius",
+        "say": "Muh-kroh-bee-us"
+      },
+      {
+        "word": "Seneca",
+        "say": "Sen-eh-kuh"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "A vomitorium was a passageway. It let crowds in and out of a Roman amphitheatre or stadium.",
+        "key_line": "It was a passageway for crowds",
+        "sources": [
+          {
+            "title": "Purging the Myth of the Vomitorium",
+            "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+            "publisher": "Scientific American"
+          },
+          {
+            "title": "Mythbusting Ancient Rome – the truth about the vomitorium",
+            "url": "https://theconversation.com/mythbusting-ancient-rome-the-truth-about-the-vomitorium-71068",
+            "publisher": "The Conversation"
+          },
+          {
+            "title": "Vomitoriums: Fact or Fiction?",
+            "url": "https://www.history.com/articles/vomitoriums-fact-or-fiction",
+            "publisher": "HISTORY"
+          }
+        ]
+      },
+      {
+        "narration": "The name comes from the Latin for vomit. In the fifth century, the writer Macrobius used it for passages that spewed crowds into their seats.",
+        "key_line": "Crowds spewed out, not dinner",
+        "sources": [
+          {
+            "title": "Mythbusting Ancient Rome – the truth about the vomitorium",
+            "url": "https://theconversation.com/mythbusting-ancient-rome-the-truth-about-the-vomitorium-71068",
+            "publisher": "The Conversation"
+          },
+          {
+            "title": "Purging the Myth of the Vomitorium",
+            "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+            "publisher": "Scientific American"
+          }
+        ]
+      },
+      {
+        "narration": "No ancient source uses the word for a place to vomit. Even rich Romans had no special rooms for purging.",
+        "key_line": "No ancient source uses it that way",
+        "sources": [
+          {
+            "title": "Mythbusting Ancient Rome – the truth about the vomitorium",
+            "url": "https://theconversation.com/mythbusting-ancient-rome-the-truth-about-the-vomitorium-71068",
+            "publisher": "The Conversation"
+          },
+          {
+            "title": "Purging the Myth of the Vomitorium",
+            "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+            "publisher": "Scientific American"
+          },
+          {
+            "title": "Vomitoriums: Fact or Fiction?",
+            "url": "https://www.history.com/articles/vomitoriums-fact-or-fiction",
+            "publisher": "HISTORY"
+          }
+        ]
+      },
+      {
+        "narration": "The Colosseum had around 80 entrances and held about 50,000 spectators.",
+        "key_line": "Around 80 entrances for 50,000 people",
+        "sources": [
+          {
+            "title": "Colosseum",
+            "url": "https://www.worldhistory.org/Colosseum/",
+            "publisher": "World History Encyclopedia"
+          },
+          {
+            "title": "Colosseum - Dates, Facts & Location",
+            "url": "https://www.history.com/articles/colosseum",
+            "publisher": "HISTORY"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The Roman writer Seneca scolded gluttons: they vomit so they may eat. Stories like that, plus the word itself, likely fed the mix-up.",
+        "key_line": "A suggestive word, misread",
+        "sources": [
+          {
+            "title": "Purging the Myth of the Vomitorium",
+            "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+            "publisher": "Scientific American"
+          },
+          {
+            "title": "Mythbusting Ancient Rome – the truth about the vomitorium",
+            "url": "https://theconversation.com/mythbusting-ancient-rome-the-truth-about-the-vomitorium-71068",
+            "publisher": "The Conversation"
+          }
+        ]
+      },
+      {
+        "narration": "In his 1923 novel Antic Hay, Aldous Huxley wrote of a vomitorium as a place to vomit.",
+        "key_line": "Huxley's 1923 novel got it wrong",
+        "sources": [
+          {
+            "title": "Purging the Myth of the Vomitorium",
+            "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+            "publisher": "Scientific American"
+          },
+          {
+            "title": "Vomitoriums: Fact or Fiction?",
+            "url": "https://www.history.com/articles/vomitoriums-fact-or-fiction",
+            "publisher": "HISTORY"
+          },
+          {
+            "title": "Antic Hay",
+            "url": "https://www.penguin.co.uk/books/1035891/antic-hay",
+            "publisher": "Penguin Books UK"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Purging the Myth of the Vomitorium",
+        "url": "https://www.scientificamerican.com/article/purging-the-myth-of-the-vomitorium/",
+        "publisher": "Scientific American"
+      },
+      {
+        "title": "Mythbusting Ancient Rome – the truth about the vomitorium",
+        "url": "https://theconversation.com/mythbusting-ancient-rome-the-truth-about-the-vomitorium-71068",
+        "publisher": "The Conversation"
+      },
+      {
+        "title": "Vomitoriums: Fact or Fiction?",
+        "url": "https://www.history.com/articles/vomitoriums-fact-or-fiction",
+        "publisher": "HISTORY"
+      }
+    ],
+    "id": "romans-had-rooms-called-vomitoriums-for-throwing-2ae2",
+    "approved_at": "2026-11-10T19:16:12.305155+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported: Scientific American, The Conversation (two university Roman historians) and HISTORY all say a vomitorium was a passageway in an entertainment venue, not a vomiting room. Every beat now has 2+ opened sources from different organisations; narration totals 114 words. Changes: (1) 'Around 400 AD' became 'in the fifth century', which is what Scientific American and The Conversation say (HISTORY says 'end of the fourth century', so it is not cited for that beat). (2) 'Latin for to spew forth' became 'Latin for vomit' to match the sources. (3) Dropped '50,000 spectators could leave within minutes': I found only one acceptable source, and it describes filling the venue in about 15 minutes, not emptying it. The Colosseum beat now gives only the entrance count (around 80) and capacity (about 50,000). (4) 'No Roman text describes a special room' reworded to the sources' exact claim: no ancient source uses the word for a place to vomit. (5) Huxley beat no longer implies he was first: The Conversation documents the misreading by 1871. The 1923 date for Antic Hay is confirmed by Scientific American, HISTORY and Penguin; The Conversation's '1929' is an error, so it is not cited for that beat. (6) Seneca beat now uses the quoted line and hedges the cause with 'likely'. Britannica, Merriam-Webster and Smithsonian returned 403 and could not be opened, so they are not cited. No hard exclusions apply.",
+      "adversarial": "The verdict is sound and there is no scholarly dispute: no ancient source uses \"vomitorium\" for a vomiting room, and the word is attested only in Macrobius's Saturnalia (5th century) for passages that disgorge spectators into their seats. I found no counter-evidence or newer research contradicting this.\n\nI opened all six cited pages. All are real, and every beat is supported by at least two of its cited sources:\n\n- **Passageway definition:** Scientific American, The Conversation and HISTORY all agree.\n- **Macrobius, fifth century, crowds spewed into seats:** Scientific American and The Conversation both say this.\n- **No ancient source, no special rooms even for the rich:** The Conversation states the first almost verbatim; Scientific American states the second almost verbatim.\n- **Seneca quote:** Scientific American and The Conversation both carry it.\n- **Huxley, Antic Hay, 1923:** Scientific American and HISTORY both support it.\n- **Colosseum, around 80 entrances and about 50,000 spectators:** World History Encyclopedia and HISTORY both support it.\n\nThe causal claim about the myth's origin is hedged (\"likely\") in both the summary and the narration. The script does not claim that Romans never vomited at feasts, which avoids overstatement.\n\nNo hard exclusion applies: the topic is ancient and non-religious, Huxley died in 1963, and the point is not disputed among historians.\n\nThe only notable weakness is that the origin section could imply Huxley started the misreading, when it is attested from 1871. That is a framing improvement, not a falsehood, so I have listed it as minor. There are no blocking fixes.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Origin beat on Huxley: the misreading predates him. The Conversation article documents 1871 uses by Felix Pyat and Augustus Hare, and Scientific American dates the error to the late 19th or early 20th century. The narration does not say Huxley was first, but its place in the origin section could imply it. Consider changing \"In his 1923 novel Antic Hay, Aldous Huxley wrote of a vomitorium as a place to vomit.\" to \"By the 1870s writers were already misusing the word, and Aldous Huxley's 1923 novel Antic Hay helped spread it.\"",
+        "The Penguin product page for Antic Hay confirms only the book and its 1923 date; it does not mention the vomitorium. Drop it or keep it as a date check only, since Scientific American and HISTORY already support the beat.",
+        "On my fetch, The Conversation page appeared to give 1929 for Antic Hay. That may be a reading error, but 1923 is correct per Penguin, Scientific American and HISTORY, so keep 1923 and do not rely on The Conversation for that date.",
+        "HISTORY places Macrobius's usage at the end of the fourth century, while Scientific American and The Conversation say fifth century. The script's \"fifth century\" matches the usual dating of the Saturnalia (c. 430), and HISTORY is not cited for that beat, so no change is needed; just don't add HISTORY as a source there.",
+        "Colosseum beat: the roughly 80 are ground-level entrance arches (76 numbered for spectators), not the vomitoria themselves, which are the passages opening into the seating. The narration does not equate them, so the numbers stand, but an on-screen label should not call them \"80 vomitoria\".",
+        "World History Encyclopedia gives both \"50,000\" and \"about 45,000 seated plus 5,000 standing\", and HISTORY says \"more than 50,000\". \"About 50,000\" is properly hedged; no change needed.",
+        "The Seneca quote is truncated; the full line is \"They vomit so they may eat, and eat so that they may vomit\" (Consolation to Helvia). The shortened version is accurate, but the full line could be used if the word budget allows."
+      ]
+    }
+  },
+  {
+    "claim": "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid.",
+    "verdict": "FACT",
+    "hook": "Cleopatra and the pyramids were not neighbours in time",
+    "summary": "The Great Pyramid was built around 2550 BC, roughly 2,500 years before Cleopatra was born. The Moon landing came only about 2,000 years after she died. Ancient Egypt lasted so long that its own past was ancient history to its last queen.",
+    "category": "Ancient World",
+    "era": "Ptolemaic Egypt",
+    "year": -30,
+    "key_people": [
+      "Cleopatra"
+    ],
+    "event": "Cleopatra and the age of the Great Pyramid",
+    "key_places": [
+      "Giza",
+      "Alexandria",
+      "Egypt"
+    ],
+    "image_search_terms": [
+      "Cleopatra painting",
+      "Great Pyramid of Giza engraving",
+      "Pyramids of Giza painting 19th century",
+      "Alexandria ancient map"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#cleopatra",
+      "#ancientegypt",
+      "#pyramids",
+      "#greatpyramid",
+      "#didyouknow",
+      "#historyfacts",
+      "#timeline"
+    ],
+    "pronunciations": [
+      {
+        "word": "Ptolemies",
+        "say": "Tol-uh-meez"
+      },
+      {
+        "word": "Ptolemy",
+        "say": "Tol-uh-mee"
+      },
+      {
+        "word": "Giza",
+        "say": "Gee-zuh"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "The Great Pyramid of Giza was built around 2550 BC. Cleopatra was born about 69 BC, roughly 2,500 years later.",
+        "key_line": "Born ~2,500 years after the pyramid",
+        "sources": [
+          {
+            "title": "Digital Giza | Introduction to Giza",
+            "url": "https://giza.fas.harvard.edu/gizaintro/",
+            "publisher": "Harvard University (The Giza Project)"
+          },
+          {
+            "title": "Ancient Egypt facts and history | National Geographic Kids",
+            "url": "https://kids.nationalgeographic.com/history/article/ancient-egypt",
+            "publisher": "National Geographic Kids"
+          },
+          {
+            "title": "Key facts about Cleopatra's life and legacy | National Geographic",
+            "url": "https://www.nationalgeographic.com/history/article/cleopatra-egypt-pharaoh-life-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Cleopatra - Life, Rule & Death | HISTORY",
+            "url": "https://www.history.com/topics/ancient-egypt/cleopatra",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Great Pyramid of Giza",
+            "url": "https://www.worldhistory.org/Great_Pyramid_of_Giza/",
+            "publisher": "World History Encyclopedia"
+          }
+        ]
+      },
+      {
+        "narration": "She died in 30 BC. The first Moon landing came in 1969, about 2,000 years after her death.",
+        "key_line": "Moon landing: about 2,000 years later",
+        "sources": [
+          {
+            "title": "Key facts about Cleopatra's life and legacy | National Geographic",
+            "url": "https://www.nationalgeographic.com/history/article/cleopatra-egypt-pharaoh-life-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Cleopatra - Life, Rule & Death | HISTORY",
+            "url": "https://www.history.com/topics/ancient-egypt/cleopatra",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Apollo 11: The Moon Landing | National Air and Space Museum",
+            "url": "https://airandspace.si.edu/explore/stories/apollo-11-moon-landing",
+            "publisher": "Smithsonian National Air and Space Museum"
+          },
+          {
+            "title": "Apollo 11 - NASA",
+            "url": "https://www.nasa.gov/mission/apollo-11/",
+            "publisher": "NASA"
+          }
+        ]
+      },
+      {
+        "narration": "So the pyramid was older to Cleopatra than Cleopatra is to us. To her, it was already ancient.",
+        "key_line": "Ancient even to Cleopatra",
+        "sources": [
+          {
+            "title": "Ancient Egypt facts and history | National Geographic Kids",
+            "url": "https://kids.nationalgeographic.com/history/article/ancient-egypt",
+            "publisher": "National Geographic Kids"
+          },
+          {
+            "title": "Cleopatra Lived Closer In Time To The Artemis II Launch Than To The Construction Of The Pyramids",
+            "url": "https://www.iflscience.com/cleopatra-lived-closer-in-time-to-the-artemis-ii-launch-than-to-the-construction-of-the-pyramids-83380",
+            "publisher": "IFLScience"
+          }
+        ]
+      },
+      {
+        "narration": "Her family, the Ptolemies, were a Macedonian Greek dynasty. Its founder, Ptolemy the First, became king only in 305 BC.",
+        "key_line": "Her dynasty's first king: 305 BC",
+        "sources": [
+          {
+            "title": "Key facts about Cleopatra's life and legacy | National Geographic",
+            "url": "https://www.nationalgeographic.com/history/article/cleopatra-egypt-pharaoh-life-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Ptolemaic Dynasty",
+            "url": "https://www.worldhistory.org/Ptolemaic_Dynasty/",
+            "publisher": "World History Encyclopedia"
+          },
+          {
+            "title": "Cleopatra - Life, Rule & Death | HISTORY",
+            "url": "https://www.history.com/topics/ancient-egypt/cleopatra",
+            "publisher": "History.com"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds false because we squeeze ancient Egypt into one moment. In truth, that civilisation lasted roughly 3,000 years.",
+        "key_line": "Egypt lasted roughly 3,000 years",
+        "sources": [
+          {
+            "title": "Collections - Antiquities Museum",
+            "url": "https://antiquities.bibalex.org/Antiquities/AncientVirtualTour.aspx?lang=en",
+            "publisher": "Bibliotheca Alexandrina Antiquities Museum"
+          },
+          {
+            "title": "Ancient Egypt: Three Millennia Along the Nile | Museo Egizio Touring Exhibitions - Museo Egizio",
+            "url": "https://www.museoegizio.it/en/touring-exhibitions/exhibition/ancient-egypt/",
+            "publisher": "Museo Egizio"
+          },
+          {
+            "title": "Ancient Egypt facts and history | National Geographic Kids",
+            "url": "https://kids.nationalgeographic.com/history/article/ancient-egypt",
+            "publisher": "National Geographic Kids"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Cleopatra Lived Closer In Time To The Artemis II Launch Than To The Construction Of The Pyramids",
+        "url": "https://www.iflscience.com/cleopatra-lived-closer-in-time-to-the-artemis-ii-launch-than-to-the-construction-of-the-pyramids-83380",
+        "publisher": "IFLScience"
+      },
+      {
+        "title": "Ancient Egypt facts and history | National Geographic Kids",
+        "url": "https://kids.nationalgeographic.com/history/article/ancient-egypt",
+        "publisher": "National Geographic Kids"
+      },
+      {
+        "title": "Did Cleopatra Really Live Closer In Time To The First Lunar Landing Than The Great Pyramids?",
+        "url": "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html",
+        "publisher": "WorldAtlas"
+      }
+    ],
+    "id": "cleopatra-lived-closer-to-the-moon-landing-than-3b42",
+    "approved_at": "2026-11-10T19:17:47.107082+00:00",
+    "review": {
+      "research": "Verdict FACT holds on every dating in the sources: the Great Pyramid falls in the mid-2500s BC, Cleopatra lived about 69-30 BC, and the Moon landing was in 1969, so she is roughly 450-500 years closer to Apollo 11. Corrections made: (1) Pyramid date changed from \"finished around 2560 BC\" to \"built around 2550 BC\", which is the wording Harvard's Digital Giza and National Geographic use; World History Encyclopedia gives c. 2560, and the conclusion is unaffected. (2) Birth year hedged to \"about 69 BC\" because History.com gives \"70 or 69 B.C.\". (3) \"Greek-speaking rulers who had taken Egypt's throne only in 305 BC\" rewritten: I could not source \"Greek-speaking\", and World History Encyclopedia dates the dynasty's rule from 323 BC with Ptolemy I's reign as king from 305, so the beat now says its founder became king in 305 BC. (4) \"More than 3,000 years\" softened to \"roughly 3,000 years\": sources range from \"almost 30 centuries\" (History.com) and \"about 3000 years\" (Bibliotheca Alexandrina) to \"over three thousand\" (Museo Egizio). Summary updated to match. Narration totals 94 words, maximum 20 per beat. Sourcing caveats: Britannica, Smithsonian Magazine, History Extra, the British Museum and the Met could not be opened (403/429/blocked), so none are cited. Direct statements of the Moon-landing comparison come from IFLScience and WorldAtlas, which are weaker outlets than the rest; National Geographic Kids states the closely related \"closer to our time than to the building of the Pyramids at Giza\". The \"years later\" gaps in beats 1-3 are my arithmetic from the sourced dates. No hard exclusions apply.",
+      "adversarial": "The verdict is correct and not disputed: this is simple arithmetic on well-established dates, and I found no scholarly disagreement that could flip it. Even on the lowest mainstream chronology for Khufu, the gap from the pyramid to Cleopatra's birth is over 2,400 years, against about 2,000 years from her death to 1969.\n\nI opened 10 of the 12 distinct cited pages; all are live and say what the script needs. I did not open the two Apollo 11 pages (Smithsonian, NASA), since the 1969 date is not in question.\n\n- **Pyramid date:** Harvard's Giza Project and National Geographic Kids both say \"around 2550\" BC.\n- **Cleopatra's dates:** National Geographic gives 69 BC for her birth and August 30 BC for her death; History.com gives \"70 or 69 B.C.\" and 12 August 30 BC. The script's \"about 69 BC\" is properly hedged.\n- **Gaps:** 2550 to 69 BC is about 2,481 years (\"roughly 2,500\" is fair); 30 BC to 1969 is 1,998 years (\"about 2,000\" is fair).\n- **\"Older to Cleopatra than Cleopatra is to us\":** true (about 2,480 years against about 2,055). National Geographic Kids states it directly, and IFLScience says the pyramids were \"already ancient tourist attractions\" to her.\n- **Ptolemy I king in 305 BC:** matches the standard 305/304 BC date; supported by World History Encyclopedia and, more loosely, by National Geographic.\n- **\"Roughly 3,000 years\":** Bibliotheca Alexandrina says \"about 3000 years\"; Museo Egizio and National Geographic Kids say more than 3,000.\n\nNo hard exclusion applies: no religion, politics, living people, recent events, atrocity or conspiracy framing, and an established fact is presented as FACT, not as a myth. The only weaknesses are in the source lists (WorldAtlas and IFLScience as verdict sources, thin direct support for the 305 BC accession), which do not affect what viewers hear or read. Publishable as written.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Verdict sources are the weakest part of the list: WorldAtlas is low-rigor SEO trivia (it gives both 2560 BC and 2550 BC for the pyramid and treats 30 BC as when Cleopatra 'lived'), and IFLScience is pop-science rather than a history outlet. Drop WorldAtlas and add a stronger source for the dates behind the verdict, e.g. Britannica's Cleopatra and Pyramids of Giza entries or the Harvard Giza Project page already cited in beat 1.",
+        "Beat 4 ('Its founder, Ptolemy the First, became king only in 305 BC'): only World History Encyclopedia gives Ptolemy I's reign as starting in 305 BC by name. National Geographic says only that the dynasty 'had taken over Egypt in 305 B.C.', and History.com gives no accession date at all. Add a source that states the 305/304 BC accession directly, e.g. Britannica's Ptolemy I Soter entry, and drop History.com from this beat's date support.",
+        "Beat 4 ('Macedonian Greek dynasty'): National Geographic says 'Greek', History.com says 'Macedonian', and World History Encyclopedia says 'Macedonian Greek' only in its page metadata. The wording is accurate, but no single cited page states it prominently; a Britannica Ptolemaic dynasty citation would close the gap.",
+        "Beat 1: World History Encyclopedia dates the Great Pyramid to c. 2560 BCE (Khufu 2589–2566 BCE), not 2550. 'Around 2550 BC' is covered by Harvard and National Geographic Kids and the hedge is adequate, so this source could simply be removed from the beat to avoid a visible mismatch.",
+        "Beat 1: History.com gives Cleopatra's birth as '70 or 69 B.C.' The script's 'about 69 BC' is adequately hedged; no change to narration needed.",
+        "The IFLScience headline refers to the Artemis II launch (a 2026 event). The script does not mention it, but if source titles appear on screen, consider not displaying this one so that a current event is not shown."
+      ]
+    }
+  },
+  {
+    "claim": "Napoleon was unusually short.",
+    "verdict": "MYTH",
+    "hook": "How tall was Napoleon, really?",
+    "summary": "Napoleon was about five foot six, which was average or a little above for a Frenchman of his day. The confusion came from old French units and a nickname. British cartoons then turned him into a tiny, raging figure.",
+    "category": "Modern (1800-1950)",
+    "era": "Napoleonic Era",
+    "year": 1803,
+    "key_people": [
+      "Napoleon Bonaparte",
+      "James Gillray"
+    ],
+    "event": "The myth of Napoleon's height",
+    "key_places": [
+      "France",
+      "Britain"
+    ],
+    "image_search_terms": [
+      "Napoleon portrait painting David",
+      "Gillray Little Boney caricature",
+      "Napoleon Imperial Guard painting",
+      "Napoleon in his study painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#napoleon",
+      "#napoleonbonaparte",
+      "#frenchhistory",
+      "#historymyths",
+      "#didyouknow",
+      "#caricature",
+      "#historyfacts"
+    ],
+    "pronunciations": [
+      {
+        "word": "Gillray",
+        "say": "Gil-ray"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Napoleon stood about five foot six in modern measurements. That was average, or slightly above, for a Frenchman of his time.",
+        "key_line": "About 5 foot 6: average height",
+        "sources": [
+          {
+            "title": "Was Napoleon Short? Origins of the 'Napoleon Complex'",
+            "url": "https://www.history.com/news/napoleon-complex-short",
+            "publisher": "History.com"
+          },
+          {
+            "title": "French history myths: Napoleon Bonaparte was short",
+            "url": "https://www.thelocal.fr/20220804/french-history-myths-napoleon-bonaparte-was-short",
+            "publisher": "The Local France"
+          },
+          {
+            "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+            "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "French records put him at about five foot two. But old French inches were longer than English ones.",
+        "key_line": "French inches were longer",
+        "sources": [
+          {
+            "title": "Was Napoleon Short? Origins of the 'Napoleon Complex'",
+            "url": "https://www.history.com/news/napoleon-complex-short",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+            "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "French history myths: Napoleon Bonaparte was short",
+            "url": "https://www.thelocal.fr/20220804/french-history-myths-napoleon-bonaparte-was-short",
+            "publisher": "The Local France"
+          }
+        ]
+      },
+      {
+        "narration": "His soldiers called him the little corporal. It was a pet name, not a comment on his height.",
+        "key_line": "Little corporal was a pet name",
+        "sources": [
+          {
+            "title": "French history myths: Napoleon Bonaparte was short",
+            "url": "https://www.thelocal.fr/20220804/french-history-myths-napoleon-bonaparte-was-short",
+            "publisher": "The Local France"
+          },
+          {
+            "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+            "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "He was often seen beside his guardsmen, who were generally tall, which may have made him look smaller.",
+        "key_line": "Surrounded by tall guardsmen",
+        "sources": [
+          {
+            "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+            "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "How Did James Gillray Attack Napoleon as the 'Little Corporal'?",
+            "url": "https://www.historyhit.com/how-did-james-gillray-attack-napoleon-as-the-little-corp",
+            "publisher": "History Hit"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "British cartoonists did the rest. In 1803, James Gillray drew him as Little Boney, a tiny man in a raging tantrum, and the name stuck.",
+        "key_line": "Blame the cartoon Little Boney",
+        "sources": [
+          {
+            "title": "Was Napoleon Short? Origins of the 'Napoleon Complex'",
+            "url": "https://www.history.com/news/napoleon-complex-short",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+            "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "How Did James Gillray Attack Napoleon as the 'Little Corporal'?",
+            "url": "https://www.historyhit.com/how-did-james-gillray-attack-napoleon-as-the-little-corp",
+            "publisher": "History Hit"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Was Napoleon Short? Origins of the 'Napoleon Complex'",
+        "url": "https://www.history.com/news/napoleon-complex-short",
+        "publisher": "History.com"
+      },
+      {
+        "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+        "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "French history myths: Napoleon Bonaparte was short",
+        "url": "https://www.thelocal.fr/20220804/french-history-myths-napoleon-bonaparte-was-short",
+        "publisher": "The Local France"
+      }
+    ],
+    "id": "napoleon-was-unusually-short-d70c",
+    "approved_at": "2026-11-10T19:18:28.382626+00:00",
+    "review": {
+      "research": "MYTH verdict holds: History.com, National Geographic and The Local France all put Napoleon at about 5'6\" (1.67-1.69 m), average or slightly above for a Frenchman of his day, and trace the \"tiny Napoleon\" image to British caricature. Changes made to match the sources: (1) height trimmed to \"about five foot six\" (sources give just under 5'6\" to a bit above 5'5\"; 5'7\" was not supported by any page I could open); (2) dropped \"at his death in 1821\" — the 5 pieds 2 pouces figure is attributed to his valet, Gourgaud and physician Antommarchi, and NatGeo says only that 5'6\" was \"confirmed at his autopsy\", so the beat now says \"French records\"; (3) nickname beat reworded to \"pet name\" — The Local says \"term of affection by his soldiers\", NatGeo says soldiers gave him \"pet names\" starting with \"le petit\"; (4) guard beat hedged (\"generally tall\", \"may have made him look smaller\") per NatGeo and History Hit; (5) origin changed from \"From 1803\" to \"In 1803\" and \"the image outlived him\" to \"the name stuck\", matching History.com's wording on the 1803 print \"Maniac-raving's-or-Little Boney in a strong fit\". Not verified directly: Britannica's \"Was Napoleon Short?\" page returned HTTP 403 on every attempt, so it is not cited; History Extra, BBC and the National Portrait Gallery were also inaccessible. The Local France and History Hit are weaker than encyclopaedia/museum sources — the nickname beat's \"not about height\" point rests chiefly on The Local, so swap in Britannica if a human can open it. Narration totals 100 words, max 25 per beat. No hard exclusions triggered.",
+      "adversarial": "The script is safe to publish: the verdict matches mainstream consensus and no hard exclusion applies.\n\nAll four cited pages load and are real. I checked each beat against them:\n\n- **Height:** History.com gives 5 pieds 2 pouces from three French sources including his valet Constant, about 1.67 m and \"a little above average\". The Local gives about 1.69 m and \"average height for the time period\". National Geographic says about five foot six, \"confirmed at his autopsy\". Fondation Napoléon, which is not cited, gives the autopsy figure as about 1.686 m.\n- **French inches:** History.com gives the pouce as 2.7 cm against 2.54 cm, and National Geographic gives 1.06 English inches. The narration is accurate.\n- **Little corporal:** The Local says it was a term of affection that \"did not have anything to do with the man's height\". National Geographic supports this only implicitly, so I flagged it as a minor sourcing fix, not a blocker.\n- **Guardsmen:** National Geographic and History Hit both support it, and the narration hedges with \"may have\".\n- **Gillray, 1803, Little Boney:** History.com dates \"Maniac-raving's-or-Little Boney in a strong fit\" to the March 1803 incident and says the name \"would stick\". History Hit says that in 1803 Gillray created \"the myth of 'Little Boney'\". The date, name and spelling are correct.\n\nThe only counter-evidence I found is a residual debate over whether the autopsy figure was recorded in French or English units; National Geographic notes that historians still disagree about his height. That concerns the exact figure, which the script hedges with \"about\", and does not amount to a genuine dispute over the verdict. My one search did not turn up a primary conscript-height study, so \"average or slightly above\" rests on the cited outlets.\n\nOn exclusions: Napoleon is long dead, the topic is not religious or partisan, and it does not minimise wartime harm.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Beat 3 ('It was a pet name, not a comment on his height'): only The Local France says this outright. National Geographic says only that he earned the nickname after the 1796 Italian victory, which implies it but does not state it. Add a second explicit source, such as Britannica or Fondation Napoléon (napoleon.org).",
+        "Beat 1 ('average, or slightly above'): History.com says 'a little above average' and The Local says 'average height for the time period', but National Geographic gives no French average. Either drop National Geographic from this beat or keep it only for the five-foot-six figure.",
+        "Consider adding Fondation Napoléon's 'La taille de Napoléon' (https://www.napoleon.org/histoire-des-2-empires/articles/la-taille-de-napoleon) as a stronger source for the measurement: it gives the autopsy figure of 5 pieds 2 pouces 4 lignes, about 1.686 m.",
+        "Beat 4: National Geographic refers to Old Guard grenadiers who 'were required to be physically large', while History Hit says 'Imperial Guard, who were generally tall'. The narration's 'guardsmen' covers both, so no change is needed to the wording; just make sure the on-screen image matches (Old Guard grenadiers)."
+      ]
+    }
+  },
+  {
+    "claim": "The word shampoo comes from India.",
+    "verdict": "FACT",
+    "hook": "Your shampoo bottle carries a Hindi word",
+    "summary": "Shampoo comes from the Hindi word champo, from a verb meaning to press or knead. It first meant a massage. Patna-born Sake Dean Mahomed offered shampooing in Brighton from 1814 and was appointed shampooing surgeon to two kings. The hair washing sense came later.",
+    "category": "Indian History",
+    "era": "Georgian Era",
+    "year": 1814,
+    "key_people": [
+      "Sake Dean Mahomed",
+      "King George IV",
+      "King William IV"
+    ],
+    "event": "The Indian origin of shampoo",
+    "key_places": [
+      "India",
+      "Patna",
+      "Brighton"
+    ],
+    "image_search_terms": [
+      "Sake Dean Mahomed portrait",
+      "Mahomed's Baths Brighton engraving",
+      "Brighton seafront engraving 1820s",
+      "George IV portrait painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#indianhistory",
+      "#shampoo",
+      "#etymology",
+      "#wordorigins",
+      "#didyouknow",
+      "#brighton",
+      "#historyfacts"
+    ],
+    "pronunciations": [
+      {
+        "word": "champo",
+        "say": "chahm-po"
+      },
+      {
+        "word": "Sake Dean Mahomed",
+        "say": "Shayk Deen Muh-hom-ed"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Shampoo comes from the Hindi word champo, a form of the verb meaning to press or knead. It first meant a massage, not washing hair.",
+        "key_line": "Champo: to press or knead",
+        "sources": [
+          {
+            "title": "American Heritage Dictionary Entry: shampoo",
+            "url": "https://www.ahdictionary.com/word/search.html?q=shampoo",
+            "publisher": "The American Heritage Dictionary of the English Language"
+          },
+          {
+            "title": "Hobson-Jobson",
+            "url": "https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=shampoo&searchhws=yes",
+            "publisher": "Digital South Asia Library, University of Chicago"
+          },
+          {
+            "title": "Shampoo - Definition, Meaning & Synonyms | Vocabulary.com",
+            "url": "https://www.vocabulary.com/dictionary/shampoo",
+            "publisher": "Vocabulary.com"
+          }
+        ]
+      },
+      {
+        "narration": "In 1814, Sake Dean Mahomed, born in Patna, India, set up in Brighton, England, offering vapour baths and shampooing, a therapeutic massage.",
+        "key_line": "Shampooing in Brighton, 1814",
+        "sources": [
+          {
+            "title": "Sake Dean Mahomed — Brighton resident and Regency entrepreneur",
+            "url": "https://brightonmuseums.org.uk/discovery/history-stories/sake-dean-mahomed-brighton-resident-and-regency-entrepreneur/",
+            "publisher": "Brighton & Hove Museums"
+          },
+          {
+            "title": "Sake Dean Mahomed — South Asian Britain: Connecting Histories",
+            "url": "https://southasianbritain.org/people/sake-dean-mahomed/",
+            "publisher": "South Asian Britain (University of Bristol, Queen Mary University of London, British Library)"
+          },
+          {
+            "title": "Deen Mahomed, Sake",
+            "url": "https://en.banglapedia.org/index.php/Deen_Mahomed,_Sake",
+            "publisher": "Banglapedia (Asiatic Society of Bangladesh)"
+          }
+        ]
+      },
+      {
+        "narration": "Two kings, George the Fourth and William the Fourth, appointed him their shampooing surgeon.",
+        "key_line": "Shampooing surgeon to two kings",
+        "sources": [
+          {
+            "title": "Sake Dean Mahomed — Brighton resident and Regency entrepreneur",
+            "url": "https://brightonmuseums.org.uk/discovery/history-stories/sake-dean-mahomed-brighton-resident-and-regency-entrepreneur/",
+            "publisher": "Brighton & Hove Museums"
+          },
+          {
+            "title": "Sake Dean Mahomed — South Asian Britain: Connecting Histories",
+            "url": "https://southasianbritain.org/people/sake-dean-mahomed/",
+            "publisher": "South Asian Britain (University of Bristol, Queen Mary University of London, British Library)"
+          },
+          {
+            "title": "Deen Mahomed, Sake",
+            "url": "https://en.banglapedia.org/index.php/Deen_Mahomed,_Sake",
+            "publisher": "Banglapedia (Asiatic Society of Bangladesh)"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds false because shampoo feels like a modern product. But the word began as a massage, and only later came to mean washing hair.",
+        "key_line": "Hair washing came later",
+        "sources": [
+          {
+            "title": "The Shampooing Surgeon of Brighton",
+            "url": "https://www.aramcoworld.com/articles/2018/the-shampooing-surgeon-of-brighton",
+            "publisher": "AramcoWorld"
+          },
+          {
+            "title": "Shampoo - Definition, Meaning & Synonyms | Vocabulary.com",
+            "url": "https://www.vocabulary.com/dictionary/shampoo",
+            "publisher": "Vocabulary.com"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "American Heritage Dictionary Entry: shampoo",
+        "url": "https://www.ahdictionary.com/word/search.html?q=shampoo",
+        "publisher": "The American Heritage Dictionary of the English Language"
+      },
+      {
+        "title": "Hobson-Jobson",
+        "url": "https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?qs=shampoo&searchhws=yes",
+        "publisher": "Digital South Asia Library, University of Chicago"
+      },
+      {
+        "title": "Words from Indian languages - About Words - Cambridge Dictionary blog",
+        "url": "https://dictionaryblog.cambridge.org/2014/04/23/words-from-indian-languages/",
+        "publisher": "Cambridge University Press"
+      }
+    ],
+    "id": "the-word-shampoo-comes-from-india-b78b",
+    "approved_at": "2026-11-10T19:22:16.403205+00:00",
+    "review": {
+      "research": "Verdict FACT holds: the American Heritage Dictionary, Hobson-Jobson (University of Chicago) and the Cambridge Dictionary blog all derive \"shampoo\" from Hindi. Changes made: (1) Dropped the \"first recorded in English: 1762\" beat. No page I could open confirms it; OED is behind a login and Merriam-Webster, Etymonline and Britannica returned 403. Hobson-Jobson also prints a quotation dated 1748, so the year is not safe to state. (2) Removed \"the 1860s\" for the hair-washing sense. The sources I could open say only \"later\"; search snippets from Merriam-Webster and Britannica say \"mid-19th century\", but those pages could not be opened so are not cited. (3) Reworded the Brighton beat. Brighton Museums and South Asian Britain agree he set up in Brighton in 1814, but differ on the premises (Pool Valley vs 11 Devonshire Place), and AramcoWorld dates the grand seafront Mahomed's Baths to 1820. Shampooing was the massage, offered alongside a separate vapour bath, not \"a steam bath with massage\". (4) The royal appointment was to both George IV and William IV, with no date given; dropped the unsourced \"became so fashionable\" causal claim and added William IV to key_people. (5) Minor: pronunciation of \"Sake\" changed to \"Shayk\". Narration totals 85 words across 3 reality beats and 1 origin beat. Caveat: Hobson-Jobson hedges the derivation as \"most probably\", while modern dictionaries state it flatly; the second source for the \"only later meant hair washing\" line is Vocabulary.com, a dictionary site that says the word \"originally meant to massage\".",
+      "adversarial": "I opened all eight cited pages; all are live and say what the script attributes to them, and I found no blocking problems. I did not run a separate search for counter-evidence, because the etymology is the standard one in the major dictionaries and I know of no scholarly dispute.\n\n- **Etymology:** American Heritage gives \"From Hindi cāṁpō, imperative of cāṁpnā, to press, knead, shampoo\". Hobson-Jobson derives it from chāmpnā, \"most probably\" via the imperative chāmpō, and defines it as kneading and pressing the muscles, with usages dated 1616 to 1813. The Cambridge blog and Vocabulary.com agree. The verdict FACT is sound.\n- **Massage first, hair washing later:** Hobson-Jobson and Vocabulary.com support the original massage sense; AramcoWorld states the hair-washing sense came \"only later\". The script does not overclaim that Mahomed invented hair shampoo or introduced the word to English, which would have been wrong given the earlier attestations.\n- **Mahomed in Brighton, 1814:** Brighton & Hove Museums says he was born in Patna in 1759 and arrived in Brighton in 1814. South Asian Britain says he set up at 11 Devonshire Place from September 1814, offering vapour baths and shampooing. \"Set up in Brighton\" is accurate and avoids confusing this with the later purpose-built Mahomed's Baths.\n- **Two kings:** Brighton Museums, South Asian Britain and Banglapedia all confirm he was appointed Shampooing Surgeon to George IV and William IV.\n\nNo hard exclusion applies: this is word history and a Georgian-era entrepreneur, with no living people, religion, politics or contested narrative. The Brighton Museums page mentions his Muslim family background, but the script does not use it. The minor fixes are source-list tidying only.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Beat 2 sources: Banglapedia confirms Patna, the vapour baths and shampooing, but gives no year for the move to Brighton. The 1814 date rests on Brighton & Hove Museums (arrived 1814) and South Asian Britain (\"from September 1814 he set up shop in 11 Devonshire Place\"), plus AramcoWorld. Consider swapping Banglapedia for the AramcoWorld article on this beat so all three cited sources carry the date.",
+        "Origin beat (\"only later came to mean washing hair\"): Vocabulary.com supports the original massage meaning but does not explicitly say the hair-washing sense came later; AramcoWorld does (\"Only later did 'shampoo' come to mean hair-washing and hair soap\"). Add a dictionary with dated senses (e.g. Merriam-Webster, Etymonline or OED) as a firmer second source for the sense shift.",
+        "Vocabulary.com is a weak source next to American Heritage and Hobson-Jobson; it could be dropped or replaced by Merriam-Webster or the OED without loss.",
+        "Pronunciation: the Hindi form is cāṁpō with a long, nasalised first vowel; \"chahm-po\" is acceptable, but \"chaam-po\" would be closer. \"Sake\" as \"Shayk\" (Sheikh) is correct.",
+        "Optional nuance: American Heritage and Hobson-Jobson specify champo as the imperative of cāmpnā (Hobson-Jobson says \"most probably\"). The narration's \"a form of the verb\" is accurate; no change required."
+      ]
+    }
+  },
+  {
+    "claim": "In Columbus's day, everyone believed the Earth was flat.",
+    "verdict": "MYTH",
+    "hook": "Did sailors in 1492 really fear the edge of the world?",
+    "summary": "Educated people in 1492 already knew the Earth was round, as people had since ancient Greece. The real argument was about how big the globe was, and Columbus badly underestimated it. The flat Earth story is usually traced to Washington Irving's embellished 1828 biography of Columbus.",
+    "category": "Early Modern",
+    "era": "Age of Exploration",
+    "year": 1492,
+    "key_people": [
+      "Christopher Columbus",
+      "Eratosthenes",
+      "Washington Irving"
+    ],
+    "event": "The flat Earth myth about Columbus",
+    "key_places": [
+      "Spain",
+      "Atlantic Ocean",
+      "Alexandria"
+    ],
+    "image_search_terms": [
+      "Columbus portrait painting",
+      "Columbus ships engraving",
+      "Sacrobosco sphere manuscript",
+      "Behaim globe 1492",
+      "Washington Irving portrait"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#columbus",
+      "#flatearthmyth",
+      "#ageofexploration",
+      "#historymyths",
+      "#didyouknow",
+      "#earlymodern",
+      "#historyfacts"
+    ],
+    "pronunciations": [
+      {
+        "word": "Eratosthenes",
+        "say": "Air-uh-toss-thuh-neez"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "People knew the Earth was round as far back as ancient Greece. In the third century BC, the Greek scholar Eratosthenes even measured its circumference.",
+        "key_line": "Known to be round since ancient Greece",
+        "sources": [
+          {
+            "title": "Eratosthenes (276 BC - 194 BC) - Biography - MacTutor History of Mathematics",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/",
+            "publisher": "University of St Andrews"
+          },
+          {
+            "title": "Eratosthenes | Everyday Cosmology",
+            "url": "https://cosmology.carnegiescience.edu/timeline/1610/eratosthenes.html",
+            "publisher": "Carnegie Institution for Science"
+          },
+          {
+            "title": "Christopher Columbus Never Set Out to Prove the Earth was Round",
+            "url": "https://www.history.com/articles/christopher-columbus-never-set-out-to-prove-the-earth-was-round",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Learning Lesson: The Shadow Knows II",
+            "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-ii",
+            "publisher": "National Oceanic and Atmospheric Administration"
+          },
+          {
+            "title": "What life in medieval Europe was really like",
+            "url": "https://www.nationalgeographic.com/history/article/what-life-in-medieval-europe-was-really-like",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "The real argument was about size. Columbus badly underestimated the globe, and expert critics said Asia was too far to reach.",
+        "key_line": "The fight was about size",
+        "sources": [
+          {
+            "title": "Learning Lesson: The Shadow Knows II",
+            "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-ii",
+            "publisher": "National Oceanic and Atmospheric Administration"
+          },
+          {
+            "title": "U.S. History: 2.1 Portuguese Exploration and Spanish Conquest",
+            "url": "https://openstax.org/books/us-history/pages/2-1-portuguese-exploration-and-spanish-conquest",
+            "publisher": "OpenStax, Rice University"
+          },
+          {
+            "title": "Power and Patronage: Columbus's Search for Financial Support",
+            "url": "https://www.encyclopedia.com/history/news-wires-white-papers-and-books/power-and-patronage-columbuss-search-financial-support",
+            "publisher": "Encyclopedia.com (Gale, American Eras)"
+          },
+          {
+            "title": "Christopher Columbus Never Set Out to Prove the Earth was Round",
+            "url": "https://www.history.com/articles/christopher-columbus-never-set-out-to-prove-the-earth-was-round",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "MYTH: Columbus set out to prove the earth was round",
+            "url": "https://www.csmonitor.com/USA/2011/1010/Christopher-Columbus-Five-things-you-thought-you-knew-about-the-explorer/MYTH-Columbus-set-out-to-prove-the-earth-was-round",
+            "publisher": "The Christian Science Monitor"
+          }
+        ]
+      },
+      {
+        "narration": "A thirteenth-century astronomy textbook, On the Sphere, was studied in Europe's universities for about four hundred years. Its readers certainly didn't think Earth was flat.",
+        "key_line": "A textbook used for 400 years",
+        "sources": [
+          {
+            "title": "Starry Messenger: Sacrobosco: Biography",
+            "url": "https://www.sites.hps.cam.ac.uk/starry/sacrobosco.html",
+            "publisher": "University of Cambridge, Department of History and Philosophy of Science"
+          },
+          {
+            "title": "John Sacrobosco (1195 - 1256) - Biography - MacTutor History of Mathematics",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Sacrobosco/",
+            "publisher": "University of St Andrews"
+          },
+          {
+            "title": "Treasures of the RAS: The Sphere by John of Holywood",
+            "url": "https://ras.ac.uk/library/treasures-of-the-ras/2400-treasures-of-the-ras-the-sphere-by-john-of-holywood",
+            "publisher": "Royal Astronomical Society"
+          }
+        ]
+      },
+      {
+        "narration": "He got lucky. Instead of Asia, he ran into lands that weren't on any European map.",
+        "key_line": "He got lucky, not proven right",
+        "sources": [
+          {
+            "title": "Columbus risked it all on bad \"intel.\"",
+            "url": "https://www.kenw.org/show/dumb-ideas-that-changed-the-world/2023-09-06/columbus-risked-it-all-on-bad-intel",
+            "publisher": "KENW, Eastern New Mexico University"
+          },
+          {
+            "title": "Five misconceptions about Columbus",
+            "url": "https://www.cbsnews.com/news/five-misconceptions-about-columbus",
+            "publisher": "Live Science (syndicated by CBS News)"
+          },
+          {
+            "title": "U.S. History: 2.1 Portuguese Exploration and Spanish Conquest",
+            "url": "https://openstax.org/books/us-history/pages/2-1-portuguese-exploration-and-spanish-conquest",
+            "publisher": "OpenStax, Rice University"
+          },
+          {
+            "title": "Christopher Columbus Never Set Out to Prove the Earth was Round",
+            "url": "https://www.history.com/articles/christopher-columbus-never-set-out-to-prove-the-earth-was-round",
+            "publisher": "HISTORY (A&E Television Networks)"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The myth is usually traced to 1828, when American writer Washington Irving published an embellished biography of Columbus.",
+        "key_line": "Usually traced to an 1828 biography",
+        "sources": [
+          {
+            "title": "Christopher Columbus Never Set Out to Prove the Earth was Round",
+            "url": "https://www.history.com/articles/christopher-columbus-never-set-out-to-prove-the-earth-was-round",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "MYTH: Columbus set out to prove the earth was round",
+            "url": "https://www.csmonitor.com/USA/2011/1010/Christopher-Columbus-Five-things-you-thought-you-knew-about-the-explorer/MYTH-Columbus-set-out-to-prove-the-earth-was-round",
+            "publisher": "The Christian Science Monitor"
+          },
+          {
+            "title": "The Persistent Myth of the Flat Earth and Why Historical Research Matters",
+            "url": "https://blog.statemuseum.nd.gov/blog/persistent-myth-flat-earth-and-why-historical-research-matters",
+            "publisher": "State Historical Society of North Dakota"
+          },
+          {
+            "title": "What life in medieval Europe was really like",
+            "url": "https://www.nationalgeographic.com/history/article/what-life-in-medieval-europe-was-really-like",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Christopher Columbus Never Set Out to Prove the Earth was Round",
+        "url": "https://www.history.com/articles/christopher-columbus-never-set-out-to-prove-the-earth-was-round",
+        "publisher": "HISTORY (A&E Television Networks)"
+      },
+      {
+        "title": "MYTH: Columbus set out to prove the earth was round",
+        "url": "https://www.csmonitor.com/USA/2011/1010/Christopher-Columbus-Five-things-you-thought-you-knew-about-the-explorer/MYTH-Columbus-set-out-to-prove-the-earth-was-round",
+        "publisher": "The Christian Science Monitor"
+      },
+      {
+        "title": "The Persistent Myth of the Flat Earth and Why Historical Research Matters",
+        "url": "https://blog.statemuseum.nd.gov/blog/persistent-myth-flat-earth-and-why-historical-research-matters",
+        "publisher": "State Historical Society of North Dakota"
+      },
+      {
+        "title": "Learning Lesson: The Shadow Knows II",
+        "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-ii",
+        "publisher": "National Oceanic and Atmospheric Administration"
+      },
+      {
+        "title": "What life in medieval Europe was really like",
+        "url": "https://www.nationalgeographic.com/history/article/what-life-in-medieval-europe-was-really-like",
+        "publisher": "National Geographic"
+      }
+    ],
+    "id": "in-columbus-s-day-everyone-believed-the-earth-wa-6a50",
+    "approved_at": "2026-11-10T19:22:18.024041+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported and not disputed (National Geographic, NOAA, HISTORY, NBC News/LiveScience all say educated people in 1492 knew the Earth was round and the dispute was about its size). Changes made to match sources: (1) \"Around 240 BC\" softened to \"third century BC\" — I could only open one page giving c. 240 BC (Carnegie), and it dates his librarianship rather than the measurement; MacTutor gives his life as 276-194 BC. (2) Sacrobosco date \"around 1230\" replaced with \"thirteenth-century\" because sources conflict (Cambridge: c. 1230; MacTutor: 1220); the pages I could open do not state outright that the book 'taught a round Earth', so the beat now says it was studied for about four hundred years and that its readers did not think Earth was flat (RAS wording). (3) \"The experts who doubted him were right\" reworded to what the sources actually say: Columbus underestimated the globe and critics said the distance was too great. (4) \"Where he expected open ocean\" dropped as unsupported; luck beat now mirrors NBC/LiveScience and HISTORY wording. (5) Origin hedged from \"took off in 1828 ... full of invented scenes\" to \"usually traced to 1828 ... embellished biography\", since sources say \"perhaps originated\" / \"apparently created\" and describe it as embellished/fantastical. Total narration is 107 words, max 25 per beat. Caveat: Britannica, History Today, APS and Library of Congress blocked automated fetching, so they are not cited; every cited page was opened and read. No hard exclusions triggered.",
+      "adversarial": "The verdict is sound and there is no genuine dispute: historians agree that educated Europeans in 1492 accepted a spherical Earth and that the argument over Columbus's plan was about distance and the size of the globe. I found no counter-evidence or newer research against it.\n\nI opened 12 of the cited pages; all are live and say what the script attributes to them. I did not open the two Eratosthenes pages (MacTutor and Carnegie); the third-century BC date and circumference measurement are standard and uncontroversial.\n\n- **Ancient Greece beat:** National Geographic (\"People knew the planet was a sphere as far back as ancient Greece\") and HISTORY support it.\n- **Size beat:** NOAA, OpenStax (\"nautical experts all concurred that Columbus's estimates of the width of the Atlantic Ocean were far too low\") and Encyclopedia.com (the Portuguese committee argued Asia \"lay too far away\") support both the underestimate and the expert critics.\n- **Textbook beat:** Cambridge HPS dates On the Sphere to c. 1230 and says it \"remained popular for four hundred years\"; MacTutor has it as the basic astronomy text from the mid-13th to the 17th century; RAS confirms university use and that its students \"certainly didn't think that the Earth was flat\".\n- **Luck beat:** Live Science (\"got lucky by bumping into land that, of course, wasn't Asia\"), OpenStax and HISTORY support it.\n- **Origin beat:** HISTORY, CSMonitor and National Geographic tie the myth to Irving's 1828 biography, and \"usually traced\" is the right hedge given that other 19th-century writers also spread it.\n\nDates and names (1492, 1828, third century BC, thirteenth century) are correct. No hard exclusion applies: the script avoids the religion-versus-science framing, involves no living people or recent events, and treats a historical misconception rather than a conspiracy theory.\n\nThe remaining points are source-list tidying and one unclear pronoun in the narration, none of which affects accuracy.",
+      "fixes_applied": [
+        "Reality beat 4 narration: \"Instead of Asia, he ran into a continent nobody in Europe knew was there.\" The absolute is overstated: Norse voyagers reached North America around AD 1000, and the cited HISTORY article itself notes the Americas were known to \"Vikings since the 11th century\". In 1492 he also landed on Caribbean islands, not the mainland. The line is also a near-verbatim lift of HISTORY's sentence (\"ran across a continent nobody in Europe even knew was there\"). Change to: \"He got lucky. Instead of Asia, he ran into lands that weren't on any European map.\" The key_line \"He got lucky, not proven right\" can stay."
+      ],
+      "open_minor_points": [
+        "Reality beat 4 narration: \"He got lucky.\" follows the textbook beat (\"Its readers certainly didn't think Earth was flat\"), so \"He\" has no clear antecedent when heard. Change to \"Columbus got lucky. Instead of Asia, he ran into lands that weren't on any European map.\"",
+        "Reality beat 1 narration: \"People knew the Earth was round as far back as ancient Greece\" matches National Geographic's wording, but \"Scholars knew...\" or \"Educated people knew...\" would be more precise and consistent with the summary.",
+        "Reality beat 1 sources: the NOAA page does not mention Eratosthenes (only that ancient scientists estimated Earth's size) and the HISTORY article does not mention him either. MacTutor and Carnegie carry the Eratosthenes claim; consider dropping NOAA from this beat.",
+        "Reality beat 3 sources: the RAS page gives no duration for the textbook's use; the 'about four hundred years' rests on Cambridge HPS ('remained popular for four hundred years') and MacTutor (mid-13th century until the 17th century). Fine as is, but RAS supports only the university use and the 'didn't think Earth was flat' line.",
+        "Reality beat 4 sources: replace the CBS News syndicated URL with the original Live Science article (Christopher Wanjek, 'Top 5 Misconceptions About Columbus').",
+        "Reality beat 4 sources: the KENW 'Dumb Ideas that Changed the World' radio segment page is a weak source; drop it or replace it with a stronger one (e.g. Britannica or Smithsonian). Live Science, OpenStax and HISTORY already support the beat.",
+        "Reality beat 2 sources: the Christian Science Monitor and HISTORY pages support the size dispute and Columbus's underestimate but not the expert critics. That part is supported by NOAA, OpenStax and Encyclopedia.com, so list those three first.",
+        "Origin beat sources: the State Historical Society of North Dakota post ties the myth to Irving's 1828 book but does not explicitly call it the origin. HISTORY, CSMonitor and National Geographic carry the claim, and the 'usually traced' hedge is appropriate (Jeffrey Burton Russell also points to Letronne, Draper and A. D. White as popularisers)."
+      ]
+    }
+  },
+  {
+    "claim": "Marie Antoinette said \"Let them eat cake.\"",
+    "verdict": "MYTH",
+    "hook": "No evidence the queen ever said her most famous line",
+    "summary": "There is no evidence that Marie Antoinette ever said \"Let them eat cake.\" The line appears in Rousseau's Confessions, begun in the 1760s when she was a child in Austria, and is credited only to an unnamed \"great princess.\" Similar tales had already been told about earlier royals.",
+    "category": "Famous Misquotes",
+    "era": "French Revolution",
+    "year": 1789,
+    "key_people": [
+      "Marie Antoinette",
+      "Jean-Jacques Rousseau",
+      "Marie-Thérèse of Spain"
+    ],
+    "event": "The \"Let them eat cake\" misquote",
+    "key_places": [
+      "Versailles",
+      "Paris",
+      "Austria"
+    ],
+    "image_search_terms": [
+      "Marie Antoinette portrait Vigee Le Brun",
+      "Jean-Jacques Rousseau portrait",
+      "Palace of Versailles painting 18th century",
+      "Marie Antoinette engraving"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#marieantoinette",
+      "#misquotes",
+      "#frenchhistory",
+      "#versailles",
+      "#historymyths",
+      "#didyouknow",
+      "#famousquotes"
+    ],
+    "pronunciations": [
+      {
+        "word": "Antoinette",
+        "say": "An-twah-net"
+      },
+      {
+        "word": "Rousseau",
+        "say": "Roo-soh"
+      },
+      {
+        "word": "brioche",
+        "say": "bree-osh"
+      },
+      {
+        "word": "Marie-Thérèse",
+        "say": "Mah-ree Tay-rez"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "There is no evidence Marie Antoinette ever said it. Historians have found no trace of the line in any document linked to her during her lifetime.",
+        "key_line": "No evidence she ever said it",
+        "sources": [
+          {
+            "title": "Marie Antoinette",
+            "url": "https://www.worldhistory.org/Marie_Antoinette/",
+            "publisher": "World History Encyclopedia"
+          },
+          {
+            "title": "Did Marie Antoinette really say, \"Let them eat cake\"?",
+            "url": "https://www.historyskills.com/classroom/modern-history/marie-antoinette-let-them-eat-cake/",
+            "publisher": "History Skills"
+          },
+          {
+            "title": "Marie Antoinette - France: Women in the Revolution - Research Guides at Library of Congress",
+            "url": "https://guides.loc.gov/women-in-the-french-revolution/marie-antoinette",
+            "publisher": "Library of Congress"
+          }
+        ]
+      },
+      {
+        "narration": "The line appears in Jean-Jacques Rousseau's Confessions, begun in the 1760s. He credits it only to a great princess.",
+        "key_line": "Rousseau wrote it in the 1760s",
+        "sources": [
+          {
+            "title": "Did Marie-Antoinette Really Say 'Let Them Eat Cake'?",
+            "url": "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Did Marie Antoinette really say 'Let them eat cake?'",
+            "url": "https://www.historyanswers.co.uk/people-politics/did-marie-antoinette-really-say-let-them-eat-cake/",
+            "publisher": "All About History (Future Publishing)"
+          },
+          {
+            "title": "Did Marie Antoinette really say, \"Let them eat cake\"?",
+            "url": "https://www.historyskills.com/classroom/modern-history/marie-antoinette-let-them-eat-cake/",
+            "publisher": "History Skills"
+          }
+        ]
+      },
+      {
+        "narration": "When Rousseau was writing, Marie Antoinette was a child of about nine or ten, still living in Austria.",
+        "key_line": "She was a child in Austria",
+        "sources": [
+          {
+            "title": "Did Marie-Antoinette Really Say 'Let Them Eat Cake'?",
+            "url": "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Did Marie Antoinette really say 'Let them eat cake?'",
+            "url": "https://www.historyanswers.co.uk/people-politics/did-marie-antoinette-really-say-let-them-eat-cake/",
+            "publisher": "All About History (Future Publishing)"
+          },
+          {
+            "title": "Did Marie Antoinette really say, \"Let them eat cake\"?",
+            "url": "https://www.historyskills.com/classroom/modern-history/marie-antoinette-let-them-eat-cake/",
+            "publisher": "History Skills"
+          },
+          {
+            "title": "Marie Antoinette",
+            "url": "https://www.worldhistory.org/Marie_Antoinette/",
+            "publisher": "World History Encyclopedia"
+          }
+        ]
+      },
+      {
+        "narration": "The original French says brioche, an enriched bread made with butter and eggs.",
+        "key_line": "The French says brioche",
+        "sources": [
+          {
+            "title": "Did Marie Antoinette really say, \"Let them eat cake\"?",
+            "url": "https://www.historyskills.com/classroom/modern-history/marie-antoinette-let-them-eat-cake/",
+            "publisher": "History Skills"
+          },
+          {
+            "title": "Did Marie Antoinette really say 'Let them eat cake?'",
+            "url": "https://www.historyanswers.co.uk/people-politics/did-marie-antoinette-really-say-let-them-eat-cake/",
+            "publisher": "All About History (Future Publishing)"
+          },
+          {
+            "title": "Did Marie-Antoinette Really Say 'Let Them Eat Cake'?",
+            "url": "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+            "publisher": "HISTORY (A&E Television Networks)"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The tale was already old. A similar line about pastry crust was told of Marie-Thérèse, wife of Louis XIV, about a century earlier.",
+        "key_line": "An older tale about another queen",
+        "sources": [
+          {
+            "title": "Did Marie-Antoinette Really Say 'Let Them Eat Cake'?",
+            "url": "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Did Marie Antoinette really say 'Let them eat cake?'",
+            "url": "https://www.historyanswers.co.uk/people-politics/did-marie-antoinette-really-say-let-them-eat-cake/",
+            "publisher": "All About History (Future Publishing)"
+          },
+          {
+            "title": "5 Things You Might Not Know About Marie Antoinette",
+            "url": "https://www.nationalgeographic.com/history/article/marie-antoinette-facts-france-death-queen-anniversary",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Did Marie-Antoinette Really Say 'Let Them Eat Cake'?",
+        "url": "https://www.history.com/articles/did-marie-antoinette-really-say-let-them-eat-cake",
+        "publisher": "HISTORY (A&E Television Networks)"
+      },
+      {
+        "title": "5 Things You Might Not Know About Marie Antoinette",
+        "url": "https://www.nationalgeographic.com/history/article/marie-antoinette-facts-france-death-queen-anniversary",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "Marie Antoinette",
+        "url": "https://www.worldhistory.org/Marie_Antoinette/",
+        "publisher": "World History Encyclopedia"
+      },
+      {
+        "title": "Marie Antoinette - France: Women in the Revolution - Research Guides at Library of Congress",
+        "url": "https://guides.loc.gov/women-in-the-french-revolution/marie-antoinette",
+        "publisher": "Library of Congress"
+      }
+    ],
+    "id": "marie-antoinette-said-let-them-eat-cake-fc8e",
+    "approved_at": "2026-11-10T19:25:44.436173+00:00",
+    "review": {
+      "research": "Verdict MYTH holds: every source opened (HISTORY, World History Encyclopedia, National Geographic, Library of Congress, All About History, History Skills) says there is no evidence she said it, and none treats it as disputed. Changes made: (1) Rousseau date hedged to \"the 1760s\" because sources disagree (1764, 1766, c.1767); her age changed to \"about nine or ten\" for the same reason. (2) \"Brioche, not cake\" softened to what the sources state (the French says brioche, an enriched bread). (3) Dropped the origin beat \"earliest known print link comes decades after her death\": the 1843 Alphonse Karr claim appeared only in search snippets and non-citable pages, and I could not open a reliable page confirming it. (4) Origin beat rewritten around the Marie-Thérèse \"pastry crust\" version, which two opened sources support. (5) Added Marie-Thérèse to key_people and pronunciations; hook reworded to \"no evidence\" rather than \"never recorded\". Not verified: Britannica, Smithsonian, Oxford Reference and Live Science all blocked or returned empty pages, so none is cited. Caveat: History Skills and All About History are lower-tier than encyclopaedias/museums; they are used alongside HISTORY, World History Encyclopedia, National Geographic or the Library of Congress on every beat except the brioche beat, which rests on History Skills, All About History and HISTORY. Narration totals about 95 words, max 23 per beat.",
+      "adversarial": "The verdict is sound and matches the historical consensus: there is no evidence Marie Antoinette said \"Let them eat cake\", and I found nothing in the cited sources that contradicts it. I did not run a separate search for counter-evidence, and the Britannica page I tried as an extra check returned a 403.\n\nI opened all six cited pages; they are real and say the following:\n- **No evidence:** World History Encyclopedia says \"there is no evidence she ever said\" it; the Library of Congress guide says it has \"never been proven\" and calls the words apocryphal; History Skills says there is no credible evidence and no contemporaneous record.\n- **Rousseau:** History.com, All About History and History Skills all confirm the line is in the Confessions, written in the 1760s, credited only to \"a great princess\".\n- **Her age:** The sources give nine or ten (History.com: 10; All About History: nine; History Skills: not yet ten and still in Austria). This fits her birth on 2 November 1755 and arrival in France in 1770.\n- **Brioche:** All three cited sources give the French as \"Qu'ils mangent de la brioche\".\n- **Marie-Thérèse:** History.com and All About History both support the \"croûte de pâté\" version attributed to the wife of Louis XIV, who married in 1660.\n\nThe script is hedged where it needs to be: \"no evidence\", \"begun in the 1760s\", \"about nine or ten\", \"was told of\". No hard exclusion applies: the topic is an 18th-century misquote with no religion, living people, current politics or harm-minimising framing.\n\nNothing viewers will hear or read is false or unsupported by at least two cited sources, so there are no blocking fixes. The minor fixes are about source tidiness and one ambiguous phrase in the origin beat. Safe to publish.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Origin beat: \"A similar line about pastry crust was told of Marie-Thérèse, wife of Louis XIV, about a century earlier\" can be heard as saying the story was circulating in the 1600s. The cited pages only say she was 'reputed' or 'alleged' to have said it, and she lived about a century earlier. Safer wording: \"A similar line about pastry crust was attributed to Marie-Thérèse, wife of Louis XIV, who lived about a century earlier.\"",
+        "Origin beat: drop the National Geographic source from this beat. It only says the line was attributed to earlier foreign-born queens; it does not name Marie-Thérèse or mention pastry crust. History.com and All About History do support the beat, so it still has two sources.",
+        "Reality beat 1: the second sentence (\"no trace of the line in any document linked to her during her lifetime\") is specifically backed only by History Skills ('no contemporaneous record from Versailles'). World History Encyclopedia and the Library of Congress guide say only 'no evidence' and 'never been proven'. The claim is accurate, but a stronger source would help, such as Britannica's 'Did Marie-Antoinette really say let them eat cake?' or Antonia Fraser's biography.",
+        "Reality beat 3: World History Encyclopedia does not mention Rousseau or the timing; it only gives her birth (2 November 1755, Vienna) and arrival at Versailles (14 May 1770). Keep it as support for the dates only, or remove it. The other three sources carry the beat.",
+        "Reality beat 4: only History Skills describes brioche as enriched bread with butter and eggs. History.com and All About History give only the French 'Qu'ils mangent de la brioche'. The description is uncontroversial, but it rests on one source.",
+        "History Skills is an unsigned classroom site and the weakest source in the list, yet several beats lean on it. Replace or supplement it with Britannica or History Extra where possible.",
+        "Metadata \"year\": 1789 is arbitrary. The line predates the Revolution in Rousseau (written in the 1760s, published 1782), and no cited source dates the misquote to 1789. Consider 1782 or leave the year out if it is shown on screen.",
+        "Cited sources disagree on when Rousseau wrote the passage (All About History: 1764; History.com: 1766; Britannica gives about 1767). The script's \"begun in the 1760s\" and \"about nine or ten\" cover this adequately; do not make it more specific."
+      ]
+    }
+  },
+  {
+    "claim": "Thomas Edison invented the light bulb.",
+    "verdict": "MYTH",
+    "hook": "Who really lit the first electric light?",
+    "summary": "Electric lamps existed for decades before Edison. Humphry Davy demonstrated an arc lamp in the early 1800s, Frederick de Moleyns patented an incandescent lamp in 1841, and Joseph Swan showed his lamp in Newcastle in early 1879. Edison's achievement was a practical bulb and the power system behind it.",
+    "category": "Science & Inventions",
+    "era": "Victorian Era",
+    "year": 1879,
+    "key_people": [
+      "Thomas Edison",
+      "Joseph Swan",
+      "Humphry Davy",
+      "Frederick de Moleyns"
+    ],
+    "event": "Invention of the light bulb",
+    "key_places": [
+      "Menlo Park",
+      "Newcastle upon Tyne",
+      "London"
+    ],
+    "image_search_terms": [
+      "Thomas Edison portrait 1879",
+      "Joseph Swan portrait",
+      "Edison incandescent lamp engraving",
+      "Humphry Davy arc lamp illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#edison",
+      "#lightbulb",
+      "#inventions",
+      "#sciencehistory",
+      "#historyfacts",
+      "#didyouknow",
+      "#historymyths"
+    ],
+    "pronunciations": [
+      {
+        "word": "Humphry Davy",
+        "say": "Hum-free Day-vee"
+      },
+      {
+        "word": "de Moleyns",
+        "say": "Dem-uh-leenz"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Electric light came long before Edison. In the early 1800s, Humphry Davy demonstrated an arc lamp at London's Royal Institution.",
+        "key_line": "Electric light glowed in the early 1800s",
+        "sources": [
+          {
+            "title": "First electric arc lamp | Guinness World Records",
+            "url": "https://www.guinnessworldrecords.com/world-records/109048-first-electric-arc-lamp",
+            "publisher": "Guinness World Records"
+          },
+          {
+            "title": "Arc Lamp | History | Research Starters | EBSCOhost",
+            "url": "https://www.ebsco.com/research-starters/history/arc-lamp/",
+            "publisher": "EBSCO"
+          },
+          {
+            "title": "Sir Humphry Davy (1778–1829) | Royal Institution",
+            "url": "https://www.rigb.org/node/2692",
+            "publisher": "Royal Institution"
+          }
+        ]
+      },
+      {
+        "narration": "In early 1879, Joseph Swan demonstrated an incandescent lamp in Newcastle. Edison's breakthrough came that October.",
+        "key_line": "Swan showed his lamp in early 1879",
+        "sources": [
+          {
+            "title": "Joseph Wilson Swan - The Linda Hall",
+            "url": "https://www.lindahall.org/about/news/scientist-of-the-day/joseph-wilson-swan/",
+            "publisher": "Linda Hall Library"
+          },
+          {
+            "title": "Archives Biographies: Joseph Swan",
+            "url": "https://www.theiet.org/membership/library-archives/the-iet-archives/biographies/joseph-swan/",
+            "publisher": "Institution of Engineering and Technology"
+          },
+          {
+            "title": "Let There Be Light: Joseph Swan in the North East Nature Archive",
+            "url": "https://www.nhsn.org.uk/?p=74876",
+            "publisher": "Natural History Society of Northumbria"
+          },
+          {
+            "title": "When Thomas Edison Turned Night Into Day",
+            "url": "https://www.history.com/articles/when-edison-turned-night-into-day",
+            "publisher": "HISTORY (A&E Television Networks)"
+          }
+        ]
+      },
+      {
+        "narration": "Back in 1841, Frederick de Moleyns had already patented an incandescent lamp in England.",
+        "key_line": "A lamp patent existed in 1841",
+        "sources": [
+          {
+            "title": "When Thomas Edison Turned Night Into Day",
+            "url": "https://www.history.com/articles/when-edison-turned-night-into-day",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "History of the Incandescent Light – Edison Tech Center",
+            "url": "https://edisontechcenter.org/incandescent/",
+            "publisher": "Edison Tech Center"
+          }
+        ]
+      },
+      {
+        "narration": "Edison's real feat was a practical bulb that burned for hours, plus a system to power it. In 1883, his British company merged with Swan's.",
+        "key_line": "Edison made it practical",
+        "sources": [
+          {
+            "title": "The Electric Light System - Thomas Edison National Historical Park (U.S. National Park Service)",
+            "url": "https://www.nps.gov/edis/learn/kidsyouth/the-electric-light-system-phonograph-motion-pictures.htm",
+            "publisher": "U.S. National Park Service"
+          },
+          {
+            "title": "The History of the Light Bulb | Department of Energy",
+            "url": "https://www.energy.gov/articles/history-light-bulb",
+            "publisher": "U.S. Department of Energy"
+          },
+          {
+            "title": "The Edison and Swan Electric Light Company Limited | Science Museum Group Collection",
+            "url": "https://collection.sciencemuseumgroup.org.uk/people/ap8506/the-edison-and-swan-electric-light-company-limited",
+            "publisher": "Science Museum Group"
+          },
+          {
+            "title": "Archives Biographies: Joseph Swan",
+            "url": "https://www.theiet.org/membership/library-archives/the-iet-archives/biographies/joseph-swan/",
+            "publisher": "Institution of Engineering and Technology"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "In December 1879, newspapers trumpeted Edison's lamp, and thousands streamed into Menlo Park to see it.",
+        "key_line": "Edison won the headlines",
+        "sources": [
+          {
+            "title": "When Thomas Edison Turned Night Into Day",
+            "url": "https://www.history.com/articles/when-edison-turned-night-into-day",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "Paper Horseshoe Filament Lamp Used at New Year's Eve Demonstration of the Edison Lighting System, 1879",
+            "url": "https://www.thehenryford.org/collections/explore/artifact/83459?AssetId=THF174078",
+            "publisher": "The Henry Ford"
+          }
+        ]
+      },
+      {
+        "narration": "Edison became the most celebrated name, but the light bulb can't be credited to one inventor.",
+        "key_line": "Many inventors, one famous name",
+        "sources": [
+          {
+            "title": "The History of the Light Bulb | Department of Energy",
+            "url": "https://www.energy.gov/articles/history-light-bulb",
+            "publisher": "U.S. Department of Energy"
+          },
+          {
+            "title": "History of the Incandescent Light – Edison Tech Center",
+            "url": "https://edisontechcenter.org/incandescent/",
+            "publisher": "Edison Tech Center"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "The Electric Light System - Thomas Edison National Historical Park (U.S. National Park Service)",
+        "url": "https://www.nps.gov/edis/learn/kidsyouth/the-electric-light-system-phonograph-motion-pictures.htm",
+        "publisher": "U.S. National Park Service"
+      },
+      {
+        "title": "The History of the Light Bulb | Department of Energy",
+        "url": "https://www.energy.gov/articles/history-light-bulb",
+        "publisher": "U.S. Department of Energy"
+      },
+      {
+        "title": "Thomas Edison's Lightbulb | The Franklin Institute",
+        "url": "https://www.fi.edu/en/science-and-education/collection/edisons-lightbulb",
+        "publisher": "The Franklin Institute"
+      }
+    ],
+    "id": "thomas-edison-invented-the-light-bulb-90a0",
+    "approved_at": "2026-11-10T19:31:45.290997+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported: the U.S. National Park Service states outright that Edison \"did not invent the first light bulb\", the U.S. Department of Energy says the bulb \"can't be credited to one inventor\", and the Franklin Institute says he \"didn't dream up the first light bulb\". Every cited page was opened. Changes made: (1) Davy beat now says he demonstrated an arc lamp at the Royal Institution in the \"early 1800s\" because sources give 1808 (Guinness) and 1809 (EBSCO) for the demonstration. (2) Swan beat: dropped \"carbon filament\" and \"months before\" wording in favour of \"early 1879\" (IET says January 1879; Linda Hall, Natural History Society of Northumbria and Newcastle Castle say 3 February 1879) and Edison's October 1879 breakthrough. (3) de Moleyns beat kept, with \"in England\" as the sources phrase it. (4) Edison beat: \"long-lasting\" changed to \"burned for hours\" to match NPS/History; merger worded as his British company merging with Swan's in 1883. (5) Origin: removed the unsourced \"master of publicity\", \"headlines worldwide\" and \"schoolbooks\" claims; replaced with the sourced December 1879 newspaper coverage and crowds at Menlo Park, and the \"can't be credited to one inventor\" line. Narration totals 107 words, max 25 per beat. Caveats: Britannica and Smithsonian Magazine pages returned HTTP 403 and could not be opened, so they are not cited. One opened source (EBSCO's Swan entry) gives outlier dates (Newcastle demonstration February 1878, merger 1884) that conflict with the Science Museum Group, IET and Linda Hall Library; I followed the latter and did not cite that page. The \"de Moleyns\" pronunciation was not verified by any source; I changed it to the traditional English pronunciation of the surname as I know it, which should be checked before recording.",
+      "adversarial": "The script is accurate and can be published: I found no blocking fixes, no genuine dispute and no hard exclusion. I opened 11 of the 12 distinct cited pages; the Science Museum Group page returned HTTP 429 and the Franklin Institute page was not checked.\n\n- **Verdict:** The National Park Service's Edison site says \"Thomas Alva Edison did not invent the first light bulb\", and the Department of Energy says \"the light bulb can't be credited to one inventor\". The script credits Edison with the practical bulb and the power system, so it does not present an established fact as a myth.\n- **Davy:** Guinness (1808) and EBSCO (1809, noting scholars give 1808–1810) both place the arc lamp demonstration at the Royal Institution. \"Early 1800s\" is the right hedge.\n- **Swan:** Linda Hall and the Natural History Society of Northumbria give 3 February 1879 in Newcastle before 700 people; IET gives January 1879 in Newcastle. \"Early 1879\" covers both.\n- **De Moleyns:** HISTORY and the Edison Tech Center both confirm the 1841 English patent for an incandescent lamp.\n- **Edison:** HISTORY (more than 13 hours), the Department of Energy (14.5 hours) and the National Park Service (at least 13 hours) agree on a fall 1879 breakthrough. The National Park Service disputes the specific 21 October date, but the script only says \"October\".\n- **Merger:** IET confirms 1883 and the Department of Energy confirms the merger that formed Ediswan.\n- **Publicity:** HISTORY confirms the New York Herald article of 21 December 1879, and The Henry Ford confirms \"thousands streamed into Menlo Park\" on New Year's Eve.\n\nThe remaining issues are source-list tidying: two sources that do not cover the half of the beat they are attached to, a single-source \"thousands\", and one link to re-check. The topic involves no living people, religion, politics or recent events.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Origin beat 1 ('thousands streamed into Menlo Park'): only The Henry Ford says 'thousands'. HISTORY describes a 'ceaseless flow' of visitors and 'hundreds' around Edison on 31 December. The figure is accurate, but add a second source that states it explicitly (e.g. the Rutgers Thomas A. Edison Papers account of the New Year's Eve 1879 demonstration).",
+        "Reality beat 2 (Swan): the HISTORY article does not mention Swan or Newcastle. It only supports the 'Edison's breakthrough came that October' half. Add the Department of Energy article to this beat as a second source for October 1879 (it says 'By October 1879 ... 14.5 hours').",
+        "Reality beat 1 (Davy): the Royal Institution page only says Davy invented 'a very early form of arc lamp', with no demonstration or date. Guinness (1808) and EBSCO (1809, noting scholars give 1808–1810) carry the claim, so the 'early 1800s' hedge is right and should stay. Rank the Royal Institution page last or swap it for a stronger source.",
+        "Reality beat 4 (1883 merger): the Science Museum Group page returned HTTP 429 and could not be checked. IET confirms 1883 and the name 'Edison and Swan United Electric Light Company'; the Department of Energy confirms the merger but gives no year. Re-check that the Science Museum link resolves before publishing.",
+        "Verdict sources: the Franklin Institute page was not opened in this review. The NPS and Department of Energy pages both support the verdict explicitly.",
+        "Pronunciation of 'de Moleyns' ('Dem-uh-leenz') could not be confirmed from the sources opened; verify it before recording the voice-over.",
+        "Metadata: 'era: Victorian Era' fits 1841–1883 but not Davy's demonstration (c. 1808–1810, Georgian). No change is needed unless the era is shown on screen next to the Davy beat."
+      ]
+    }
+  },
+  {
+    "claim": "An apple fell on Isaac Newton's head and he discovered gravity.",
+    "verdict": "MYTH",
+    "hook": "Did an apple really bonk Newton on the head?",
+    "summary": "Newton did say a falling apple got him thinking about gravity. But there is no evidence it hit his head, and his theory was not published until 1687, about twenty years later. The bump on the head came from later retellings.",
+    "category": "Early Modern",
+    "era": "Scientific Revolution",
+    "year": 1666,
+    "key_people": [
+      "Isaac Newton",
+      "William Stukeley",
+      "Voltaire"
+    ],
+    "event": "Newton and the apple",
+    "key_places": [
+      "Woolsthorpe Manor",
+      "Lincolnshire",
+      "Kensington",
+      "England"
+    ],
+    "image_search_terms": [
+      "Isaac Newton portrait",
+      "Newton apple tree engraving",
+      "William Stukeley portrait",
+      "Principia Mathematica title page",
+      "Woolsthorpe Manor illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#isaacnewton",
+      "#gravity",
+      "#sciencehistory",
+      "#historyfacts",
+      "#didyouknow",
+      "#historymyths",
+      "#physics"
+    ],
+    "pronunciations": [
+      {
+        "word": "Stukeley",
+        "say": "STEWK-lee"
+      },
+      {
+        "word": "Woolsthorpe",
+        "say": "Wools-thorp"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "There's no evidence the apple ever hit Newton's head. He only said that seeing one fall set him thinking.",
+        "key_line": "No evidence it hit his head",
+        "sources": [
+          {
+            "title": "Did an Apple Really Fall on Isaac Newton's Head?",
+            "url": "https://www.history.com/articles/did-an-apple-really-fall-on-isaac-newtons-head",
+            "publisher": "History.com"
+          },
+          {
+            "title": "How 'Eureka' Moments in Science Happen",
+            "url": "https://www.nationalgeographic.com/science/article/eureka-insight-newton-archimedes-genius-science",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Revised Memoir of Newton (Normalized)",
+            "url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00001",
+            "publisher": "The Newton Project, University of Oxford"
+          }
+        ]
+      },
+      {
+        "narration": "In 1726, over tea in his Kensington garden, Newton told his friend William Stukeley that a falling apple made him wonder why it always dropped straight down.",
+        "key_line": "He just saw an apple fall",
+        "sources": [
+          {
+            "title": "Revised Memoir of Newton (Normalized)",
+            "url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00001",
+            "publisher": "The Newton Project, University of Oxford"
+          },
+          {
+            "title": "How 'Eureka' Moments in Science Happen",
+            "url": "https://www.nationalgeographic.com/science/article/eureka-insight-newton-archimedes-genius-science",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Did an Apple Really Fall on Isaac Newton's Head?",
+            "url": "https://www.history.com/articles/did-an-apple-really-fall-on-isaac-newtons-head",
+            "publisher": "History.com"
+          }
+        ]
+      },
+      {
+        "narration": "And there was no instant discovery. His theory of gravity was only published in 1687, about twenty years after that apple.",
+        "key_line": "Published about twenty years later",
+        "sources": [
+          {
+            "title": "Did an Apple Really Fall on Isaac Newton's Head?",
+            "url": "https://www.history.com/articles/did-an-apple-really-fall-on-isaac-newtons-head",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Isaac Newton (Stanford Encyclopedia of Philosophy)",
+            "url": "https://plato.stanford.edu/entries/newton/",
+            "publisher": "Stanford Encyclopedia of Philosophy, Stanford University"
+          },
+          {
+            "title": "Isaac Newton - The Linda Hall",
+            "url": "https://www.lindahall.org/about/news/scientist-of-the-day/isaac-newton-4/",
+            "publisher": "Linda Hall Library"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Voltaire put the apple story into print in 1727, the year Newton died.",
+        "key_line": "Voltaire printed it in 1727",
+        "sources": [
+          {
+            "title": "Isaac Newton - The Linda Hall",
+            "url": "https://www.lindahall.org/about/news/scientist-of-the-day/isaac-newton-4/",
+            "publisher": "Linda Hall Library"
+          },
+          {
+            "title": "Falling Apple Story (Anecdote)",
+            "url": "https://www.sfu.ca/phys/demos/demoindex/mechanics/mech1l/falling_apple.html",
+            "publisher": "Simon Fraser University"
+          }
+        ]
+      },
+      {
+        "narration": "Neither Stukeley nor Voltaire mentions his head. That bump was added in later retellings.",
+        "key_line": "The bump came later",
+        "sources": [
+          {
+            "title": "Falling Apple Story (Anecdote)",
+            "url": "https://www.sfu.ca/phys/demos/demoindex/mechanics/mech1l/falling_apple.html",
+            "publisher": "Simon Fraser University"
+          },
+          {
+            "title": "Revised Memoir of Newton (Normalized)",
+            "url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00001",
+            "publisher": "The Newton Project, University of Oxford"
+          },
+          {
+            "title": "Isaac Newton - The Linda Hall",
+            "url": "https://www.lindahall.org/about/news/scientist-of-the-day/isaac-newton-4/",
+            "publisher": "Linda Hall Library"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Did an Apple Really Fall on Isaac Newton's Head?",
+        "url": "https://www.history.com/articles/did-an-apple-really-fall-on-isaac-newtons-head",
+        "publisher": "History.com"
+      },
+      {
+        "title": "How 'Eureka' Moments in Science Happen",
+        "url": "https://www.nationalgeographic.com/science/article/eureka-insight-newton-archimedes-genius-science",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "Revised Memoir of Newton (Normalized)",
+        "url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00001",
+        "publisher": "The Newton Project, University of Oxford"
+      }
+    ],
+    "id": "an-apple-fell-on-isaac-newton-s-head-and-he-disc-9dcf",
+    "approved_at": "2026-11-10T19:32:58.368295+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported: History.com says there is no evidence the apple landed on Newton's head, a Royal Society historian quoted by National Geographic rejects the head strike, and The Naked Scientists call the bonk false. The core (Newton told Stukeley in 1726 that a falling apple prompted his thinking) is real and is kept as nuance. Changes made: (1) Reality beats reworded to match sources (Stukeley's text says the notion was \"occasion'd by the fall of an apple\" and he asked why it should \"always descend perpendicularly\"). (2) \"Voltaire spread the story across Europe soon after Newton died\" narrowed to what sources state: Voltaire printed it in 1727, the year Newton died. (3) \"Bump added likely in the 1800s\" dropped: only one reliable page I could open (Simon Fraser University, citing Gjertsen/De Morgan) attributes the blow on the head to Isaac D'Israeli, and I could not open a second reliable source for the date or author, so the beat now only says the head detail is absent from Stukeley and Voltaire and came in later retellings. (4) Stukeley pronunciation changed to \"Styook-lee\" (my judgement, not source-verified; check before recording). Caveats: Britannica, Smithsonian, New Scientist, Wired and the Isaac Newton Institute pages could not be fetched (403/blocked), so they are not cited. \"About twenty years\" is arithmetic from sourced dates (1666 at Woolsthorpe, Principia 1687), not a quoted figure. Total narration is 90 words, max 23 per beat.",
+      "adversarial": "The script is accurate, properly hedged and safe to publish; I found no blocking problems and no hard exclusion applies.\n\nI opened all six cited pages. All are live, reliable, and say what the script attributes to them:\n\n- **Stukeley conversation:** The Newton Project transcription of Stukeley's 1752 memoir (Royal Society MS/142) confirms the 15 April 1726 visit to Newton's lodgings in Kensington. It records tea \"under the shade of some appletrees\" and the thought \"occasion'd by the fall of an apple\" as he sat in a contemplative mood. It says nothing about the apple hitting him.\n- **Straight down:** Linda Hall quotes Stukeley's line \"Why should that apple always descend perpendicularly to the ground\", which matches the narration.\n- **No evidence it hit his head:** History.com states \"There's no evidence to suggest the fruit actually landed on his head.\" National Geographic quotes historian Anna Marie Roos doubting the head strike while affirming a \"core of truth\".\n- **1687 publication:** History.com and the Stanford Encyclopedia both confirm the Principia appeared in 1687. Linda Hall places the apple in 1666, so \"about twenty years\" is fair.\n- **Voltaire in 1727:** Linda Hall and SFU both confirm Voltaire printed the story in 1727 and again in 1733. Newton died in March 1727, so \"the year Newton died\" is correct.\n- **The bump came later:** SFU, citing Gjertsen and De Morgan, calls the blow to the head a \"later addition\" traced to Isaac D'Israeli.\n\nThe verdict is not disputed. Historians agree that Newton himself told the apple story late in life, and that the head strike and the instant discovery are embellishments. The script concedes the true core (\"Newton did say a falling apple got him thinking\") rather than presenting an established fact as a myth. Scholars do debate how much Newton polished the anecdote, but the script only claims that he said it, which is documented.\n\nThe names, dates and pronunciations check out. The remaining points are source-list tidying only.",
+      "fixes_applied": [
+        "Reality beat 3 narration \"His theory of gravity was only published in 1687, about twenty years after that apple.\" is true, but only one of its three cited sources (History.com) actually states the 1687 publication. The Linda Hall page gives 1666 for the Woolsthorpe stay but mentions the Principia only in passing, and the Naked Scientists page mentions neither the Principia nor 1687. Keep the wording unchanged, but replace the Naked Scientists citation (and ideally the Linda Hall one) with a reliable source that explicitly dates the Principia to 1687, e.g. Britannica's entry on Newton's Principia or a university/Royal Society page, so that at least two cited sources support the date."
+      ],
+      "open_minor_points": [
+        "Reality beat 3 ('about twenty years after that apple'): only Linda Hall dates the apple to 1666. History.com and the Stanford Encyclopedia give only the 1687 Principia date, and Stanford does not mention the apple at all. The arithmetic holds (1666 to 1687 is 21 years), but consider adding a source that states both dates, such as Britannica or the Royal Society.",
+        "Origin beat 2 ('Neither Stukeley nor Voltaire mentions his head. That bump was added in later retellings.'): the Linda Hall page only says that 'in some versions' the apple falls on his head, so it does not back the 'later addition' point. The SFU page carries it, quoting Gjertsen and De Morgan, who trace the blow to Isaac D'Israeli. Consider replacing Linda Hall here with a source that states the later addition explicitly.",
+        "Origin beats 1 and 2: the SFU page says 'neither Stukeley nor Conduitt' mentions a blow; Voltaire's silence is shown only by its quotations of his 1727 and 1733 texts. The narration is accurate, but a direct citation of Voltaire's 1727 essay would be tighter. The essay reads 'upon seeing an apple falling from a tree', with no head; that wording is from my recollection, as I did not open the essay itself.",
+        "History.com is the weakest of the cited outlets and does not mention Voltaire or the date of the apple. Where it is listed first, consider leading with the Newton Project primary source or Linda Hall instead.",
+        "Optional precision: Stukeley's conversation was on 15 April 1726, after dinner, and his memoir was compiled in 1752. The narration's 'In 1726, over tea in his Kensington garden' is accurate as it stands."
+      ]
+    }
+  },
+  {
+    "claim": "People were once paid to wake workers by tapping on their bedroom windows.",
+    "verdict": "FACT",
+    "hook": "Before alarm clocks, who woke everyone up?",
+    "summary": "Knocker-uppers were real. In industrial Britain and Ireland they were paid a few pence a week to wake workers by tapping on windows with long sticks or even pea shooters. In some English towns the job survived into the 1950s.",
+    "category": "Everyday Life in the Past",
+    "era": "Industrial Britain",
+    "year": 1900,
+    "key_people": [
+      "Mary Smith"
+    ],
+    "event": "The knocker-upper trade",
+    "key_places": [
+      "London",
+      "Manchester",
+      "Lancashire"
+    ],
+    "image_search_terms": [
+      "knocker-upper photograph",
+      "Victorian mill workers street engraving",
+      "Lancashire cotton mill illustration",
+      "Victorian London street dawn painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#mythorfact",
+      "#knockerupper",
+      "#victorian",
+      "#oddjobs",
+      "#everydayhistory",
+      "#historyfacts",
+      "#didyouknow",
+      "#industrialrevolution"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "They were called knocker-uppers. In industrial Britain and Ireland, they woke workers before dawn for a few pence a week.",
+        "key_line": "Meet the knocker-uppers",
+        "sources": [
+          {
+            "title": "Who and What Was a Knocker-Upper?",
+            "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Knocker Ups: A Social History of Waking Up in Victorian Britain's Industrial Towns",
+            "url": "https://academic.oup.com/jvc/article/25/3/331/5829726",
+            "publisher": "Oxford University Press (Journal of Victorian Culture)"
+          }
+        ]
+      },
+      {
+        "narration": "Many tapped on upstairs windows with long sticks. Mary Smith, in 1930s East London, used a pea shooter.",
+        "key_line": "One used a pea shooter",
+        "sources": [
+          {
+            "title": "Early risers: before alarm clocks there were knocker-uppers",
+            "url": "https://www.irishtimes.com/opinion/early-risers-before-alarm-clocks-there-were-knocker-uppers-1.4729276",
+            "publisher": "The Irish Times"
+          },
+          {
+            "title": "Who and What Was a Knocker-Upper?",
+            "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "How the Irish were woken every morning before alarm clocks",
+            "url": "https://www.irishcentral.com/roots/history/irish-woken-before-alarm-clocks",
+            "publisher": "IrishCentral"
+          }
+        ]
+      },
+      {
+        "narration": "Early alarm clocks were expensive and not always reliable. And many workers could not afford to oversleep.",
+        "key_line": "Alarm clocks cost too much",
+        "sources": [
+          {
+            "title": "Knocker Ups: A Social History of Waking Up in Victorian Britain's Industrial Towns",
+            "url": "https://academic.oup.com/jvc/article/25/3/331/5829726",
+            "publisher": "Oxford University Press (Journal of Victorian Culture)"
+          },
+          {
+            "title": "Who and What Was a Knocker-Upper?",
+            "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+            "publisher": "JSTOR Daily"
+          }
+        ]
+      },
+      {
+        "narration": "Alarm clocks slowly killed the trade. But in some English towns, knocker-uppers were still working in the 1950s.",
+        "key_line": "Still knocking in the 1950s",
+        "sources": [
+          {
+            "title": "Knocker Ups: A Social History of Waking Up in Victorian Britain's Industrial Towns",
+            "url": "https://academic.oup.com/jvc/article/25/3/331/5829726",
+            "publisher": "Oxford University Press (Journal of Victorian Culture)"
+          },
+          {
+            "title": "Who and What Was a Knocker-Upper?",
+            "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Early risers: before alarm clocks there were knocker-uppers",
+            "url": "https://www.irishtimes.com/opinion/early-risers-before-alarm-clocks-there-were-knocker-uppers-1.4729276",
+            "publisher": "The Irish Times"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds made up today. But the Industrial Revolution brought strict factory hours before most workers could afford alarm clocks.",
+        "key_line": "Factories came before cheap clocks",
+        "sources": [
+          {
+            "title": "Who and What Was a Knocker-Upper?",
+            "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Knocker Ups: A Social History of Waking Up in Victorian Britain's Industrial Towns",
+            "url": "https://academic.oup.com/jvc/article/25/3/331/5829726",
+            "publisher": "Oxford University Press (Journal of Victorian Culture)"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Knocker Ups: A Social History of Waking Up in Victorian Britain's Industrial Towns",
+        "url": "https://academic.oup.com/jvc/article/25/3/331/5829726",
+        "publisher": "Oxford University Press (Journal of Victorian Culture)"
+      },
+      {
+        "title": "Who and What Was a Knocker-Upper?",
+        "url": "https://daily.jstor.org/who-and-what-was-a-knocker-upper/",
+        "publisher": "JSTOR Daily"
+      },
+      {
+        "title": "Early risers: before alarm clocks there were knocker-uppers",
+        "url": "https://www.irishtimes.com/opinion/early-risers-before-alarm-clocks-there-were-knocker-uppers-1.4729276",
+        "publisher": "The Irish Times"
+      }
+    ],
+    "id": "people-were-once-paid-to-wake-workers-by-tapping-371a",
+    "approved_at": "2026-11-10T19:34:58.527463+00:00",
+    "review": {
+      "research": "Verdict FACT is confirmed: knocker-uppers are documented in a peer-reviewed Journal of Victorian Culture article (Oxford University Press), JSTOR Daily and The Irish Times. Changes made: (1) The \"lasted into the 1970s\" beat was removed. The only origin for that claim is a BBC article I could not open (BBC blocks the fetcher), and the academic source contradicts it, saying the trade \"survived until the late 1950s\"; JSTOR Daily says \"as late as 1960\". The beat now says knocker-uppers were still working in some English towns in the 1950s, which all opened sources support. (2) \"Most used a long pole\" became \"Many ... long sticks\" to match the sources. (3) \"photographed in the 1930s\" was dropped: the photo year is given as 1931 by The Irish Times but 1929 elsewhere; the sources agree only that Mary Smith worked in East London in the 1930s. (4) \"Missing a factory shift could mean lost pay\" was softened: only the academic article states late workers were fined, while JSTOR Daily says only that labourers could not afford to lose work. (5) Summary corrected to drop the 1970s. Narration totals 94 words, max 20 per beat. Not verified by me: the BBC page and Atlas Obscura (both refused the fetch), so neither is cited. Mental Floss and IrishCentral are cited only as additional support alongside two stronger sources per beat.",
+      "adversarial": "The script is safe to publish: the verdict FACT is correct and I found no scholarly dispute or counter-evidence. I opened all five cited pages; they are real and say what the script claims.\n\n- **Core claim:** Knocker-ups are documented in the peer-reviewed Journal of Victorian Culture article (Arunima Datta, 2020, vol. 25 no. 3) and in JSTOR Daily, the Irish Times and Mental Floss.\n- **Pay:** \"A few pence a week\" matches the sources: 2d to 6d a week in 1850s Manchester (Datta), threepence in Louth and sixpence for Mary Smith (JSTOR Daily), \"a few pence per week\" (Mental Floss).\n- **Britain and Ireland:** Supported by JSTOR Daily and Mental Floss, though not by the journal article, which covers Britain only.\n- **Tools and Mary Smith:** Long sticks and pea shooters are supported by the Irish Times, JSTOR Daily and IrishCentral. Mary Smith with a pea shooter in 1930s East London is supported by the Irish Times (photographed by John Topham in 1931, Limehouse) and JSTOR Daily (1930s). Some sources date the photograph to 1927, but \"1930s\" for her working period is safe.\n- **Alarm clocks:** \"Expensive and not always reliable\" is near-verbatim from Datta and matches Mental Floss.\n- **1950s survival:** \"In some English towns... still working in the 1950s\" is properly hedged and supported by Datta (survived until the late 1950s; Clitheroe area until 1952), JSTOR Daily (a few still working as late as 1960) and the Irish Times (northern England, 1950). It is, if anything, conservative.\n\nNo hard exclusion applies: the subject is non-religious and non-political, Mary Smith is long dead, and the events are more than 30 years old. The remaining issues are source-list tidying and an optional hook tweak, none of which changes the accuracy of what viewers hear or read.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Beat 2 ('Many tapped on upstairs windows with long sticks. Mary Smith, in 1930s East London, used a pea shooter.'): IrishCentral is the weakest source. It gives no date or place for Mary Smith and takes her details from an embedded Instagram post. Replace it with a stronger source, such as a museum or reputable history outlet that covers the 1931 John Topham photograph of her in Limehouse. The beat is still supported without it: the Irish Times gives 1931, Limehouse, East End and the pea shooter, and JSTOR Daily gives the 1930s and peashooters.",
+        "Beat 3 ('Early alarm clocks were expensive and not always reliable...'): JSTOR Daily does not say early alarm clocks were expensive or unreliable. It only says they took decades to become mainstream and that cheap clocks later killed the trade. Drop it from this beat's source list. The Journal of Victorian Culture article ('extremely expensive and almost unaffordable for industrial workers', 'not always reliable') and Mental Floss ('pricey and erratic') carry the claim.",
+        "Beat 1 and the summary ('industrial Britain and Ireland'): the Journal of Victorian Culture article covers British industrial towns only and does not discuss Ireland. The Ireland part rests on JSTOR Daily (County Louth example) and Mental Floss, which is enough. Consider adding the Irish Times piece to this beat's sources.",
+        "Hook ('Before alarm clocks, who woke everyone up?'): alarm clocks already existed; they were just too expensive and unreliable for most workers, as the narration itself says. An optional tighter version is 'Before cheap alarm clocks, who woke the workers up?'",
+        "Beat 4 ('Alarm clocks slowly killed the trade...'): Mental Floss says the trade 'dwindled into obscurity' in the 1920s, which sits awkwardly beside the 1950s survival claim. It is not cited on this beat, so no change is needed, but keep it off this beat. Optionally mention the documented late cases: Mrs M. A. Law in the Clitheroe area until 1952 (Journal of Victorian Culture) and a 1960 retirement report (JSTOR Daily).",
+        "Mental Floss is a pop-history outlet and the weakest of the three sources repeated on several beats. Where possible, prefer a museum or a reputable history outlet such as BBC or History Extra as the third source."
+      ]
+    }
   }
 ]

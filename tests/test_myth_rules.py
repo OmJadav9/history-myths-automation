@@ -139,3 +139,13 @@ def test_length_fix_asks_to_cut_long_scripts(myth, cfg):
     long = {**myth, "reality": [{**b, "narration": "word " * 40} for b in myth["reality"]]}
     fix = myth_rules.length_fix(long, cfg)
     assert fix and str(cfg["content"]["max_narration_words"]) in fix and "longest beat 40" in fix
+
+
+def test_weak_sources_are_stripped_from_approved_myths(myth, cfg):
+    blocked = {"title": "m", "url": "https://www.mentalfloss.com/x", "publisher": "Mental Floss"}
+    wiki = {"title": "w", "url": "https://en.wikipedia.org/wiki/X", "publisher": "Wikipedia"}
+    dirty = {**myth, "origin": [{**myth["origin"][0], "sources": myth["origin"][0]["sources"] + [blocked, wiki]}]}
+    clean = myth_rules.without_weak_sources(dirty, cfg)
+    assert [s["publisher"] for s in clean["origin"][0]["sources"]] == ["Encyclopaedia Britannica",
+                                                                       "National Museum of Denmark"]
+    assert len(dirty["origin"][0]["sources"]) == 4      # original untouched

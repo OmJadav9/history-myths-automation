@@ -27,6 +27,15 @@ def _independent_domains(sources: list[dict], cfg: dict) -> set[str]:
     return {domain_of(s["url"]) for s in sources if _counts(s, cfg)}
 
 
+def without_weak_sources(myth: dict, cfg: dict) -> dict:
+    """Copy of `myth` with Wikipedia/blocked sources removed, so they never reach the screen or caption."""
+    def keep(sources: list[dict]) -> list[dict]:
+        return [s for s in sources if _counts(s, cfg)]
+    return {**myth, "verdict_sources": keep(myth.get("verdict_sources", [])),
+            "reality": [{**b, "sources": keep(b["sources"])} for b in myth["reality"]],
+            "origin": [{**b, "sources": keep(b["sources"])} for b in myth["origin"]]}
+
+
 def source_problems(myth: dict, cfg: dict) -> list[str]:
     need = cfg["content"]["min_sources"]
     checks = [("verdict", myth.get("verdict_sources", []))]

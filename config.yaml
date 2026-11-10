@@ -28,7 +28,7 @@ content:
   backlog_target: 40
   backlog_warn_below: 10
   refill_budget_minutes: 38
-  refill_workers: 3              # parallel research passes
+  refill_workers: 2              # parallel research passes (they share your Claude usage limit)
   candidates_per_call: 8
   person_cooldown_days: 30
   claim_similarity: 85           # rapidfuzz token_set_ratio threshold for duplicates
