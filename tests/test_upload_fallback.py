@@ -33,6 +33,7 @@ class FakeIG:
 @pytest.fixture
 def media(monkeypatch):
     events = []
+    monkeypatch.setattr(post, "HOSTED_RETRY_WAIT", 0)
     monkeypatch.setattr(post.media_host, "host", lambda mp4: events.append("host") or "https://raw/x.mp4")
     monkeypatch.setattr(post.media_host, "cleanup", lambda: events.append("cleanup"))
     return events
@@ -57,4 +58,18 @@ def test_hosted_branch_is_cleaned_up_if_fallback_fails(media):
     ig = FakeIG(resumable_ok=False, hosted_ok=False)
     with pytest.raises(PublishError):
         post._upload(ig, REEL)
-    assert media == ["host", "cleanup"]
+    assert media == ["host", "cleanup"] and ig.calls.count("from_url:https://raw/x.mp4") == 2
+
+
+def test_hosted_container_error_is_retried_once(media, monkeypatch):
+    monkeypatch.setattr(post, "HOSTED_RETRY_WAIT", 0)
+    ig = FakeIG(resumable_ok=False)
+    errors = iter([PublishError("container ERROR 2207077"), None])
+
+    def flaky_wait(container):
+        ig.calls.append(f"wait:{container}")
+        if container == "c2" and (e := next(errors)):
+            raise e
+    ig.wait_until_ready = flaky_wait
+    assert post._upload(ig, REEL) == ("c2", True)
+    assert ig.calls.count("from_url:https://raw/x.mp4") == 2 and media == ["host"]

@@ -9,12 +9,15 @@ import subprocess
 import time
 from pathlib import Path
 
+import requests
+
 from mythreels.config import ROOT, load_config
 
 log = logging.getLogger(__name__)
 BRANCH = "media"
 RAW = "https://raw.githubusercontent.com"
-SETTLE_SECONDS = 15
+SETTLE_SECONDS = 10
+SERVE_TIMEOUT = 180
 
 
 def _git(*args: str, stdin: str | None = None) -> str:
@@ -28,15 +31,33 @@ def _repo() -> str:
     return os.environ.get("GITHUB_REPOSITORY") or load_config()["repo"]
 
 
+def _wait_until_served(url: str, size: int) -> None:
+    """Instagram must never see a 404: wait until the raw URL serves the whole file."""
+    deadline = time.monotonic() + SERVE_TIMEOUT
+    last = "no response"
+    while time.monotonic() < deadline:
+        try:
+            r = requests.head(url, timeout=20, allow_redirects=False)
+            last = f"{r.status_code} {r.headers.get('Content-Length')}"
+            if r.status_code == 200 and int(r.headers.get("Content-Length", -1)) == size:
+                return
+        except requests.RequestException as e:
+            last = str(e)
+        time.sleep(5)
+    raise RuntimeError(f"hosted video never became available at {url} (last: {last})")
+
+
 def host(mp4: Path) -> str:
-    """Force-push `mp4` alone to the media branch and return its public raw URL."""
+    """Force-push `mp4` alone to the media branch and return its public raw URL once it is served."""
     name = mp4.name
     blob = _git("hash-object", "-w", str(mp4))
     tree = _git("mktree", stdin=f"100644 blob {blob}\t{name}\n")
     commit = _git("commit-tree", tree, "-m", "media: temporary reel upload (deleted after publishing)")
     _git("push", "--force", "origin", f"{commit}:refs/heads/{BRANCH}")
-    time.sleep(SETTLE_SECONDS)       # let raw.githubusercontent.com see the new branch
-    return f"{RAW}/{_repo()}/{BRANCH}/{name}"
+    url = f"{RAW}/{_repo()}/{BRANCH}/{name}"
+    _wait_until_served(url, mp4.stat().st_size)
+    time.sleep(SETTLE_SECONDS)       # a little extra so every CDN edge has it
+    return url
 
 
 def cleanup() -> None:

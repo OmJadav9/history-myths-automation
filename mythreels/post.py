@@ -14,6 +14,8 @@ from mythreels.instagram import AuthError, Instagram, PublishError
 
 log = logging.getLogger(__name__)
 CAPTION_HEAD = 60
+HOSTED_ATTEMPTS = 2
+HOSTED_RETRY_WAIT = 30
 EXPECTED_FAILURES = (subprocess.CalledProcessError, subprocess.TimeoutExpired, requests.RequestException,
                      claude_cli.ClaudeError, PublishError, tts.TTSFailed, RuntimeError, OSError)
 
@@ -89,12 +91,20 @@ def _upload(ig: Instagram, reel: build.Reel) -> tuple[str, bool]:
         log.warning("resumable upload failed (%s); falling back to a hosted video_url", e)
     url = media_host.host(reel.mp4)
     try:
-        container = ig.create_reel_container_from_url(reel.caption, url)
-        ig.wait_until_ready(container)
+        for attempt in range(1, HOSTED_ATTEMPTS + 1):
+            container = ig.create_reel_container_from_url(reel.caption, url)
+            try:
+                ig.wait_until_ready(container)
+                return container, True
+            except PublishError as e:
+                if attempt == HOSTED_ATTEMPTS:
+                    raise
+                log.warning("hosted container %s failed (%s); retrying with a fresh container", container, e)
+                time.sleep(HOSTED_RETRY_WAIT)
     except Exception:
         media_host.cleanup()
         raise
-    return container, True
+    raise PublishError("unreachable")
 
 
 def post_slot(cfg: dict, ig: Instagram, today: date, slot) -> None:

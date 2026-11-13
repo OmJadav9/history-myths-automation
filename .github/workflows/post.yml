@@ -136,6 +136,17 @@ jobs:
           retention-days: 7
           if-no-files-found: warn
 
+      - name: Keep the failed reel for diagnosis
+        if: failure() && steps.mode.outputs.mode != 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-reel
+          path: |
+            output/**/*.mp4
+            output/**/props.json
+          retention-days: 3
+          if-no-files-found: ignore
+
       - name: Report crash
         if: failure()
         run: test -f output/issue_opened || python -m mythreels issue "Posting workflow crashed" "A step failed before the reel code could report it. Open the run for logs."
