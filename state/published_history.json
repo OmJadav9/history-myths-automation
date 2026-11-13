@@ -29,5 +29,13 @@
     "container_id": "17986232177899023",
     "media_id": "17868509322679370",
     "published_at": "2026-11-10T20:09:17.395243+00:00"
+  },
+  {
+    "run_key": "2026-11-13-4",
+    "date_ist": "2026-11-13",
+    "slot": 4,
+    "status": "failed",
+    "error": "container ERROR: Error: Media upload has failed with error code 2207077",
+    "failed_at": "2026-11-13T14:55:59.622048+00:00"
   }
 ]
