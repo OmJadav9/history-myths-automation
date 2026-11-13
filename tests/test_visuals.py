@@ -25,3 +25,8 @@ def test_rejects_small_unsupported_and_blocked_images():
 def test_credit_fields_are_cleaned():
     c = visuals._candidate(_page("pd", "Public domain", name='Arrival of Rurik label QS:Len,"x"'))
     assert c["title"] == "Arrival of Rurik" and c["author"] == "Anon" and c["url"] == "https://u/t.jpg"
+
+
+def test_wikidata_title_markup_is_stripped():
+    c = visuals._candidate(_page("pd", "Public domain", name='Cleopatra title QS:P1476,en:"Cleopatra "'))
+    assert c["title"] == "Cleopatra"

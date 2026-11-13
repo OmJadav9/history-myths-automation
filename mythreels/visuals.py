@@ -22,7 +22,7 @@ BLOCKED_WORDS = re.compile(
 
 def _plain(value: str) -> str:
     text = html.unescape(re.sub(r"<[^>]+>", "", value or ""))
-    return re.sub(r"\s*label QS:.*$", "", text, flags=re.S).strip()   # strip Wikidata label markup
+    return re.sub(r"\s*[a-z]+ QS:.*$", "", text, flags=re.S).strip()   # strip Wikidata "label/title QS:" markup
 
 
 def is_free_license(meta: dict) -> str | None:
