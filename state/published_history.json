@@ -34,8 +34,19 @@
     "run_key": "2026-11-13-4",
     "date_ist": "2026-11-13",
     "slot": 4,
-    "status": "failed",
-    "error": "container ERROR: Error: Media upload has failed with error code 2207077",
-    "failed_at": "2026-11-13T14:55:59.622048+00:00"
+    "myth_id": "cleopatra-lived-closer-to-the-moon-landing-than-3b42",
+    "claim": "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid.",
+    "event": "Cleopatra and the age of the Great Pyramid",
+    "key_people": [
+      "Cleopatra"
+    ],
+    "category": "Ancient World",
+    "verdict": "FACT",
+    "caption_head": "Cleopatra and the pyramids were not neighbours in time\n\nThe ",
+    "voice_engine": "edge-tts",
+    "render_seconds": 107.5,
+    "duration_seconds": 71.0,
+    "status": "pending",
+    "container_id": "17986895756899023"
   }
 ]
