@@ -2,8 +2,10 @@ name: Post myth reel
 
 on:
   schedule:
-    # ~08:11, 12:11, 16:11, 20:11 IST. Must match schedule.slots_utc in config.yaml.
-    - cron: "41 2,6,10,14 * * *"
+    # Poll twice an hour; config.yaml (schedule.slots_utc) decides when a reel is due. GitHub often delays or
+    # drops scheduled runs on quiet repos, so frequent polling + catch-up keeps posts close to their slot time.
+    # A poll with nothing due skips every heavy step and finishes in about a minute.
+    - cron: "11,41 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:

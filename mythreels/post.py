@@ -4,7 +4,7 @@ import logging
 import os
 import subprocess
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 import requests
 
@@ -97,8 +97,8 @@ def _upload(ig: Instagram, reel: build.Reel) -> tuple[str, bool]:
     return container, True
 
 
-def post_slot(cfg: dict, ig: Instagram, slot) -> None:
-    today = schedule.ist_date(cfg, datetime.now(timezone.utc))
+def post_slot(cfg: dict, ig: Instagram, today: date, slot) -> None:
+    """`today` is the IST date the slot belongs to (yesterday's when catching up after midnight)."""
     run_key = f"{today.isoformat()}-{slot}"
     if slot == "test":
         run_key += datetime.now(timezone.utc).strftime("-%H%M%S")
@@ -126,8 +126,8 @@ def post_slot(cfg: dict, ig: Instagram, slot) -> None:
     log.info("published %s as media %s (voice: %s, render %.0fs)", myth["id"], media_id, reel.engine, reel.render_seconds)
 
 
-def _fail_slot(cfg: dict, slot, err: Exception) -> None:
-    today = schedule.ist_date(cfg, datetime.now(timezone.utc)).isoformat()
+def _fail_slot(cfg: dict, day: date, slot, err: Exception) -> None:
+    today = day.isoformat()
     record = {"run_key": f"{today}-{slot}", "date_ist": today, "slot": slot, "status": "failed",
               "error": str(err)[:500], "failed_at": datetime.now(timezone.utc).isoformat()}
     history = state.load_history()
@@ -154,24 +154,24 @@ def run(cfg: dict, mode: str) -> int:
         history = state.load_history()
         if mode == "publish-test":
             done = schedule.published_today(history, schedule.ist_date(cfg, now))
-            slots = ["test"] if len(done) < cfg["schedule"]["max_reels_per_day"] else []
+            slots = [(schedule.ist_date(cfg, now), "test")] if len(done) < cfg["schedule"]["max_reels_per_day"] else []
         else:
             slots = schedule.due_slots(cfg, now, history)
         if not slots:
             log.info("nothing due right now")
             return 0
         started, failed = time.monotonic(), 0
-        for slot in slots:
+        for day, slot in slots:
             if time.monotonic() - started > cfg["schedule"]["run_budget_minutes"] * 60:
                 log.warning("run budget used up; slot %s will be caught up by the next run", slot)
                 break
             try:
-                post_slot(cfg, ig, slot)
+                post_slot(cfg, ig, day, slot)
             except AuthError:
                 raise
             except EXPECTED_FAILURES as e:
                 log.error("slot %s failed: %s", slot, e)
-                _fail_slot(cfg, slot, e)
+                _fail_slot(cfg, day, slot, e)
                 failed += 1
         _warn_if_backlog_low(cfg)
         return 1 if failed else 0

@@ -33,12 +33,21 @@ def published_today(history: list[dict], today_ist: date) -> list[dict]:
     return [h for h in history if h.get("date_ist") == today_ist.isoformat() and h.get("status") in OCCUPIED]
 
 
-def due_slots(cfg: dict, now_utc: datetime, history: list[dict]) -> list[int]:
-    """Active slots for today (IST) whose time has passed and that have no reel yet, earliest first."""
-    today = ist_date(cfg, now_utc)
-    done = published_today(history, today)
+CATCH_UP_HOURS = 20     # GitHub can run scheduled jobs hours late, even past IST midnight
+
+
+def _due_on(cfg: dict, day: date, now_utc: datetime, history: list[dict]) -> list[tuple[date, int]]:
+    done = published_today(history, day)
     taken = {h.get("slot") for h in done}
     remaining = cfg["schedule"]["max_reels_per_day"] - len(done)
-    due = [s for s in active_slots(cfg, day_number(cfg, today))
-           if s not in taken and slot_time_utc(cfg, today, s) <= now_utc]
+    due = [(day, s) for s in active_slots(cfg, day_number(cfg, day))
+           if s not in taken
+           and timedelta(0) <= now_utc - slot_time_utc(cfg, day, s) <= timedelta(hours=CATCH_UP_HOURS)]
     return due[: max(remaining, 0)]
+
+
+def due_slots(cfg: dict, now_utc: datetime, history: list[dict]) -> list[tuple[date, int]]:
+    """(IST date, slot) pairs whose time has passed and that have no reel yet, earliest first.
+    Looks back into yesterday too, so a run delayed past IST midnight still catches the evening slot."""
+    today = ist_date(cfg, now_utc)
+    return [pair for day in (today - timedelta(days=1), today) for pair in _due_on(cfg, day, now_utc, history)]
