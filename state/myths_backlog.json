@@ -1348,5 +1348,1341 @@
         "Mental Floss is a pop-history outlet and the weakest of the three sources repeated on several beats. Where possible, prefer a museum or a reputable history outlet such as BBC or History Extra as the third source."
       ]
     }
+  },
+  {
+    "claim": "Medieval women were locked into chastity belts while their husbands were away.",
+    "verdict": "MYTH",
+    "hook": "The iron belt that never really guarded anyone",
+    "summary": "Historians find no sign that chastity belts were really used in the Middle Ages. The first known mention, around 1405, reads as a joke. Most surviving belts are much later, and the legend grew in the 1800s.",
+    "category": "Medieval",
+    "era": "Late Middle Ages",
+    "year": 1405,
+    "key_people": [
+      "Konrad Kyeser",
+      "Albrecht Classen"
+    ],
+    "event": "The chastity belt legend",
+    "key_places": [
+      "Germany",
+      "Europe"
+    ],
+    "image_search_terms": [
+      "Bellifortis Kyeser manuscript",
+      "medieval manuscript illustration",
+      "medieval knight painting",
+      "Victorian engraving medieval castle"
+    ],
+    "hashtags": [
+      "#history",
+      "#medieval",
+      "#myth",
+      "#mythbusting",
+      "#didyouknow",
+      "#middleages",
+      "#historyfacts",
+      "#historymyths"
+    ],
+    "pronunciations": [
+      {
+        "word": "Konrad Kyeser",
+        "say": "Kon-rad Kye-zer"
+      },
+      {
+        "word": "Albrecht Classen",
+        "say": "Al-brekt Clah-sen"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "The first known mention is in Konrad Kyeser's 1405 siege-machine treatise. Historians read it as a joke among imaginary inventions.",
+        "key_line": "First mention: 1405, as a joke",
+        "sources": [
+          {
+            "title": "The Medieval Chastity Belt Started as a Joke",
+            "url": "https://time.com/4061117/medieval-chastity-belt-myth/",
+            "publisher": "TIME"
+          },
+          {
+            "title": "7 biggest sex myths from history",
+            "url": "https://www.history.co.uk/articles/biggest-sex-myths-from-history",
+            "publisher": "Sky HISTORY"
+          }
+        ]
+      },
+      {
+        "narration": "Belts in so-called medieval torture museums are largely modern, and most surviving examples date to the 1700s or 1800s.",
+        "key_line": "Most surviving belts are 1700s-1800s",
+        "sources": [
+          {
+            "title": "7 biggest sex myths from history",
+            "url": "https://www.history.co.uk/articles/biggest-sex-myths-from-history",
+            "publisher": "Sky HISTORY"
+          },
+          {
+            "title": "The Medieval Chastity Belt Started as a Joke",
+            "url": "https://time.com/4061117/medieval-chastity-belt-myth/",
+            "publisher": "TIME"
+          }
+        ]
+      },
+      {
+        "narration": "One belt in a Victorian collector's hoard, thought to be medieval, proved to be a fake made by Victorians.",
+        "key_line": "A 'medieval' belt was a Victorian fake",
+        "sources": [
+          {
+            "title": "Restricted to men of 'taste and education'",
+            "url": "https://www.timeshighereducation.com/node/95255",
+            "publisher": "Times Higher Education"
+          },
+          {
+            "title": "The Medieval Chastity Belt Started as a Joke",
+            "url": "https://time.com/4061117/medieval-chastity-belt-myth/",
+            "publisher": "TIME"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "In the 1800s, writers and museums presented the belt as a real medieval tool. Victorians were imagining the medieval past.",
+        "key_line": "A Victorian invention",
+        "sources": [
+          {
+            "title": "The Medieval Chastity Belt Started as a Joke",
+            "url": "https://time.com/4061117/medieval-chastity-belt-myth/",
+            "publisher": "TIME"
+          },
+          {
+            "title": "Restricted to men of 'taste and education'",
+            "url": "https://www.timeshighereducation.com/node/95255",
+            "publisher": "Times Higher Education"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "The Medieval Chastity Belt Started as a Joke",
+        "url": "https://time.com/4061117/medieval-chastity-belt-myth/",
+        "publisher": "TIME"
+      },
+      {
+        "title": "7 biggest sex myths from history",
+        "url": "https://www.history.co.uk/articles/biggest-sex-myths-from-history",
+        "publisher": "Sky HISTORY"
+      }
+    ],
+    "id": "medieval-women-were-locked-into-chastity-belts-w-0b39",
+    "approved_at": "2026-11-15T00:59:28.036717+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported. I opened TIME (Albrecht Classen, via History News Network), Sky HISTORY and Times Higher Education. The Smithsonian, British Museum, Britannica and Atlas Obscura pages returned 403 errors, and the Skeptical Inquirer PDF was unreadable. I rewrote the script to match only what I could read. \"Earliest drawing\" became \"first known mention\", since the sources I opened say mention. I dropped the unsourced claims about dealers and showmen, \"no solid proof\" and \"too shocking not to repeat\". I cut the second origin beat. Two weak points remain. The \"largely modern\" clause in reality beat 2 rests on TIME, and the 1700s-1800s dates rest on Sky HISTORY. A British Museum catalogue page would be a stronger second source for the dates if one becomes accessible.",
+      "adversarial": "The verdict is the mainstream scholarly view: the chastity belt as a widespread medieval practice is a myth. The 1405 Kyeser mention is commonly interpreted as satire or fantasy, and surviving belts are largely 18th–19th century. No hard exclusion applies (no religion, politics, atrocity, living people or recent events). Each beat cites at least two sources, and the dates and names look correct (Kyeser's Bellifortis, c. 1405; Classen). I did not open the cited pages in this review, so this rests on my own knowledge of the scholarship. The remaining issues are hedging and wording, not accuracy, so none are blocking.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Summary: 'Historians find no sign that chastity belts were really used' is slightly absolute. Consider 'no reliable evidence that chastity belts were widely used in the Middle Ages'. This is the mainstream scholarly position (Classen), but a few historians allow for rare or isolated use.",
+        "Beat 3: 'One belt in a Victorian collector's hoard... a fake made by Victorians' is vague. Name the museum or collection if the sources do, for example the Germanisches Nationalmuseum belt. Say 'a 19th-century fake' rather than implying the collector made it.",
+        "Beat 1: 'Historians read it as a joke' could be 'many historians, such as Classen, read it as...' to show it is an interpretation. Kyeser's text describes women's 'hard breeches' among fanciful devices.",
+        "The TIME piece appears to be a syndicated version of an academic's article (The Conversation). Prefer citing the original if available. Sky HISTORY is a weaker secondary source, so add a stronger one such as a museum or academic publication (Classen's 2007 book or the British Museum).",
+        "The verdict_sources list duplicates the beat sources. Consider adding one more independent source to the second and third beats."
+      ]
+    }
+  },
+  {
+    "claim": "Medieval cooks used spices to hide the taste of rotten meat.",
+    "verdict": "MYTH",
+    "hook": "Spices were too pricey to waste on bad meat",
+    "summary": "Spices were generally more expensive than meat, and anyone who could afford them could also buy fresh meat. Yale historian Paul Freedman says medieval meat was not so rancid that spices had to mask it. Food historians find no convincing evidence for the claim. Some spices do have antimicrobial effects, but that is a separate point.",
+    "category": "Medieval",
+    "era": "Late Middle Ages",
+    "year": 1390,
+    "key_people": [
+      "Paul Freedman"
+    ],
+    "event": "Medieval spices and meat",
+    "key_places": [
+      "England",
+      "London"
+    ],
+    "image_search_terms": [
+      "medieval feast painting",
+      "medieval kitchen illustration",
+      "Forme of Cury manuscript",
+      "medieval market engraving"
+    ],
+    "hashtags": [
+      "#history",
+      "#medieval",
+      "#myth",
+      "#mythbusting",
+      "#didyouknow",
+      "#food",
+      "#historyfacts",
+      "#middleages"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "Spices were generally more expensive than meat. A medieval lord rich enough to afford them could have bought fresh meat instead.",
+        "key_line": "Spices cost more than meat",
+        "sources": [
+          {
+            "title": "Search for Flavors Influenced Our World",
+            "url": "https://archive-yaleglobal.yale.edu/content/search-flavors-influenced-our-world",
+            "publisher": "YaleGlobal Online, Yale University"
+          },
+          {
+            "title": "Spice and Status",
+            "url": "https://www.wilsonquarterly.com/quarterly/winter-2009-robots-at-war/spice-and-status",
+            "publisher": "The Wilson Quarterly"
+          }
+        ]
+      },
+      {
+        "narration": "Yale historian Paul Freedman says medieval meat was not so rancid that spices had to mask its taste. Fresh meat was available.",
+        "key_line": "Meat was not that rancid",
+        "sources": [
+          {
+            "title": "Spice and Status",
+            "url": "https://www.wilsonquarterly.com/quarterly/winter-2009-robots-at-war/spice-and-status",
+            "publisher": "The Wilson Quarterly"
+          },
+          {
+            "title": "Search for Flavors Influenced Our World",
+            "url": "https://archive-yaleglobal.yale.edu/content/search-flavors-influenced-our-world",
+            "publisher": "YaleGlobal Online, Yale University"
+          }
+        ]
+      },
+      {
+        "narration": "Spices gave meat strong, fashionable flavors. They were also a mark of elite status.",
+        "key_line": "Spices were for flavor and status",
+        "sources": [
+          {
+            "title": "Spice and Status",
+            "url": "https://www.wilsonquarterly.com/quarterly/winter-2009-robots-at-war/spice-and-status",
+            "publisher": "The Wilson Quarterly"
+          },
+          {
+            "title": "Search for Flavors Influenced Our World",
+            "url": "https://archive-yaleglobal.yale.edu/content/search-flavors-influenced-our-world",
+            "publisher": "YaleGlobal Online, Yale University"
+          }
+        ]
+      },
+      {
+        "narration": "Some spices do have antimicrobial effects. That is not the same as cooks using them to hide rotten meat.",
+        "key_line": "Antibacterial is not the same as masking",
+        "sources": [
+          {
+            "title": "Search for Flavors Influenced Our World",
+            "url": "https://archive-yaleglobal.yale.edu/content/search-flavors-influenced-our-world",
+            "publisher": "YaleGlobal Online, Yale University"
+          },
+          {
+            "title": "Spices as Sustainable Food Preservatives: A Comprehensive Review of Their Antimicrobial Potential",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10610427/",
+            "publisher": "Pharmaceuticals (MDPI), via PubMed Central"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The idea sounds logical, but food historians find no convincing evidence for it. No medieval text recommending it has been found.",
+        "key_line": "Logical, but no evidence",
+        "sources": [
+          {
+            "title": "Culinary Mythology: Purpose of Spicing in Medieval Times (Oxford Companion to Food)",
+            "url": "https://app.ckbk.com/reference/food77337c03s001e523e003/purpose-of-spicing-in-medieval-times",
+            "publisher": "Oxford Companion to Food (Alan Davidson), via ckbk"
+          },
+          {
+            "title": "When the West First Tasted the Cuisines of the East",
+            "url": "https://www.manuscriptcookbookssurvey.org/?p=2908",
+            "publisher": "Manuscript Cookbooks Survey (Pine Needles Foundation)"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Spice and Status",
+        "url": "https://www.wilsonquarterly.com/quarterly/winter-2009-robots-at-war/spice-and-status",
+        "publisher": "The Wilson Quarterly"
+      },
+      {
+        "title": "Search for Flavors Influenced Our World",
+        "url": "https://archive-yaleglobal.yale.edu/content/search-flavors-influenced-our-world",
+        "publisher": "YaleGlobal Online, Yale University"
+      },
+      {
+        "title": "Culinary Mythology: Purpose of Spicing in Medieval Times (Oxford Companion to Food)",
+        "url": "https://app.ckbk.com/reference/food77337c03s001e523e003/purpose-of-spicing-in-medieval-times",
+        "publisher": "Oxford Companion to Food (Alan Davidson), via ckbk"
+      }
+    ],
+    "id": "medieval-cooks-used-spices-to-hide-the-taste-of-9d1c",
+    "approved_at": "2026-11-15T01:03:09.131659+00:00",
+    "review": {
+      "research": "The MYTH verdict is well supported by Yale historian Paul Freedman (via YaleGlobal and the Wilson Quarterly) and by the Oxford Companion to Food. I cut claims I couldn't source from two independent organisations: the London pillory claim (only British History Online pages), the Forme of Cury claim, the \"kept animals alive\" claim, and the salt-and-smoke claim (Yale mentions it, but I had no second source). The summary and pronunciations were trimmed to match.",
+      "adversarial": "I judged this from my own knowledge of the topic and did not search or open the cited pages, so I have not verified the sources or quotes. The verdict that the claim is a myth matches the mainstream view among food historians, including Freedman and the Oxford Companion to Food. Spices were luxury goods, wealthy households could afford fresh meat, and no medieval text recommends masking rot. The script keeps the antimicrobial point separate and hedges it properly. Dates, names and places look right. The 1390 date and the Forme of Cury image term are consistent with the period. No hard exclusion applies. The only wording I would soften is the absolute \\\"has been found\\\" line, which I rate as minor and not blocking.",
+      "fixes_applied": [
+        "Hook \"Pepper was far too pricey to waste on bad meat\": singles out pepper, but the Wilson Quarterly piece says pepper became common by the early 14th century (the script's year is 1390), and pepper was the cheapest common spice. Change it to something like \"Spices were too pricey to waste on bad meat\", or \"Fine spices were too pricey...\".",
+        "Reality beat 3, \"Spices were used to give good meat a sweet-sour flavor that was fashionable at the time\": the Wilson Quarterly supports this, but the YaleGlobal page does not mention sweet-sour. It only says spices were a mark of elite status and that sweet spices were used in meat dishes. That leaves the sweet-sour claim with one cited source. Either add a second source that explicitly says it (for example the Oxford Companion to Food page or a Freedman book or interview), or drop \"sweet-sour\" and say \"to give good meat strong, fashionable flavors and show off wealth\".",
+        "Reality beat 1 and the summary, \"Spices cost more than meat\": stated flatly, with no hedge on pepper versus other spices. YaleGlobal supports it, but the Wilson Quarterly text I retrieved did not clearly state it. It talks about spice profits and rarity. Either confirm the Wilson Quarterly wording or replace it with a second source that does. Soften to \"Spices generally cost far more than meat, weight for weight\"."
+      ],
+      "open_minor_points": [
+        "Origin beat: \"No medieval text recommending it has been found.\" is an absolute negative. Safer wording: \"No medieval text recommending it is known.\" Check that the Manuscript Cookbooks Survey page supports this too, and if it doesn't, rely on the Oxford Companion entry.",
+        "Reality beat 1: \"Spices were generally more expensive than meat\" is well supported but depended on the spice and the period. Cheaper spices such as pepper, and later ones, were more affordable. \"generally\" already hedges this, so keep it.",
+        "Reality beat 2: \"Fresh meat was available\" mainly applied to towns and elite households. Consider \"Fresh meat was available to those who could afford spices\", which matches the claim's logic.",
+        "Paul Freedman is a living scholar, named as a source and not as the subject of the myth. This is acceptable, but keep the attribution as \"says\" and avoid presenting it as his personal controversy.",
+        "The Wilson Quarterly URL slug points to a Winter 2009 issue titled \"robots-at-war\". Confirm the link resolves. The YaleGlobal archive page is a popular-press piece, so a scholarly source such as Freedman's *Out of the East* would strengthen the case.",
+        "The script doesn't need to say that medieval people did sometimes eat meat of questionable freshness, or that rules against selling spoiled meat show it was a recognised problem. This is optional nuance."
+      ]
+    }
+  },
+  {
+    "claim": "George Washington had wooden teeth.",
+    "verdict": "MYTH",
+    "hook": "Washington's dentures were never made of wood",
+    "summary": "Washington's dentures were made of ivory, metal, and human and animal teeth. Curators know of no wooden set. One theory blames stained dentures for the legend.",
+    "category": "Early Modern",
+    "era": "American Revolutionary era",
+    "year": 1789,
+    "key_people": [
+      "George Washington"
+    ],
+    "event": "Washington's dentures",
+    "key_places": [
+      "Mount Vernon",
+      "Virginia"
+    ],
+    "image_search_terms": [
+      "George Washington portrait painting",
+      "Washington Stuart portrait",
+      "Mount Vernon engraving",
+      "18th century dentistry illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#georgewashington",
+      "#myth",
+      "#mythbusting",
+      "#didyouknow",
+      "#americanhistory",
+      "#historyfacts",
+      "#dentures"
+    ],
+    "pronunciations": [
+      {
+        "word": "Mount Vernon",
+        "say": "Mount Ver-nun"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "George Washington's dentures used ivory, probably from hippos, plus metal and human and animal teeth. Curators know of no wooden set.",
+        "key_line": "Ivory, metal and real teeth",
+        "sources": [
+          {
+            "title": "George Washington's Troublesome Teeth",
+            "url": "https://kenmore.org/george-washingtons-troublesome-teeth/",
+            "publisher": "Historic Kenmore and George Washington's Ferry Farm"
+          },
+          {
+            "title": "The Wooden Teeth That Weren't (Past & Present podcast, interview with Mount Vernon curator Laura Simo)",
+            "url": "https://podcast.history.org/2012/02/20/the-wooden-teeth/",
+            "publisher": "Colonial Williamsburg Foundation"
+          },
+          {
+            "title": "Did George Washington really have wooden teeth?",
+            "url": "https://www.history.co.uk/articles/did-george-washington-have-wooden-teeth",
+            "publisher": "Sky HISTORY"
+          }
+        ]
+      },
+      {
+        "narration": "By his first inauguration in 1789, Washington had only one tooth left.",
+        "key_line": "One natural tooth by 1789",
+        "sources": [
+          {
+            "title": "George Washington's Troublesome Teeth",
+            "url": "https://kenmore.org/george-washingtons-troublesome-teeth/",
+            "publisher": "Historic Kenmore and George Washington's Ferry Farm"
+          },
+          {
+            "title": "The Wooden Teeth That Weren't (Past & Present podcast, interview with Mount Vernon curator Laura Simo)",
+            "url": "https://podcast.history.org/2012/02/20/the-wooden-teeth/",
+            "publisher": "Colonial Williamsburg Foundation"
+          }
+        ]
+      },
+      {
+        "narration": "Only one complete set of his dentures survives. It uses lead, ivory, and human and animal teeth.",
+        "key_line": "One complete set survives",
+        "sources": [
+          {
+            "title": "George Washington's Troublesome Teeth",
+            "url": "https://kenmore.org/george-washingtons-troublesome-teeth/",
+            "publisher": "Historic Kenmore and George Washington's Ferry Farm"
+          },
+          {
+            "title": "The Wooden Teeth That Weren't (Past & Present podcast, interview with Mount Vernon curator Laura Simo)",
+            "url": "https://podcast.history.org/2012/02/20/the-wooden-teeth/",
+            "publisher": "Colonial Williamsburg Foundation"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Food and drink, possibly port wine, may have stained his dentures dark. Some think that could have started the wooden-teeth story.",
+        "key_line": "Stains may have looked like wood",
+        "sources": [
+          {
+            "title": "Did George Washington really have wooden teeth?",
+            "url": "https://www.history.co.uk/articles/did-george-washington-have-wooden-teeth",
+            "publisher": "Sky HISTORY"
+          },
+          {
+            "title": "Dentally Unready: Gen. George Washington's Lifetime of Dental Misery",
+            "url": "https://www.dvidshub.net/news/printable/413982",
+            "publisher": "Defense Health Agency (DVIDS)"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "The Wooden Teeth That Weren't (Past & Present podcast, interview with Mount Vernon curator Laura Simo)",
+        "url": "https://podcast.history.org/2012/02/20/the-wooden-teeth/",
+        "publisher": "Colonial Williamsburg Foundation"
+      },
+      {
+        "title": "George Washington's Troublesome Teeth",
+        "url": "https://kenmore.org/george-washingtons-troublesome-teeth/",
+        "publisher": "Historic Kenmore and George Washington's Ferry Farm"
+      },
+      {
+        "title": "Did George Washington really have wooden teeth?",
+        "url": "https://www.history.co.uk/articles/did-george-washington-have-wooden-teeth",
+        "publisher": "Sky HISTORY"
+      }
+    ],
+    "id": "george-washington-had-wooden-teeth-3b02",
+    "approved_at": "2026-11-15T01:07:18.880604+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported. Rewrote beats to match sources. Dropped the account-book payments claim (disputed, and the sources tie it to the dentist Le Mayeur) and the unsourced 'popular memory' beat. Origin hedged because the staining explanation is a theory.",
+      "adversarial": "This is a well-established debunking and historians do not dispute it. The Kenmore page confirms the materials: hippo ivory, animal and human teeth, and lead. It also confirms one tooth left in 1789 and one surviving complete set, and it calls the wooden-teeth story false. The Colonial Williamsburg podcast page agrees on one natural tooth, the surviving set, and the absence of wood. The Sky History page agrees on materials, the port-wine staining theory, and Greenwood's 1798 letter. The origin claim is properly hedged. No hard exclusion applies: Washington died in 1799, the topic is not religious or political, and no atrocity is involved. I found no counter-evidence. I did not open the DVIDS page.",
+      "fixes_applied": [
+        "Origin narration: \"Food and drink stained his dentures, and cracks added to the look. Historians think that may have started the wooden-teeth story.\" Only Sky HISTORY mentions cracks (wine seeping into hairline cracks). The Colonial Williamsburg page mentions only food discoloration. So the cracks claim has one source, not two. Also \"Historians think\" overstates, because Sky HISTORY gives a second theory (\"Greenwood's teeth\" misheard as \"wooden teeth\"). Change to something like: \"Food and drink, especially port wine, likely stained his dentures dark. Some think that stain may have started the wooden-teeth story.\" Or add a second source that supports cracking.",
+        "Summary: \"Staining and cracks in the ivory may have given the legend its start.\" Same problem: cracks are supported by only one source. Change to \"Staining of the dentures may have given the legend its start.\" The key_line \"Stained ivory may look like wood\" is fine.",
+        "Origin narration: \"Food and drink, especially port wine, likely stained his dentures dark.\" The word \"likely\" is overstated. Only Sky HISTORY backs the port-wine point, and the Colonial Williamsburg podcast speaker explicitly rejects the staining explanation for the myth. Change it to: \"Food and drink, possibly port wine, may have stained his dentures dark. Some think that could have started the wooden-teeth story.\" Also drop the Colonial Williamsburg podcast as support for this beat, or add a second source that backs the port-wine staining."
+      ],
+      "open_minor_points": [
+        "Narration 'Only one complete set of his dentures survives' is supported; consider adding that other partial dentures survive (podcast says four are known, e.g. one at the New York Academy of Medicine) to avoid implying that nothing else exists.",
+        "Beat 1 says ivory was 'probably from hippos'. Kenmore and Sky name hippo ivory, but the podcast says it was 'possibly' hippo, with elephant and walrus suggested. 'Probably' is acceptable; 'likely hippo' or 'often hippo' would be safer.",
+        "The podcast transcript mentions a 'lead base' for the Mount Vernon set, which conflicts with the ivory description. The script's 'lead, ivory, and human and animal teeth' matches Kenmore, so this is fine. Consider citing Mount Vernon directly as a stronger primary source.",
+        "Origin beat: add the surname theory ('Greenwood' misheard as 'wooden') as another speculative explanation, as Sky History does. The current hedging ('may', 'some think') is good.",
+        "The summary line 'One theory blames stained dentures' is fine. The DVIDS source in the origin beat is a government-published piece and is acceptable."
+      ]
+    }
+  },
+  {
+    "claim": "Lincoln wrote the Gettysburg Address on an envelope.",
+    "verdict": "MYTH",
+    "hook": "The famous speech was not scribbled on the train",
+    "summary": "Five handwritten copies of the Gettysburg Address survive, and historians have long known the envelope-on-a-train story is untrue. Lincoln began drafting in Washington on Executive Mansion stationery before the November 1863 speech. Mary Shipman Andrews's 1906 story did much to spread the tale.",
+    "category": "Modern (1800-1950)",
+    "era": "American Civil War",
+    "year": 1863,
+    "key_people": [
+      "Abraham Lincoln",
+      "Mary Shipman Andrews"
+    ],
+    "event": "Gettysburg Address",
+    "key_places": [
+      "Gettysburg",
+      "Washington"
+    ],
+    "image_search_terms": [
+      "Abraham Lincoln portrait 1863",
+      "Gettysburg Address engraving",
+      "Lincoln Gettysburg painting",
+      "Gettysburg battlefield cemetery illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#lincoln",
+      "#gettysburgaddress",
+      "#americanhistory",
+      "#mythbusting",
+      "#didyouknow",
+      "#historyfacts",
+      "#mythorfact"
+    ],
+    "pronunciations": [
+      {
+        "word": "Gettysburg",
+        "say": "Get-eez-burg"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Five handwritten copies survive, and historians have long known the envelope story is untrue.",
+        "key_line": "Five copies survive; envelope tale untrue",
+        "sources": [
+          {
+            "title": "Versions of the Gettysburg Address",
+            "url": "https://www.battlefields.org/learn/articles/versions-gettysburg-address",
+            "publisher": "American Battlefield Trust"
+          },
+          {
+            "title": "The Gettysburg Address | The Lincoln Presidency",
+            "url": "https://exhibits.library.cornell.edu/lincoln/feature/the-gettysburg-address",
+            "publisher": "Cornell University Library"
+          },
+          {
+            "title": "Gettysburg Address | Exhibitions - Library of Congress",
+            "url": "https://www.loc.gov/exhibits/gettysburg-address/",
+            "publisher": "Library of Congress"
+          }
+        ]
+      },
+      {
+        "narration": "Lincoln began drafting in Washington, writing the opening in ink on Executive Mansion stationery. He wrote the second page later, in pencil.",
+        "key_line": "Drafting began in Washington",
+        "sources": [
+          {
+            "title": "Four Score and Seven Years Ago …",
+            "url": "https://lcm.loc.gov/issue/may-june-2026/four-score-and-seven-years-ago/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "In Lincoln's hand (Remembering Lincoln at Gettysburg)",
+            "url": "https://exhibits.library.cornell.edu/gettysburg150/feature/in-lincoln-s-hand",
+            "publisher": "Cornell University Library"
+          }
+        ]
+      },
+      {
+        "narration": "The speech ran roughly 270 words and lasted about two minutes.",
+        "key_line": "Roughly 270 words, about two minutes",
+        "sources": [
+          {
+            "title": "Gettysburg Address Facts and Figures",
+            "url": "https://bensguide.gpo.gov/gettysburg-address-facts-and-figures",
+            "publisher": "U.S. Government Publishing Office (Ben's Guide)"
+          },
+          {
+            "title": "Four Score and Seven Years Ago …",
+            "url": "https://lcm.loc.gov/issue/may-june-2026/four-score-and-seven-years-ago/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "Gettysburg Address | Exhibitions - Library of Congress",
+            "url": "https://www.loc.gov/exhibits/gettysburg-address/",
+            "publisher": "Library of Congress"
+          }
+        ]
+      },
+      {
+        "narration": "The five copies differ in small details, such as the phrase \"under God\", which is missing from the Nicolay copy.",
+        "key_line": "The copies differ in small details",
+        "sources": [
+          {
+            "title": "Versions of the Gettysburg Address",
+            "url": "https://www.battlefields.org/learn/articles/versions-gettysburg-address",
+            "publisher": "American Battlefield Trust"
+          },
+          {
+            "title": "The Five Copies (The Gettysburg Address)",
+            "url": "https://exhibits-prod.library.cornell.edu/gettysburg/feature/the-five-copies",
+            "publisher": "Cornell University Library"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Mary Shipman Andrews's 1906 story, The Perfect Tribute, did much to spread the tale of Lincoln scribbling the speech on a train.",
+        "key_line": "Andrews's 1906 story spread the tale",
+        "sources": [
+          {
+            "title": "The Gettysburg Address | The Lincoln Presidency",
+            "url": "https://exhibits.library.cornell.edu/lincoln/feature/the-gettysburg-address",
+            "publisher": "Cornell University Library"
+          },
+          {
+            "title": "Versions of the Gettysburg Address",
+            "url": "https://www.battlefields.org/learn/articles/versions-gettysburg-address",
+            "publisher": "American Battlefield Trust"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "The Gettysburg Address | The Lincoln Presidency",
+        "url": "https://exhibits.library.cornell.edu/lincoln/feature/the-gettysburg-address",
+        "publisher": "Cornell University Library"
+      },
+      {
+        "title": "Versions of the Gettysburg Address",
+        "url": "https://www.battlefields.org/learn/articles/versions-gettysburg-address",
+        "publisher": "American Battlefield Trust"
+      }
+    ],
+    "id": "lincoln-wrote-the-gettysburg-address-on-an-envel-c043",
+    "approved_at": "2026-11-15T01:14:41.265682+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported: Cornell University Library and the American Battlefield Trust both say the envelope story is untrue. I rewrote the beats to match the sources. I dropped \"revised the night before\" because sources disagree on when the second page and the Hay copy were written. \"None is on an envelope\" became \"historians have long known the story is untrue\", which is what the sources say. The origin beat credits Andrews's story with spreading the tale, as the sources do.",
+      "adversarial": "The verdict is sound. Five handwritten copies exist (Nicolay, Hay, Everett, Bancroft, Bliss). Scholars agree the envelope-on-a-train story is a legend. Lincoln began the text in Washington on Executive Mansion stationery, and the Nicolay copy's second page is in pencil. \"Under God\" is missing from the Nicolay copy and present in the later copies. The speech was about 270 words and about two minutes long. Andrews's 1906 story is an acceptable origin claim. I found no real scholarly dispute, and no hard exclusion applies: it involves no religion, living people, atrocity or politics. The sources are reputable (LOC, Cornell, American Battlefield Trust, GPO). I did not fetch the pages, so the sourcing check is from knowledge only. I found no blocking issues.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "I did not open the cited pages in this pass. This verdict rests on my own knowledge of the topic, so spot-check each URL before publishing. The LOC Magazine May–June 2026 URL (lcm.loc.gov) is the one I'm least sure of.",
+        "The page-two line (\"He wrote the second page later, in pencil\") is fine, but the Nicolay copy's second page may have been written in Washington or at Gettysburg. If a caption is added, say \"Nicolay copy\" so viewers don't assume the pencil page was written in Washington.",
+        "The Andrews claim (\"did much to spread the tale\") is suitably hedged. Confirm that the Cornell and ABT pages name her story. If only one does, add a second source, such as a Lincoln-studies article or Smithsonian piece on the myth.",
+        "Add \"about 270 words\" or \"272 words in the Bliss copy\" if you want more precision. \"Roughly 270\" is acceptable as written.",
+        "The pronunciation hint \"Get-eez-burg\" is nonstandard. \"Get-eez-burg\" is a fair respelling, but \"GET-eez-burg\" with stress marked would be clearer for the voice-over."
+      ]
+    }
+  },
+  {
+    "claim": "Voltaire said: I will defend to the death your right to say it.",
+    "verdict": "MYTH",
+    "hook": "A free speech slogan Voltaire never wrote",
+    "summary": "The famous line has never been found in Voltaire's works. It first appeared in 1906 in Evelyn Beatrice Hall's book The Friends of Voltaire, as her summary of his attitude. She later said the words were her own. Many see it as fitting his stance against persecution, but they are not his words.",
+    "category": "Famous Misquotes",
+    "era": "Enlightenment",
+    "year": 1906,
+    "key_people": [
+      "Voltaire",
+      "Evelyn Beatrice Hall"
+    ],
+    "event": "Voltaire misquote",
+    "key_places": [
+      "France",
+      "England"
+    ],
+    "image_search_terms": [
+      "Voltaire portrait painting",
+      "Voltaire engraving",
+      "Enlightenment salon painting",
+      "Voltaire manuscript"
+    ],
+    "hashtags": [
+      "#history",
+      "#voltaire",
+      "#misquotes",
+      "#enlightenment",
+      "#didyouknow",
+      "#historyfacts",
+      "#mythorfact",
+      "#famousquotes"
+    ],
+    "pronunciations": [
+      {
+        "word": "Voltaire",
+        "say": "Vol-tair"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Researchers have never found this line in Voltaire's works. It first appeared in 1906, written by English biographer Evelyn Beatrice Hall as her own summary of his attitude.",
+        "key_line": "Never found in his works",
+        "sources": [
+          {
+            "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+            "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "Voltaire and the one-liner",
+            "url": "https://blog.oup.com/2017/03/voltaire-works-one-liner/",
+            "publisher": "Oxford University Press (OUPblog)"
+          },
+          {
+            "title": "Correspondence on not-so-famous lost words",
+            "url": "https://www.harvardmagazine.com/2013/09/chapter-verse",
+            "publisher": "Harvard Magazine"
+          }
+        ]
+      },
+      {
+        "narration": "The book was The Friends of Voltaire. Hall published it under the pen name S. G. Tallentyre.",
+        "key_line": "The Friends of Voltaire, 1906",
+        "sources": [
+          {
+            "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+            "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "Correspondence on not-so-famous lost words",
+            "url": "https://www.harvardmagazine.com/2013/09/chapter-verse",
+            "publisher": "Harvard Magazine"
+          }
+        ]
+      },
+      {
+        "narration": "Hall later wrote that the words were her own. She did not mean them as a direct quote from Voltaire.",
+        "key_line": "She said the words were her own",
+        "sources": [
+          {
+            "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+            "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "Why are quotes so often misattributed?",
+            "url": "https://www.spectator.com.au/?p=10798554",
+            "publisher": "The Spectator Australia"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Hall put the line in quotation marks. Many readers took it as Voltaire's own words.",
+        "key_line": "Quotation marks fooled readers",
+        "sources": [
+          {
+            "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+            "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "Why are quotes so often misattributed?",
+            "url": "https://www.spectator.com.au/?p=10798554",
+            "publisher": "The Spectator Australia"
+          }
+        ]
+      },
+      {
+        "narration": "In 1968, Bartlett's listed it under Voltaire, marked attributed. Its footnote pointed to a 1770 letter that does not contain it.",
+        "key_line": "Bartlett's listed it under Voltaire",
+        "sources": [
+          {
+            "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+            "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "Quotes Uncovered: Dying for Opinions and Making History",
+            "url": "https://freakonomics.com/2009/09/quotes-uncovered-dying-for-opinions-and-making-history/",
+            "publisher": "Freakonomics"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Quote Origin: I Disapprove of What You Say, But I Will Defend to the Death Your Right to Say It",
+        "url": "https://quoteinvestigator.com/2015/06/01/defend/",
+        "publisher": "Quote Investigator"
+      },
+      {
+        "title": "Voltaire and the one-liner",
+        "url": "https://blog.oup.com/2017/03/voltaire-works-one-liner/",
+        "publisher": "Oxford University Press (OUPblog)"
+      },
+      {
+        "title": "Correspondence on not-so-famous lost words",
+        "url": "https://www.harvardmagazine.com/2013/09/chapter-verse",
+        "publisher": "Harvard Magazine"
+      }
+    ],
+    "id": "voltaire-said-i-will-defend-to-the-death-your-ri-c15d",
+    "approved_at": "2026-11-15T01:17:27.752126+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported: the line is not found in Voltaire's works and first appeared in E. B. Hall's 1906 book. Sourcing is thinner than ideal (Cato and Oxford Reference returned 403, so I used pages I could open). I removed unsupported claims: Voltaire's death date, \"only paraphrasing\" (QI says Hall called the words her own), the \"Stephen\" pen name (it was S. G. Tallentyre), and the \"later writers dropped her book\" origin claim.",
+      "adversarial": "Historians broadly agree that the line is Hall's 1906 paraphrase in The Friends of Voltaire, published as S. G. Tallentyre, and that it does not appear in Voltaire's writings. Hall herself acknowledged this in 1939. The dates and names are correct, and the script hedges appropriately. No hard exclusion applies: Voltaire is not a religious figure in this context, and the topic is neither politically live nor disputed. The script is accurate and has no blocking issues. The minor fixes are only for polish and for one weaker source.",
+      "fixes_applied": [
+        "Reality beat 1: \"It was made up in 1906 by an English biographer, Evelyn Beatrice Hall.\" \"Made up\" suggests a deliberate forgery, and it contradicts beat 2, which calls it a summary of his attitude. Hall wrote it as her own paraphrase of Voltaire's stance. Change it to: \"Researchers have never found this line in Voltaire's works. It first appeared in 1906, written by English biographer Evelyn Beatrice Hall as her own summary of his attitude.\"",
+        "Reality beat 3: \"...should not have been put in quotation marks.\" Hall's later explanation was that she did not intend the words to be read as a verbatim quotation. Change it to: \"Hall later said the words were her own paraphrase, and that she never meant them as Voltaire's exact words.\" Also change the key_line \"She said the words were her own\" to \"She said they were her paraphrase\" if you want it exact."
+      ],
+      "open_minor_points": [
+        "I did not open the cited pages, so I haven't confirmed that each one says what the script claims. This assessment rests on my existing knowledge of the topic.",
+        "Beat 1: change 'Researchers have never found this line' to 'Researchers have never found this line in his works' or 'no one has found it'. The wording is slightly absolute, but it is a standard and well-supported formulation.",
+        "Beat 3: 'She did not mean them as a direct quote' is accurate. Hall's 1939 letter said she was paraphrasing his attitude, and it could mention that. The summary's 'her own words' is acceptable.",
+        "The 1968 Bartlett's beat is correct as far as I know. The footnoted 1770 letter has a similar sentiment ('I detest what you write, but I would give my life to make it possible for you to continue to write') but not this line. A short 'a similar line, not this one' would stop viewers inferring Voltaire never expressed the idea.",
+        "The Spectator Australia piece is a weaker source than the others. Replace it with a stronger one, such as a Hall letter citation, Britannica or an academic source. Beat 3 would still have Quote Investigator and Harvard Magazine."
+      ]
+    }
+  },
+  {
+    "claim": "Slaves built the Egyptian pyramids.",
+    "verdict": "MYTH",
+    "hook": "Giza's pyramid builders were housed, fed and given tombs.",
+    "summary": "Archaeologists found the town and tombs of the Giza pyramid builders. Experts describe paid Egyptian labourers, not slaves. The slave image comes largely from Herodotus, a Greek writer who lived about two thousand years later, and from Hollywood films.",
+    "category": "Ancient World",
+    "era": "Old Kingdom Egypt",
+    "year": -2560,
+    "key_people": [
+      "Khufu",
+      "Herodotus",
+      "Mark Lehner"
+    ],
+    "event": "Building of the Great Pyramid",
+    "key_places": [
+      "Giza",
+      "Egypt"
+    ],
+    "image_search_terms": [
+      "Great Pyramid of Giza engraving",
+      "Ancient Egypt workers tomb painting",
+      "Herodotus portrait bust",
+      "Giza pyramids 19th century painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#ancientegypt",
+      "#pyramids",
+      "#mythorfact",
+      "#didyouknow",
+      "#historymyths",
+      "#giza",
+      "#archaeology"
+    ],
+    "pronunciations": [
+      {
+        "word": "Khufu",
+        "say": "KOO-foo"
+      },
+      {
+        "word": "Giza",
+        "say": "GEE-zuh"
+      },
+      {
+        "word": "Herodotus",
+        "say": "Heh-ROD-uh-tus"
+      },
+      {
+        "word": "Lehner",
+        "say": "LAY-ner"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Archaeologists have uncovered the town and tombs of the pyramid builders at Giza.",
+        "key_line": "A town and tombs for the builders",
+        "sources": [
+          {
+            "title": "Frequently Asked Questions - Digital Giza",
+            "url": "https://giza.fas.harvard.edu/faq/",
+            "publisher": "Harvard University"
+          },
+          {
+            "title": "Standing Tall: Egypt's Great Pyramids",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/egypt-great-pyramids-giza-plateau",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Experts describe them as paid Egyptian labourers, not slaves. Their wages came as food, mainly bread and beer, because Egypt had no coins then.",
+        "key_line": "Paid in bread and beer",
+        "sources": [
+          {
+            "title": "Frequently Asked Questions - Digital Giza",
+            "url": "https://giza.fas.harvard.edu/faq/",
+            "publisher": "Harvard University"
+          },
+          {
+            "title": "Standing Tall: Egypt's Great Pyramids",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/egypt-great-pyramids-giza-plateau",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Excavators also found bakeries at the site. Archaeologist Mark Lehner says of the builders: They were not slaves. He notes they were fed well.",
+        "key_line": "Bakeries and well-fed crews",
+        "sources": [
+          {
+            "title": "Who Built the Pyramids?",
+            "url": "https://www.harvardmagazine.com/index%2Ephp/2003/07/who-built-the-pyramids-html",
+            "publisher": "Harvard Magazine"
+          },
+          {
+            "title": "Frequently Asked Questions - Digital Giza",
+            "url": "https://giza.fas.harvard.edu/faq/",
+            "publisher": "Harvard University"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Herodotus, a Greek writer, said Khufu forced all Egyptians to work in gangs of 100,000. He wrote about two thousand years later. Hollywood helped spread the slave image.",
+        "key_line": "A Greek writer, 2,000 years late",
+        "sources": [
+          {
+            "title": "Herodotus, Histories 2.124",
+            "url": "https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/2.124.1-2.124.5",
+            "publisher": "Perseus Digital Library, Tufts University"
+          },
+          {
+            "title": "Who Built the Pyramids?",
+            "url": "https://www.pbs.org/wgbh/nova/transcripts/1915mpyramid.html",
+            "publisher": "PBS NOVA"
+          },
+          {
+            "title": "Standing Tall: Egypt's Great Pyramids",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/egypt-great-pyramids-giza-plateau",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Frequently Asked Questions - Digital Giza",
+        "url": "https://giza.fas.harvard.edu/faq/",
+        "publisher": "Harvard University"
+      },
+      {
+        "title": "Standing Tall: Egypt's Great Pyramids",
+        "url": "https://www.nationalgeographic.com/history/history-magazine/article/egypt-great-pyramids-giza-plateau",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "Who Built the Pyramids?",
+        "url": "https://www.pbs.org/wgbh/nova/transcripts/1915mpyramid.html",
+        "publisher": "PBS NOVA"
+      }
+    ],
+    "id": "slaves-built-the-egyptian-pyramids-5829",
+    "approved_at": "2026-11-15T01:20:58.903907+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported by Harvard Digital Giza, National Geographic, NOVA/PBS and Harvard Magazine. Cut because only weak or unopened sources backed them: healed fractures and amputations (blogs only, and sources disagree on quality of care), Friends of Khufu (one source), breweries, and honoured tombs beside the pyramids (Britannica, Smithsonian and CBC pages returned 403). Herodotus is reworded: he said Khufu compelled all Egyptians to work in gangs of 100,000, though National Geographic describes it as slave labor. Caveat: the Harvard Magazine and Digital Giza sources are both Harvard-linked.",
+      "adversarial": "The verdict matches the scholarly consensus. Egyptologists broadly agree that the Giza builders were Egyptian labourers, housed, fed and buried in tombs near the pyramids, and not chattel slaves. I found no genuine dispute, and the topic doesn't hit any hard exclusion. It is not religious or political, no atrocity is involved, and it is about the Old Kingdom. The main weakness is the word 'paid', which glosses over the corvée nature of much of the labour. That is better as a hedge than as a blocking fix, because 'not slaves' is the claim being tested and it holds. The dates and names are right. I did not independently open the cited pages, so the quote and the source attributions should be checked before release.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "I did not open the cited pages in this review. Before publishing, confirm that the Harvard Digital Giza FAQ and the Harvard Magazine piece contain the Lehner quote 'They were not slaves' and the bakery and bread-and-beer details.",
+        "'Paid labourers' and 'Paid in bread and beer' simplify the evidence. Many scholars think the crews were rotating, state-provisioned corvée (conscripted) labour, with rations rather than wages in the modern sense. Consider 'fed and supplied by the state' or 'worked for rations of bread and beer'. This is a nuance, not a reversal of the verdict.",
+        "Herodotus (c. 484–425 BC) wrote roughly 2,000 years after Khufu (c. 2560 BC). 'About two thousand years later' is accurate. You could say 'over 2,000 years' for precision.",
+        "Herodotus says Khufu forced all Egyptians to labour in gangs of 100,000, a story he got from Egyptian priests. He does not use the word 'slaves'. The narration is accurate as written, but the summary's 'slave image comes largely from Herodotus' could say 'forced-labour image'.",
+        "'Hollywood helped spread the slave image' is supported only loosely by the cited sources. Check that at least two of them say it, or soften it.",
+        "Mark Lehner is a living person. He is cited only as an expert, not as the subject of the myth, so this is not an exclusion. Consider attributing the quote to 'Harvard archaeologists' if you want to be cautious."
+      ]
+    }
+  },
+  {
+    "claim": "Sherlock Holmes said \"Elementary, my dear Watson.\"",
+    "verdict": "MYTH",
+    "hook": "The most famous Sherlock line was never in the books.",
+    "summary": "Arthur Conan Doyle never wrote the full line in his Holmes stories. Holmes says elementary and my dear Watson separately. The combined phrase shows up later in other works.",
+    "category": "Famous Misquotes",
+    "era": "Victorian era",
+    "year": 1887,
+    "key_people": [
+      "Arthur Conan Doyle",
+      "Sherlock Holmes",
+      "P. G. Wodehouse"
+    ],
+    "event": "The Elementary, my dear Watson misquote",
+    "key_places": [
+      "London"
+    ],
+    "image_search_terms": [
+      "Sherlock Holmes illustration Sidney Paget",
+      "Strand Magazine Sherlock Holmes engraving",
+      "Arthur Conan Doyle portrait",
+      "Baker Street London illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#sherlockholmes",
+      "#misquote",
+      "#mythorfact",
+      "#didyouknow",
+      "#historymyths",
+      "#literature",
+      "#conandoyle"
+    ],
+    "pronunciations": [
+      {
+        "word": "Conan Doyle",
+        "say": "KOH-nun DOYL"
+      },
+      {
+        "word": "Wodehouse",
+        "say": "WOOD-house"
+      },
+      {
+        "word": "Psmith",
+        "say": "Smith"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "The exact line appears nowhere in Arthur Conan Doyle's four novels and fifty-six short stories about Sherlock Holmes.",
+        "key_line": "Not in any original story",
+        "sources": [
+          {
+            "title": "Quote Origin: Elementary, My Dear Watson",
+            "url": "https://quoteinvestigator.com/2016/07/14/watson/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "'Elementary, my dear Watson' – and other famous misquotes that have invaded the lexicon",
+            "url": "https://www.thenationalnews.com/arts-culture/books/2026/03/06/famous-misquotes-shakespeare-bible-sherlock",
+            "publisher": "The National"
+          }
+        ]
+      },
+      {
+        "narration": "Holmes does say elementary, in The Crooked Man, and my dear Watson appears in the stories. But the two phrases were never joined.",
+        "key_line": "Two phrases, never joined",
+        "sources": [
+          {
+            "title": "Quote Origin: Elementary, My Dear Watson",
+            "url": "https://quoteinvestigator.com/2016/07/14/watson/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "'Elementary, my dear Watson' – and other famous misquotes that have invaded the lexicon",
+            "url": "https://www.thenationalnews.com/arts-culture/books/2026/03/06/famous-misquotes-shakespeare-bible-sherlock",
+            "publisher": "The National"
+          }
+        ]
+      },
+      {
+        "narration": "The Oxford Dictionary of Quotations traces the phrase back to P. G. Wodehouse's 1915 novel Psmith, Journalist, where Psmith murmurs it.",
+        "key_line": "Wodehouse used it in 1915",
+        "sources": [
+          {
+            "title": "Quote Origin: Elementary, My Dear Watson",
+            "url": "https://quoteinvestigator.com/2016/07/14/watson/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "You Can Quote Them: Elementary, my dear reader",
+            "url": "https://yalealumnimagazine.org/articles/3670-you-can-quote-them-elementary-my-dear-reader",
+            "publisher": "Yale Alumni Magazine"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The line is often linked to the 1929 film The Return of Sherlock Holmes, where Holmes says it. That film helped make it famous.",
+        "key_line": "A 1929 film spread it",
+        "sources": [
+          {
+            "title": "Quote Origin: Elementary, My Dear Watson",
+            "url": "https://quoteinvestigator.com/2016/07/14/watson/",
+            "publisher": "Quote Investigator"
+          },
+          {
+            "title": "'Elementary, my dear Watson' – and other famous misquotes that have invaded the lexicon",
+            "url": "https://www.thenationalnews.com/arts-culture/books/2026/03/06/famous-misquotes-shakespeare-bible-sherlock",
+            "publisher": "The National"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Quote Origin: Elementary, My Dear Watson",
+        "url": "https://quoteinvestigator.com/2016/07/14/watson/",
+        "publisher": "Quote Investigator"
+      },
+      {
+        "title": "'Elementary, my dear Watson' – and other famous misquotes that have invaded the lexicon",
+        "url": "https://www.thenationalnews.com/arts-culture/books/2026/03/06/famous-misquotes-shakespeare-bible-sherlock",
+        "publisher": "The National"
+      },
+      {
+        "title": "You Can Quote Them: Elementary, my dear reader",
+        "url": "https://yalealumnimagazine.org/articles/3670-you-can-quote-them-elementary-my-dear-reader",
+        "publisher": "Yale Alumni Magazine"
+      }
+    ],
+    "id": "sherlock-holmes-said-elementary-my-dear-watson-86e7",
+    "approved_at": "2026-11-15T01:23:24.028903+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported: the exact phrase isn't in Doyle's canon. Holmes says \"Elementary\" (e.g. The Crooked Man) and \"my dear Watson\" separately. Wodehouse's Psmith, Journalist (1915) has the line, and a 1929 film is linked to its fame. I dropped the \"elementary once\" claim and the 1887 debut beat because I couldn't verify them with two sources. Britannica returned 403, so I used Quote Investigator, The National and Yale Alumni Magazine. I hedged the film origin because Yale says earlier uses exist.",
+      "adversarial": "The verdict is correct and not genuinely disputed. Quote Investigator and the Oxford Dictionary of Quotations both say the exact phrase is absent from Doyle's canon. The canon has four novels and 56 short stories, and Holmes says 'Elementary' in The Crooked Man and 'my dear Watson' often, but never joined. Wodehouse's Psmith used the full phrase, and the 1929 Clive Brook film put it in Holmes's mouth. Each beat is hedged appropriately and the hook, summary and narration are accurate. The topic is a fictional character's quotation, so none of the hard exclusions apply. I did not run web searches or open the cited pages. This assessment rests on my existing knowledge of the topic, so the source-support checks are not independently verified. I found no blocking issues, only small precision improvements.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "The Wodehouse beat says 'Psmith, Journalist' is a 1915 novel. That is the book edition, and it was serialized in The Captain in 1909-10. You could say 'in book form in 1915' or 'by 1915'. The exact Wodehouse wording is 'Elementary, my dear Watson, elementary.'",
+        "Make the 1929 film beat more precise: 'In the 1929 film The Return of Sherlock Holmes, Holmes says the full line'. The current 'often linked' and 'helped make it famous' are acceptably hedged. Quote Investigator treats the film as an early, prominent screen use, not the sole origin.",
+        "The 'year: 1887' metadata refers to A Study in Scarlet, Holmes's first appearance. It isn't spoken in the script, so make sure it isn't shown as the date of the misquote.",
+        "Cite The Crooked Man (1893) directly, for example through Project Gutenberg or the Doyle Collection, as the primary source for Holmes's 'Elementary'. The 'my dear Watson' phrase could also be backed by a primary-text link. This is optional, because two secondary sources already cover it.",
+        "The Yale Alumni Magazine piece is a lighter popular source, so use it as a supporting source for the Wodehouse beat and not the main one. Quote Investigator already supports that beat. The National article is recent journalism, so it works only as supplementary support."
+      ]
+    }
+  },
+  {
+    "claim": "Old windows are thicker at the bottom because glass slowly flows.",
+    "verdict": "MYTH",
+    "hook": "Wavy old windows are not melting. Here is why.",
+    "summary": "Old window glass is not flowing at any perceptible level. Old panes were uneven because of how the glass was made. Installers likely put the thicker edge at the bottom.",
+    "category": "Science & Inventions",
+    "era": "Medieval and early modern glassmaking",
+    "year": 1268,
+    "key_people": [],
+    "event": "The flowing glass myth",
+    "key_places": [
+      "Europe"
+    ],
+    "image_search_terms": [
+      "crown glass making engraving",
+      "glassblowing illustration 18th century",
+      "stained glass window cathedral painting",
+      "glass workshop engraving"
+    ],
+    "hashtags": [
+      "#history",
+      "#science",
+      "#glass",
+      "#mythorfact",
+      "#didyouknow",
+      "#historymyths",
+      "#inventions",
+      "#sciencefacts"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "Even by recent calculations, medieval window glass would flow at most about one nanometre in a billion years. That is far too little to see.",
+        "key_line": "Glass flows far too little to see",
+        "sources": [
+          {
+            "title": "Glass viscosity calculations definitively debunk the myth of observable flow in medieval windows",
+            "url": "https://ceramics.org/news/glass-viscosity-calculations-definitively-debunk-the-myth-of-observable-flow-in-medieval-windows/",
+            "publisher": "The American Ceramic Society"
+          },
+          {
+            "title": "Viscous flow of medieval cathedral glass (Journal of the American Ceramic Society, 2018)",
+            "url": "https://pure.psu.edu/en/publications/viscous-flow-of-medieval-cathedral-glass/",
+            "publisher": "Penn State University"
+          }
+        ]
+      },
+      {
+        "narration": "Old window glass was blown, then flattened or spun into sheets. Panes cut from it could be uneven from the start.",
+        "key_line": "Old panes were uneven from the start",
+        "sources": [
+          {
+            "title": "Glass viscosity calculations definitively debunk the myth of observable flow in medieval windows",
+            "url": "https://ceramics.org/news/glass-viscosity-calculations-definitively-debunk-the-myth-of-observable-flow-in-medieval-windows/",
+            "publisher": "The American Ceramic Society"
+          },
+          {
+            "title": "Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+            "url": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+            "publisher": "Scientific American"
+          }
+        ]
+      },
+      {
+        "narration": "Installers likely put the thicker side of each pane at the bottom, perhaps because it looked more stable. That placement gives the melted look.",
+        "key_line": "Thick sides likely went at the bottom",
+        "sources": [
+          {
+            "title": "Glass viscosity calculations definitively debunk the myth of observable flow in medieval windows",
+            "url": "https://ceramics.org/news/glass-viscosity-calculations-definitively-debunk-the-myth-of-observable-flow-in-medieval-windows/",
+            "publisher": "The American Ceramic Society"
+          },
+          {
+            "title": "Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+            "url": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+            "publisher": "Scientific American"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "This idea is widely repeated, because it sounds sensible.",
+        "key_line": "A neat explanation that sounded right",
+        "sources": [
+          {
+            "title": "Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+            "url": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+            "publisher": "Scientific American"
+          },
+          {
+            "title": "Glass viscosity calculations definitively debunk the myth of observable flow in medieval windows",
+            "url": "https://ceramics.org/news/glass-viscosity-calculations-definitively-debunk-the-myth-of-observable-flow-in-medieval-windows/",
+            "publisher": "The American Ceramic Society"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Researcher uses Westminster Abbey windows to shine light on glass myth",
+        "url": "https://www.psu.edu/news/research/story/researcher-uses-westminster-abbey-windows-shine-light-glass-myth",
+        "publisher": "Penn State University"
+      },
+      {
+        "title": "Fact or Fiction?: Glass Is a (Supercooled) Liquid",
+        "url": "https://www.scientificamerican.com/article/fact-fiction-glass-liquid/",
+        "publisher": "Scientific American"
+      },
+      {
+        "title": "Glass viscosity calculations definitively debunk the myth of observable flow in medieval windows",
+        "url": "https://ceramics.org/news/glass-viscosity-calculations-definitively-debunk-the-myth-of-observable-flow-in-medieval-windows/",
+        "publisher": "The American Ceramic Society"
+      }
+    ],
+    "id": "old-windows-are-thicker-at-the-bottom-because-gl-3c8f",
+    "approved_at": "2026-11-15T01:24:15.861851+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported. Unsourceable beats (ancient Roman/Egyptian glass, sideways panes, \"twentieth century\" origin) were dropped. The rest were reworded to match sources.",
+      "adversarial": "The verdict is correct and mainstream. Physicists and glass scientists, including Zanotto, Gulbiten and colleagues, show that glass does not flow visibly at room temperature, and the uneven-pane explanation is the standard one. The script hedges the installer point ('likely', 'perhaps'). It is not a hard-exclusion topic and no historians dispute it. I found no blocking accuracy problems, but I did not fetch the cited pages, so my assessment rests on my existing knowledge of this literature. The remaining items are polish.",
+      "fixes_applied": [
+        "Reality beat 3 narration: \"It looked more stable, and it created the melted look.\" The \"more stable\" rationale comes only from the American Ceramic Society piece, where Mauro says it gives \"the appearance of being more stable\". Scientific American only says installers put thicker sides at the bottom. Change it to: \"Installers likely put the thicker side of each pane at the bottom, perhaps because it looked more stable. That placement gives the melted look.\" This is hedged and attributes the motive correctly."
+      ],
+      "open_minor_points": [
+        "I did not open the cited pages, so the sources and the 'one nanometre in a billion years' figure are unchecked. Confirm the figure appears in the ACerS and Penn State pieces before publishing.",
+        "'Even by recent calculations' is odd wording. Consider 'Calculations on medieval cathedral glass show it would flow...'.",
+        "The 'year' field of 1268 looks arbitrary for a myth about glass-making practice over several centuries. Don't show it as a date on screen, or replace it with a range such as 'c. 1200s-1800s'.",
+        "The Westminster Abbey Penn State page is only a verdict source. Add it to the beat 1 sources if a second independent source is needed there.",
+        "Beat 2 says 'blown, then flattened or spun'. Consider naming crown glass (spun) and cylinder glass (flattened) so the line is more precise.",
+        "Hashtag #mythorfact and the category are fine. The key_places entry 'Europe' is vague but harmless."
+      ]
+    }
+  },
+  {
+    "claim": "Chess was invented in India.",
+    "verdict": "FACT",
+    "hook": "The world's most famous board game began as an Indian army.",
+    "summary": "The earliest known ancestor of chess, chaturanga, appeared in India around the 6th century. It spread to Persia and the Arab world, then to Europe. The queen gained her full power in 15th-century Spain.",
+    "category": "Indian History",
+    "era": "Gupta and post-Gupta India",
+    "year": 600,
+    "key_people": [],
+    "event": "Origins of chess",
+    "key_places": [
+      "India",
+      "Persia",
+      "Europe"
+    ],
+    "image_search_terms": [
+      "chess players Indian miniature painting",
+      "medieval chess manuscript",
+      "Persian chess miniature painting",
+      "Libro de los juegos chess manuscript"
+    ],
+    "hashtags": [
+      "#history",
+      "#chess",
+      "#indianhistory",
+      "#mythorfact",
+      "#didyouknow",
+      "#historyfacts",
+      "#boardgames",
+      "#inventions"
+    ],
+    "pronunciations": [
+      {
+        "word": "chaturanga",
+        "say": "chuh-TUR-un-guh"
+      },
+      {
+        "word": "shatranj",
+        "say": "shat-RUNJ"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "The earliest known ancestor of chess was chaturanga. It first appeared in India around the sixth century.",
+        "key_line": "Chess began in India, around the 6th century",
+        "sources": [
+          {
+            "title": "How chess became medieval Europe's favorite pastime",
+            "url": "https://www.nationalgeographic.com/history/article/medieval-chess-europe",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Who Invented Chess and When Did it Start Being Played?",
+            "url": "https://www.historyhit.com/gaming/who-invented-chess-and-when/",
+            "publisher": "History Hit"
+          }
+        ]
+      },
+      {
+        "narration": "Chaturanga means four limbs, or four divisions. The name refers to the divisions of the Indian army.",
+        "key_line": "Named for the four divisions of an army",
+        "sources": [
+          {
+            "title": "How chess became medieval Europe's favorite pastime",
+            "url": "https://www.nationalgeographic.com/history/article/medieval-chess-europe",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Shah Mat! The Global Origins of Chess in War and Diplomacy",
+            "url": "https://www.historyhit.com/gaming/shah-mat-the-global-origins-of-chess-in-war-and-diplomacy/",
+            "publisher": "History Hit"
+          }
+        ]
+      },
+      {
+        "narration": "The game travelled along trade routes to Persia, where it became shatranj. It then spread through the Arab world and on to Europe.",
+        "key_line": "Persia, the Arab world, then Europe",
+        "sources": [
+          {
+            "title": "How chess became medieval Europe's favorite pastime",
+            "url": "https://www.nationalgeographic.com/history/article/medieval-chess-europe",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Who Invented Chess and When Did it Start Being Played?",
+            "url": "https://www.historyhit.com/gaming/who-invented-chess-and-when/",
+            "publisher": "History Hit"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds false because modern chess feels European. The queen gained her full power on the board in 15th-century Spain.",
+        "key_line": "Europe reshaped the game",
+        "sources": [
+          {
+            "title": "How chess became medieval Europe's favorite pastime",
+            "url": "https://www.nationalgeographic.com/history/article/medieval-chess-europe",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "Who Invented Chess and When Did it Start Being Played?",
+            "url": "https://www.historyhit.com/gaming/who-invented-chess-and-when/",
+            "publisher": "History Hit"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "How chess became medieval Europe's favorite pastime",
+        "url": "https://www.nationalgeographic.com/history/article/medieval-chess-europe",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "Who Invented Chess and When Did it Start Being Played?",
+        "url": "https://www.historyhit.com/gaming/who-invented-chess-and-when/",
+        "publisher": "History Hit"
+      }
+    ],
+    "id": "chess-was-invented-in-india-9874",
+    "approved_at": "2026-11-15T01:26:22.005377+00:00",
+    "review": {
+      "research": "The verdict FACT holds: National Geographic and History Hit both place chess's earliest known ancestor, chaturanga, in India in about the 6th century. I removed the checkmate beat and the \"pawns, knights, bishops, rooks\" mapping because I couldn't confirm them in two independent sources. Britannica, Iranica, World History, the Met and Merriam-Webster were blocked or rate-limited, so I couldn't cite them. I also dropped \"about 1000\" for Europe and \"around 1475\" for the queen, since the sources I opened give only \"15th-century Spain\". Sourcing is thin, with only two organisations per beat. The India-origin claim is mainstream but not certain, so the narration hedges with \"earliest known\".",
+      "adversarial": "The verdict is mainstream. Historians broadly accept that chess descends from the Indian game chaturanga, c. 6th century, and then passed to Persia, the Arab world and Europe. I opened the National Geographic page. It exists and supports the 6th-century India origin, the 'four limbs' meaning, the Persia/Arab/Europe spread and the 15th-century Spain queen change. I did not open the History Hit pages. The script hedges its dating ('earliest known ancestor', 'around'). No hard exclusion applies, since this is a game's history with no religion, politics or living people. I found no blocking issues.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Consider hedging 'invented' slightly: the script says 'earliest known ancestor' and 'around the sixth century', which is good. Keep that wording rather than a flat 'invented in India' in any voiceover.",
+        "The queen's new powers are usually placed in late 15th-century Spain (Valencia area). Adding 'late' or 'around' would be more precise, though the NatGeo text supports '15th-century Spain'.",
+        "Hook 'began as an Indian army' is slightly figurative; chaturanga was a game representing an army. Optionally rephrase to 'began as a game of Indian armies'.",
+        "Fringe theories exist for a Chinese or Central Asian origin, but mainstream scholarship favours India. No need to mention them.",
+        "Consider adding a Britannica or museum source in place of repeating the same two sources on every beat."
+      ]
+    }
   }
 ]
