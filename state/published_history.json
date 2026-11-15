@@ -72,5 +72,26 @@
     "container_id": "17987184986899023",
     "media_id": "18221535871359708",
     "published_at": "2026-11-14T19:33:46.971439+00:00"
+  },
+  {
+    "run_key": "2026-11-15-4",
+    "date_ist": "2026-11-15",
+    "slot": 4,
+    "myth_id": "in-columbus-s-day-everyone-believed-the-earth-wa-6a50",
+    "claim": "In Columbus's day, everyone believed the Earth was flat.",
+    "event": "The flat Earth myth about Columbus",
+    "key_people": [
+      "Christopher Columbus",
+      "Eratosthenes",
+      "Washington Irving"
+    ],
+    "category": "Early Modern",
+    "verdict": "MYTH",
+    "caption_head": "Did sailors in 1492 really fear the edge of the world?\n\nEduc",
+    "voice_engine": "edge-tts",
+    "render_seconds": 86.1,
+    "duration_seconds": 69.0,
+    "status": "pending",
+    "container_id": "17987432906899023"
   }
 ]
