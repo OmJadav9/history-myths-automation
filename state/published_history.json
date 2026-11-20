@@ -188,5 +188,26 @@
     "container_id": "17988462989899023",
     "media_id": "18143092024537992",
     "published_at": "2026-11-19T18:49:21.832924+00:00"
+  },
+  {
+    "run_key": "2026-11-20-4",
+    "date_ist": "2026-11-20",
+    "slot": 4,
+    "myth_id": "an-apple-fell-on-isaac-newton-s-head-and-he-disc-9dcf",
+    "claim": "An apple fell on Isaac Newton's head and he discovered gravity.",
+    "event": "Newton and the apple",
+    "key_people": [
+      "Isaac Newton",
+      "William Stukeley",
+      "Voltaire"
+    ],
+    "category": "Early Modern",
+    "verdict": "MYTH",
+    "caption_head": "Did an apple really bonk Newton on the head?\n\nNewton did say",
+    "voice_engine": "piper",
+    "render_seconds": 61.2,
+    "duration_seconds": 54.2,
+    "status": "pending",
+    "container_id": "17988675362899023"
   }
 ]
