@@ -211,5 +211,25 @@
     "container_id": "17988675362899023",
     "media_id": "18474309778138525",
     "published_at": "2026-11-20T17:19:17.993112+00:00"
+  },
+  {
+    "run_key": "2026-11-21-4",
+    "date_ist": "2026-11-21",
+    "slot": 4,
+    "myth_id": "medieval-women-were-locked-into-chastity-belts-w-0b39",
+    "claim": "Medieval women were locked into chastity belts while their husbands were away.",
+    "event": "The chastity belt legend",
+    "key_people": [
+      "Konrad Kyeser",
+      "Albrecht Classen"
+    ],
+    "category": "Medieval",
+    "verdict": "MYTH",
+    "caption_head": "The iron belt that never really guarded anyone\n\nHistorians f",
+    "voice_engine": "edge-tts",
+    "render_seconds": 69.3,
+    "duration_seconds": 60.8,
+    "status": "pending",
+    "container_id": "17988970379899023"
   }
 ]
