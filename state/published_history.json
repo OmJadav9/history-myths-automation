@@ -233,5 +233,22 @@
     "container_id": "17988970379899023",
     "media_id": "18053917976820458",
     "published_at": "2026-11-21T20:09:09.904522+00:00"
+  },
+  {
+    "run_key": "2026-11-22-4",
+    "date_ist": "2026-11-22",
+    "slot": 4,
+    "myth_id": "people-in-the-middle-ages-never-took-baths-e422",
+    "claim": "People in the Middle Ages never took baths.",
+    "event": "Medieval bathing",
+    "key_people": [],
+    "category": "Everyday Life in the Past",
+    "verdict": "MYTH",
+    "caption_head": "Medieval people were cleaner than you think.\n\nMedieval towns",
+    "voice_engine": "piper",
+    "render_seconds": 48.4,
+    "duration_seconds": 49.2,
+    "status": "pending",
+    "container_id": "17989181081899023"
   }
 ]
