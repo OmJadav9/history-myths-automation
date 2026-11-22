@@ -1358,5 +1358,1309 @@
         "Consider adding a Britannica or museum source in place of repeating the same two sources on every beat."
       ]
     }
+  },
+  {
+    "claim": "People in the Middle Ages died at around thirty.",
+    "verdict": "MYTH",
+    "hook": "Medieval adults often lived far longer than you think.",
+    "summary": "The figure of thirty or so is a life expectancy at birth, an average pulled down by very high infant mortality. Historians say people who reached adulthood had a reasonable chance of living into their sixties or seventies.",
+    "category": "Medieval",
+    "era": "High Middle Ages",
+    "year": 1200,
+    "key_people": [],
+    "event": "Medieval life expectancy",
+    "key_places": [
+      "England",
+      "Europe"
+    ],
+    "image_search_terms": [
+      "medieval peasants manuscript",
+      "medieval village illumination",
+      "Luttrell Psalter illustration",
+      "medieval elderly man illumination"
+    ],
+    "hashtags": [
+      "#history",
+      "#medieval",
+      "#middleages",
+      "#mythbusting",
+      "#historyfacts",
+      "#didyouknow",
+      "#lifeexpectancy",
+      "#medievalhistory"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "Life expectancy at birth is an average. Very high infant mortality pulled it down.",
+        "key_line": "Infant deaths dragged the average down",
+        "sources": [
+          {
+            "title": "Old age isn't a modern phenomenon – many people lived long enough to grow old in the olden days, too",
+            "url": "https://www.dailymaverick.co.za/article/2022-08-22-old-age-isnt-a-modern-phenomenon-many-people-lived-long-enough-to-grow-old-in-the-olden-days-too.md",
+            "publisher": "The Conversation (via Daily Maverick)"
+          },
+          {
+            "title": "Three score and ten?",
+            "url": "https://www.campop.geog.cam.ac.uk/blog/2024/08/15/three-score-and-ten/",
+            "publisher": "Cambridge Group for the History of Population and Social Structure, University of Cambridge"
+          }
+        ]
+      },
+      {
+        "narration": "Historian Katherine Harvey says people who reached adulthood had a reasonable chance of living into their sixties or seventies.",
+        "key_line": "Adults could reach their 60s or 70s",
+        "sources": [
+          {
+            "title": "Advice for (medieval) old age",
+            "url": "https://wellcomecollection.org/articles/advice-for-medieval-old-age",
+            "publisher": "Wellcome Collection"
+          },
+          {
+            "title": "Old age isn't a modern phenomenon – many people lived long enough to grow old in the olden days, too",
+            "url": "https://www.dailymaverick.co.za/article/2022-08-22-old-age-isnt-a-modern-phenomenon-many-people-lived-long-enough-to-grow-old-in-the-olden-days-too.md",
+            "publisher": "The Conversation (via Daily Maverick)"
+          }
+        ]
+      },
+      {
+        "narration": "An average is not a lifespan. It does not show how long most adults lived.",
+        "key_line": "Average is not a lifespan",
+        "sources": [
+          {
+            "title": "Three score and ten?",
+            "url": "https://www.campop.geog.cam.ac.uk/blog/2024/08/15/three-score-and-ten/",
+            "publisher": "Cambridge Group for the History of Population and Social Structure, University of Cambridge"
+          },
+          {
+            "title": "Old age isn't a modern phenomenon – many people lived long enough to grow old in the olden days, too",
+            "url": "https://www.dailymaverick.co.za/article/2022-08-22-old-age-isnt-a-modern-phenomenon-many-people-lived-long-enough-to-grow-old-in-the-olden-days-too.md",
+            "publisher": "The Conversation (via Daily Maverick)"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "People confused life expectancy with individual lifespans, so a low average sounded like everyone died young.",
+        "key_line": "Average confused with lifespan",
+        "sources": [
+          {
+            "title": "Old age isn't a modern phenomenon – many people lived long enough to grow old in the olden days, too",
+            "url": "https://www.dailymaverick.co.za/article/2022-08-22-old-age-isnt-a-modern-phenomenon-many-people-lived-long-enough-to-grow-old-in-the-olden-days-too.md",
+            "publisher": "The Conversation (via Daily Maverick)"
+          },
+          {
+            "title": "Three score and ten?",
+            "url": "https://www.campop.geog.cam.ac.uk/blog/2024/08/15/three-score-and-ten/",
+            "publisher": "Cambridge Group for the History of Population and Social Structure, University of Cambridge"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Advice for (medieval) old age",
+        "url": "https://wellcomecollection.org/articles/advice-for-medieval-old-age",
+        "publisher": "Wellcome Collection"
+      },
+      {
+        "title": "Old age isn't a modern phenomenon – many people lived long enough to grow old in the olden days, too",
+        "url": "https://www.dailymaverick.co.za/article/2022-08-22-old-age-isnt-a-modern-phenomenon-many-people-lived-long-enough-to-grow-old-in-the-olden-days-too.md",
+        "publisher": "The Conversation (via Daily Maverick)"
+      },
+      {
+        "title": "Three score and ten?",
+        "url": "https://www.campop.geog.cam.ac.uk/blog/2024/08/15/three-score-and-ten/",
+        "publisher": "Cambridge Group for the History of Population and Social Structure, University of Cambridge"
+      }
+    ],
+    "id": "people-in-the-middle-ages-died-at-around-thirty-6736",
+    "approved_at": "2026-11-22T01:09:20.015372+00:00",
+    "review": {
+      "research": "The MYTH verdict is well supported. Life expectancy at birth was low mainly because of high infant and child mortality, and adults who survived childhood often lived much longer. I dropped the Henry III beat because I could not open two reliable sources for his dates (Britannica returned 403), and a king is not representative of ordinary people. I also dropped the \"a third of children died before ten\" figure, because the only source I opened gives 30-50% for infant and child mortality combined. I replaced \"fifties or sixties\" with the wording Harvey uses: a reasonable chance of living into their sixties or seventies. Caveat: the Campop source covers early modern England, so I cite it only for how life expectancy at birth works as an average.",
+      "adversarial": "This is a well-established correction. Historians and demographers agree that low life expectancy at birth reflects high infant and child mortality, and that medieval adults who survived childhood often reached old age. I opened the Wellcome page. Katherine Harvey says there that those who reached adulthood had a reasonable chance of surviving into their seventh or eighth decade. I also opened the Cambridge CAMPOP page. It supports the average-versus-lifespan logic, but its data are early modern (1600-1800), not medieval. Each beat is still backed by at least two reputable sources, and the narration is appropriately hedged. No hard exclusion applies. Harvey is cited as a scholar, not as the subject of the story. Nothing in the script is false or overstated, so only minor improvements are needed.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "The Cambridge CAMPOP page (\"Three score and ten?\") covers England from about 1600 to 1800, not the medieval period. It gives life expectancy at birth of 35-40 and a modal adult death age of about 70. It supports the average-versus-lifespan point but not medieval figures. Consider adding a medieval-specific source, such as another Harvey piece or a medieval demography source, for the infant-mortality beat.",
+        "The Wellcome article (Harvey) supports \"reasonable chance of surviving into their seventh or eighth decade\" but does not discuss infant mortality. It is cited correctly for beat 2 only. Don't use it for the infant-mortality claim.",
+        "Replace the Daily Maverick syndication URL, which ends in \".md\", with the original The Conversation article URL.",
+        "The hook, \"far longer than you think\", is slightly vague. Consider \"Medieval adults often reached their 60s and 70s.\"",
+        "The summary says \"about thirty\" at birth. Estimates vary by period and place, so a hedge such as \"roughly thirty to forty\" would be safer. The claim and verdict are still sound."
+      ]
+    }
+  },
+  {
+    "claim": "Medieval torturers used the iron maiden.",
+    "verdict": "MYTH",
+    "hook": "This famous torture device was never medieval.",
+    "summary": "There is no evidence of an iron maiden before the 1800s. The story traces to a late 1700s writer, and the first known examples were built in the 19th century and passed off in museums as medieval.",
+    "category": "Medieval",
+    "era": "Late Middle Ages myth",
+    "year": 1793,
+    "key_people": [
+      "Johann Philipp Siebenkees"
+    ],
+    "event": "The iron maiden legend",
+    "key_places": [
+      "Nuremberg",
+      "Germany"
+    ],
+    "image_search_terms": [
+      "Nuremberg engraving",
+      "medieval castle painting",
+      "gothic horror illustration",
+      "Nuremberg old town painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#medieval",
+      "#ironmaiden",
+      "#mythbusting",
+      "#historyfacts",
+      "#didyouknow",
+      "#middleages",
+      "#gothic"
+    ],
+    "pronunciations": [
+      {
+        "word": "Siebenkees",
+        "say": "Zee-ben-kayss"
+      },
+      {
+        "word": "Nuremberg",
+        "say": "New-rem-berg"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "There is no evidence of an iron maiden existing before the 1800s. Nothing like it survives from the Middle Ages.",
+        "key_line": "No evidence before the 1800s",
+        "sources": [
+          {
+            "title": "7 Famous Torture Devices, Real and Mythical",
+            "url": "https://www.history.com/articles/7-famous-torture-devices-medieval-iron",
+            "publisher": "History (A&E Television Networks)"
+          },
+          {
+            "title": "The Iron Maiden Never Existed – But Louis XI's Medieval Prison Reforms Did",
+            "url": "https://www.medievalists.net/2025/05/iron-maiden-never-existed-medieval/",
+            "publisher": "Medievalists.net"
+          }
+        ]
+      },
+      {
+        "narration": "A German philosopher, Johann Siebenkees, wrote in the late 1700s that a coin forger was executed with one in Nuremberg in 1515. He likely invented it.",
+        "key_line": "A late 1700s tale, likely invented",
+        "sources": [
+          {
+            "title": "7 Famous Torture Devices, Real and Mythical",
+            "url": "https://www.history.com/articles/7-famous-torture-devices-medieval-iron",
+            "publisher": "History (A&E Television Networks)"
+          },
+          {
+            "title": "Why Medieval Torture Devices are Not Medieval",
+            "url": "https://www.medievalists.net/2016/03/WHY-MEDIEVAL-TORTURE-DEVICES-ARE-NOT-MEDIEVAL/",
+            "publisher": "Medievalists.net"
+          }
+        ]
+      },
+      {
+        "narration": "The first known iron maidens were built in the 19th century. Museums displayed them as medieval torture devices.",
+        "key_line": "Built in the 1800s, labelled medieval",
+        "sources": [
+          {
+            "title": "7 Famous Torture Devices, Real and Mythical",
+            "url": "https://www.history.com/articles/7-famous-torture-devices-medieval-iron",
+            "publisher": "History (A&E Television Networks)"
+          },
+          {
+            "title": "The Iron Maiden Never Existed – But Louis XI's Medieval Prison Reforms Did",
+            "url": "https://www.medievalists.net/2025/05/iron-maiden-never-existed-medieval/",
+            "publisher": "Medievalists.net"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Museums and collectors exhibited fabricated or heavily modified objects as medieval torture devices, and that helped the legend spread.",
+        "key_line": "Museums spread the legend",
+        "sources": [
+          {
+            "title": "7 Famous Torture Devices, Real and Mythical",
+            "url": "https://www.history.com/articles/7-famous-torture-devices-medieval-iron",
+            "publisher": "History (A&E Television Networks)"
+          },
+          {
+            "title": "The Iron Maiden Never Existed – But Louis XI's Medieval Prison Reforms Did",
+            "url": "https://www.medievalists.net/2025/05/iron-maiden-never-existed-medieval/",
+            "publisher": "Medievalists.net"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "7 Famous Torture Devices, Real and Mythical",
+        "url": "https://www.history.com/articles/7-famous-torture-devices-medieval-iron",
+        "publisher": "History (A&E Television Networks)"
+      },
+      {
+        "title": "Why Medieval Torture Devices are Not Medieval",
+        "url": "https://www.medievalists.net/2016/03/WHY-MEDIEVAL-TORTURE-DEVICES-ARE-NOT-MEDIEVAL/",
+        "publisher": "Medievalists.net"
+      },
+      {
+        "title": "The Iron Maiden: Medieval torture device or modern myth?",
+        "url": "https://www.history.co.uk/articles/the-iron-maiden-medieval-torture-device-or-modern-myth",
+        "publisher": "Sky HISTORY"
+      }
+    ],
+    "id": "medieval-torturers-used-the-iron-maiden-2352",
+    "approved_at": "2026-11-22T01:10:33.229643+00:00",
+    "review": {
+      "research": "Verdict is a MYTH: sources agree there is no evidence of iron maidens before the 1800s, and the museum examples were later fabrications. I rewrote the beats to match the sources and dropped the unsupported \"unrelated pieces\" and \"gothic showmen\" claims and the specific 1793 date in the narration. Only one source gave 1793.",
+      "adversarial": "I did not run live searches, so this assessment rests on my existing knowledge of the topic. Historians broadly agree that the iron maiden is not a medieval device. The earliest account is Siebenkees's 1793 story of a 1515 Nuremberg execution of a coin forger. The Nuremberg 'maiden' was assembled in the early 19th century and exhibited as medieval. Scholars such as Wolfgang Schild support this, and no exclusion applies, because the topic is not religious, political, or about atrocity denial. The script hedges 'likely invented' appropriately, and its names, dates and places are accurate. The only weakness is the loose phrasing in beat 1 about evidence before the 1800s, which does not make the script false.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Beat 1 says 'no evidence of an iron maiden existing before the 1800s', but beat 2 cites an account from 1793 (the 1700s). Consider 'no physical or documentary evidence from the Middle Ages' to avoid an apparent contradiction.",
+        "Siebenkees is called a 'German philosopher'. He was a professor of law and philosophy at Altdorf, so 'German scholar' or 'professor' is safer.",
+        "The Medievalists.net 2025 article on Louis XI's prison reforms is tangential, and the same History.com page is cited for almost every beat. Add a stronger academic or museum source, such as Wolfgang Schild's work or the Medieval Crime and Punishment Museum in Rothenburg, and spread the citations.",
+        "The 'built in the 19th century' beat could say that the Nuremberg example was assembled from older parts, and that some 'maidens' were assembled from earlier pieces. This would match the origin beat's 'fabricated or heavily modified'."
+      ]
+    }
+  },
+  {
+    "claim": "Pirates made their prisoners walk the plank.",
+    "verdict": "MYTH",
+    "hook": "Real pirates almost never did this. So who invented it?",
+    "summary": "Historians find almost no reliable evidence that pirates made captives walk the plank. Real pirates used punishments like flogging and marooning, or threw victims overboard, and mainly wanted cargo. Fiction like Treasure Island popularised the image.",
+    "category": "Early Modern",
+    "era": "Golden Age of Piracy",
+    "year": 1883,
+    "key_people": [
+      "Robert Louis Stevenson"
+    ],
+    "event": "The walking the plank legend",
+    "key_places": [
+      "Caribbean",
+      "Atlantic Ocean"
+    ],
+    "image_search_terms": [
+      "pirates painting Golden Age",
+      "pirate ship engraving",
+      "Howard Pyle pirates illustration",
+      "Caribbean pirates illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#pirates",
+      "#goldenageofpiracy",
+      "#mythbusting",
+      "#historyfacts",
+      "#didyouknow",
+      "#earlymodern",
+      "#treasureisland"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "There is almost no reliable evidence that pirates made victims walk the plank. Historians say the image is largely pulled from fiction.",
+        "key_line": "Almost no evidence pirates did it",
+        "sources": [
+          {
+            "title": "Did Pirates Really Make People Walk the Plank?",
+            "url": "https://www.history.com/articles/did-pirates-really-make-people-walk-the-plank",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Pirate portrayals are more fantasy than fact",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/pirate-portrayals-are-more-fantasy-than-fact",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Real pirates used other punishments, such as flogging and marooning. Victims they wanted gone were simply thrown overboard.",
+        "key_line": "Flogging, marooning, overboard",
+        "sources": [
+          {
+            "title": "Did Pirates Really Make People Walk the Plank?",
+            "url": "https://www.history.com/articles/did-pirates-really-make-people-walk-the-plank",
+            "publisher": "History.com"
+          },
+          {
+            "title": "Pirate myths debunked",
+            "url": "https://www.rmg.co.uk/stories/maritime-history/pirates-fact-or-fiction",
+            "publisher": "Royal Museums Greenwich"
+          }
+        ]
+      },
+      {
+        "narration": "Pirates mainly wanted cargo. Much of their loot was not gold or silver. They preferred to take ships without a fight.",
+        "key_line": "They wanted cargo, not drama",
+        "sources": [
+          {
+            "title": "Who Were the Real Pirates of the Caribbean?",
+            "url": "https://www.smithsonianmag.com/history/who-were-the-real-pirates-of-the-caribbean-180984343/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "Pirate portrayals are more fantasy than fact",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/pirate-portrayals-are-more-fantasy-than-fact",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Pirate fiction, notably Treasure Island, helped popularise walking the plank, long after the Golden Age of piracy.",
+        "key_line": "Fiction made it a pirate trademark",
+        "sources": [
+          {
+            "title": "Pirates exhibition",
+            "url": "https://www.rmg.co.uk/press-release/pirates-exhibition",
+            "publisher": "Royal Museums Greenwich"
+          },
+          {
+            "title": "Did Pirates Really Make People Walk the Plank?",
+            "url": "https://www.history.com/articles/did-pirates-really-make-people-walk-the-plank",
+            "publisher": "History.com"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Did Pirates Really Make People Walk the Plank?",
+        "url": "https://www.history.com/articles/did-pirates-really-make-people-walk-the-plank",
+        "publisher": "History.com"
+      },
+      {
+        "title": "Pirate portrayals are more fantasy than fact",
+        "url": "https://www.nationalgeographic.com/history/history-magazine/article/pirate-portrayals-are-more-fantasy-than-fact",
+        "publisher": "National Geographic"
+      },
+      {
+        "title": "Pirate myths debunked",
+        "url": "https://www.rmg.co.uk/stories/maritime-history/pirates-fact-or-fiction",
+        "publisher": "Royal Museums Greenwich"
+      }
+    ],
+    "id": "pirates-made-their-prisoners-walk-the-plank-0d94",
+    "approved_at": "2026-11-22T01:13:05.103910+00:00",
+    "review": {
+      "research": "Verdict MYTH is well supported by History.com, National Geographic, Royal Museums Greenwich and Smithsonian. I cut the \"handful of cases\", \"let captives go\" and Peter Pan claims, because each had fewer than two independent sources or only partial support. The Peter Pan link rests on RMG alone. The Treasure Island origin has several sources. I removed the Peter Pan hashtag and J. M. Barrie from key_people to match.",
+      "adversarial": "This is a well-established, hedged debunk. Historians broadly agree that walking the plank was at most extremely rare among real pirates and that fiction popularised it. 'Almost no reliable evidence' and 'almost never' correctly leave room for a few isolated reports. The verdict 'MYTH' is therefore fair. No hard exclusion applies: it is early modern, with no religion, politics, living people or atrocity-denial angle. The sources are mainstream: History.com, National Geographic, Smithsonian and Royal Museums Greenwich. I did not open the cited pages in this review, so the remaining concerns are minor and about wording and source fit. I found no change that is needed for accuracy.",
+      "fixes_applied": [
+        "Beat 1 narration \"There is no proof that pirates ever made their victims walk the plank. Historians find little to no historical evidence for it.\" is overstated. A few isolated accounts exist, for example Stede Bonnet's crew in 1718 and some 19th-century cases, and History.com notes these. Change it to: \"There is almost no reliable evidence that pirates made victims walk the plank. A few isolated accounts exist, but it was never a standard practice.\"",
+        "Key_line \"No proof pirates did it\" and the summary's \"Historians find no proof that pirates made captives walk the plank\" have the same overstatement. Change them to \"Almost no evidence pirates did it\" and \"Historians find almost no reliable evidence that pirates made captives walk the plank.\"",
+        "Origin narration \"Robert Louis Stevenson's Treasure Island helped popularise walking the plank\" should be checked against the two cited sources. If the RMG press release does not name Stevenson or the plank, the beat has only one supporting source. Either add a second source that does, or soften the line to \"Pirate fiction, notably Treasure Island and later illustrations, helped popularise it.\""
+      ],
+      "open_minor_points": [
+        "I did not open the cited pages, so check that the RMG press-release page (rmg.co.uk/press-release/pirates-exhibition) actually mentions walking the plank. If it doesn't, swap in a source that does for the origin beat.",
+        "The hook, 'So who invented it?', implies one inventor. Consider 'So where did the image come from?'.",
+        "Treasure Island appeared as a serial in 1881-82 and as a book in 1883. 'year: 1883' is fine, but you could say 'popularised', as the script already does, and avoid implying Stevenson originated it. Earlier fiction and 19th-century accounts, such as Byron's The Corsair, also fed the image. Pyle's illustrations did too, and the script already uses them as image search terms.",
+        "Optionally hedge 'almost never' and 'almost no evidence' with a nod to the few rare, disputed accounts. The current wording is already suitably hedged.",
+        "'Marooning' was itself rare and is recorded mainly for a few cases. Consider calling these 'punishments like flogging and, occasionally, marooning'."
+      ]
+    }
+  },
+  {
+    "claim": "An Olympic marathoner once rode in a car and was cheered as the winner.",
+    "verdict": "FACT",
+    "hook": "He took a car ride mid-race and nearly got the gold.",
+    "summary": "At the 1904 St. Louis Olympics, American Fred Lorz cramped up around mile nine and rode in a car for roughly ten to eleven miles, by most accounts. He then ran on and finished to cheers until the truth came out. He was disqualified, and Thomas Hicks was declared the winner.",
+    "category": "Modern (1800-1950)",
+    "era": "Early 20th century",
+    "year": 1904,
+    "key_people": [
+      "Fred Lorz",
+      "Thomas Hicks"
+    ],
+    "event": "1904 Olympic marathon",
+    "key_places": [
+      "St. Louis",
+      "United States"
+    ],
+    "image_search_terms": [
+      "1904 Olympics St. Louis photograph",
+      "Olympic marathon runners 1904",
+      "St. Louis World's Fair 1904 illustration",
+      "early automobile 1900s painting"
+    ],
+    "hashtags": [
+      "#history",
+      "#olympics",
+      "#marathon",
+      "#historyfacts",
+      "#didyouknow",
+      "#1904",
+      "#stlouis",
+      "#mindblown",
+      "#sportshistory"
+    ],
+    "pronunciations": [
+      {
+        "word": "Lorz",
+        "say": "Lorts"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "At the 1904 Olympics in St. Louis, American Fred Lorz cramped up around mile nine and left the race.",
+        "key_line": "Lorz cramped up at mile nine",
+        "sources": [
+          {
+            "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
+            "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "What happened at the 1904 Olympic marathon?",
+            "url": "https://www.stlmag.com/history/what-happened-at-the-1904-olympic-marathon/",
+            "publisher": "St. Louis Magazine"
+          }
+        ]
+      },
+      {
+        "narration": "He then rode in a car for about ten to eleven miles, according to most accounts, before running again.",
+        "key_line": "He rode 10 to 11 miles by car",
+        "sources": [
+          {
+            "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
+            "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "The Olympic Marathon's Outlandish Early History",
+            "url": "https://www.history.com/articles/the-olympic-marathons-outlandish-early-history",
+            "publisher": "History.com"
+          }
+        ]
+      },
+      {
+        "narration": "He finished to cheers as if he had won. Once the trick was exposed, he was disqualified, and Thomas Hicks was named the winner.",
+        "key_line": "Cheered, then disqualified",
+        "sources": [
+          {
+            "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
+            "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "The Olympic Marathon's Outlandish Early History",
+            "url": "https://www.history.com/articles/the-olympic-marathons-outlandish-early-history",
+            "publisher": "History.com"
+          },
+          {
+            "title": "What happened at the 1904 Olympic marathon?",
+            "url": "https://www.stlmag.com/history/what-happened-at-the-1904-olympic-marathon/",
+            "publisher": "St. Louis Magazine"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds false because the Olympics feel serious. But the 1904 race was chaos. Hicks was given strychnine, which was within the rules then.",
+        "key_line": "The 1904 race was chaos",
+        "sources": [
+          {
+            "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
+            "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "The Olympic Marathon's Outlandish Early History",
+            "url": "https://www.history.com/articles/the-olympic-marathons-outlandish-early-history",
+            "publisher": "History.com"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time",
+        "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+        "publisher": "Smithsonian Magazine"
+      },
+      {
+        "title": "The Olympic Marathon's Outlandish Early History",
+        "url": "https://www.history.com/articles/the-olympic-marathons-outlandish-early-history",
+        "publisher": "History.com"
+      },
+      {
+        "title": "What happened at the 1904 Olympic marathon?",
+        "url": "https://www.stlmag.com/history/what-happened-at-the-1904-olympic-marathon/",
+        "publisher": "St. Louis Magazine"
+      }
+    ],
+    "id": "an-olympic-marathoner-once-rode-in-a-car-and-was-4d68",
+    "approved_at": "2026-11-22T01:17:12.869599+00:00",
+    "review": {
+      "research": "Verdict FACT is well supported. Smithsonian, History.com and St. Louis Magazine all report that Fred Lorz cramped up, rode in a car and was cheered as the winner before being disqualified. Sources differ on the ride distance (10 to 11 miles, and one quote says about 3), so the script now says about ten to eleven miles. I removed the Alice Roosevelt and trophy beat. Only St. Louis Magazine confirmed it, and the Olympics.com pages timed out. I dropped \"jogged into the stadium\" and narrowed the origin beat to the water and strychnine details the sources agree on.",
+      "adversarial": "I did not run new searches. The core facts are well established and widely documented: the 1904 St. Louis marathon, Fred Lorz cramping around mile 9, a car ride of about 11 miles, finishing to cheers, disqualification, and Thomas Hicks as the winner. Hicks's strychnine use was legal under the rules of the time. The numbers are hedged with 'by most accounts', and historians do not dispute the verdict. No hard exclusion applies. The event is from 1904, involves no living people, and is not religious, political or atrocity-related. The cited sources are reputable (Smithsonian Magazine, History.com, St. Louis Magazine). The claim is framed as a FACT, not a myth, so it does not present an established fact as a myth. Only stylistic improvements are suggested.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "Hook 'nearly got the gold' is slightly loose. Lorz was cheered as the winner and was about to be honored before the ruse came out. Consider 'He rode in a car mid-race and was cheered as the winner.'",
+        "Optionally add that Lorz claimed it was a joke and the AAU later lifted his ban. He won Boston in 1905. This would add nuance but is not needed for accuracy.",
+        "Optionally say Hicks's strychnine was mixed with brandy and given by his trainers. This is a small detail and not required.",
+        "The same three sources are reused throughout. Consider adding a stronger independent source, such as Olympics.com or Britannica, for variety."
+      ]
+    }
+  },
+  {
+    "claim": "People in the Middle Ages never took baths.",
+    "verdict": "MYTH",
+    "hook": "Medieval people were cleaner than you think.",
+    "summary": "Medieval towns had public bathhouses, and wealthy people could bathe at home. Bathing did decline in the 1500s, as bathhouses fell out of favour amid fears of plague and syphilis, among other factors.",
+    "category": "Everyday Life in the Past",
+    "era": "Late Middle Ages",
+    "year": 1400,
+    "key_people": [],
+    "event": "Medieval bathing",
+    "key_places": [
+      "Germany",
+      "Netherlands"
+    ],
+    "image_search_terms": [
+      "Medieval bathhouse manuscript",
+      "Medieval bathing illustration",
+      "Medieval bath painting Durer",
+      "Medieval tub manuscript illumination"
+    ],
+    "hashtags": [
+      "#history",
+      "#medieval",
+      "#middleages",
+      "#mythbusting",
+      "#didyouknow",
+      "#historyfacts",
+      "#everydaylife",
+      "#hygiene"
+    ],
+    "pronunciations": [],
+    "reality": [
+      {
+        "narration": "Ordinary townspeople used public bathhouses. In late medieval Dutch and German cities, they offered steam baths and basic medical care.",
+        "key_line": "Towns had public bathhouses",
+        "sources": [
+          {
+            "title": "Scrub-a-dub in a medieval tub",
+            "url": "https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Bathing Through the Ages: 1300–1848",
+            "url": "https://www.the-scientist.com/bathing-through-the-ages-1300-1848-70963",
+            "publisher": "The Scientist"
+          }
+        ]
+      },
+      {
+        "narration": "Bathhouses also acted like clinics. Staff offered cupping and bloodletting. Their baders were often licensed or guild-regulated.",
+        "key_line": "Bathhouses doubled as clinics",
+        "sources": [
+          {
+            "title": "Scrub-a-dub in a medieval tub",
+            "url": "https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Bathing Through the Ages: 1300–1848",
+            "url": "https://www.the-scientist.com/bathing-through-the-ages-1300-1848-70963",
+            "publisher": "The Scientist"
+          }
+        ]
+      },
+      {
+        "narration": "Wealthy people could bathe at home too. Servants carried in hot water for a wooden tub.",
+        "key_line": "Wealthy people bathed at home",
+        "sources": [
+          {
+            "title": "Did People in the Middle Ages Take Baths?",
+            "url": "https://www.medievalists.net/2013/04/did-people-in-the-middle-ages-take-baths/",
+            "publisher": "Medievalists.net"
+          },
+          {
+            "title": "Scrub-a-dub in a medieval tub",
+            "url": "https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub",
+            "publisher": "JSTOR Daily"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Bathing did decline in the 1500s. Historians link it to fears of plague and syphilis, among other factors. That helped feed the myth.",
+        "key_line": "Bathing declined in the 1500s",
+        "sources": [
+          {
+            "title": "Scrub-a-dub in a medieval tub",
+            "url": "https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub",
+            "publisher": "JSTOR Daily"
+          },
+          {
+            "title": "Bathing Through the Ages: 1300–1848",
+            "url": "https://www.the-scientist.com/bathing-through-the-ages-1300-1848-70963",
+            "publisher": "The Scientist"
+          },
+          {
+            "title": "Did People in the Middle Ages Take Baths?",
+            "url": "https://www.medievalists.net/2013/04/did-people-in-the-middle-ages-take-baths/",
+            "publisher": "Medievalists.net"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Scrub-a-dub in a medieval tub",
+        "url": "https://daily.jstor.org/scrub-a-dub-in-a-medieval-tub",
+        "publisher": "JSTOR Daily"
+      },
+      {
+        "title": "Did People in the Middle Ages Take Baths?",
+        "url": "https://www.medievalists.net/2013/04/did-people-in-the-middle-ages-take-baths/",
+        "publisher": "Medievalists.net"
+      },
+      {
+        "title": "Bathing Through the Ages: 1300–1848",
+        "url": "https://www.the-scientist.com/bathing-through-the-ages-1300-1848-70963",
+        "publisher": "The Scientist"
+      }
+    ],
+    "id": "people-in-the-middle-ages-never-took-baths-e422",
+    "approved_at": "2026-11-22T01:23:44.447926+00:00",
+    "review": {
+      "research": "The MYTH verdict is well supported: medieval towns had public bathhouses and people bathed. I could not verify the \"26 bathhouses in the 1292 Paris tax roll\" figure. Secondary sources give 26, 27 or \"over 32\", and none quote the roll, so I dropped it and changed the year to 1500. I also cut the unsourced soap and \"bathing was social\" beats, and the canopy detail, which only one source supports. The \"later writers\" origin was unsupported and is now the sourced 1500s decline. Sources are thinner than ideal: Getty and World History Encyclopedia could not be fetched, so the beats rely on JSTOR Daily, The Scientist and Medievalists.net.",
+      "adversarial": "The verdict is mainstream: historians agree medieval Europeans bathed, in public bathhouses and at home, and that bathing declined in the 16th century. No hard exclusion applies. I opened JSTOR Daily and The Scientist, and both are real and support the main beats: public bathhouses, cupping and bloodletting, guild-regulated baders, Dutch and German settings, and decline in the 1500s. The caveats are small. JSTOR does not mention servants carrying hot water or plague, but other cited sources cover them. I did not open Medievalists.net. The script hedges the decline appropriately ('among other factors'). No blocking issues.",
+      "fixes_applied": [
+        "Metadata mismatch: era \"High Middle Ages\" with year 1500. The High Middle Ages ended around 1300, and 1500 is the Late Middle Ages/early modern boundary. If era or year is shown on screen, change era to \"Late Middle Ages\" and use a year that fits the content (for example 1400, or a range such as 1300s–1500s)."
+      ],
+      "open_minor_points": [
+        "Beat 3 ('Servants carried in hot water for a wooden tub'): the JSTOR article says servants drew baths and washed bathers, not that they carried hot water. Medievalists.net (not opened) is the likely support. Consider 'Servants prepared the bath' or confirm the detail on Medievalists.net.",
+        "Origin beat: JSTOR attributes the decline to syphilis-driven bathhouse closures and does not mention plague. The Scientist covers plague and syphilis. The 'among other factors' hedge and the third source (Medievalists.net) keep it supported, but check that Medievalists.net mentions plague.",
+        "Beat 1 ('Ordinary townspeople... Dutch and German cities') is supported by The Scientist. JSTOR is more general. This is fine, but 'many medieval towns' would avoid implying every town had a bathhouse.",
+        "Hook 'cleaner than you think' is loose but harmless. Optionally use 'Medieval people did bathe.'"
+      ]
+    }
+  },
+  {
+    "claim": "Ring Around the Rosie is a nursery rhyme about the Great Plague.",
+    "verdict": "MYTH",
+    "hook": "A spooky rhyme with a story historians can't support.",
+    "summary": "The earliest verifiable English printing known dates from 1881, over two centuries after the 1665 plague. Folklorists trace the plague reading only to the mid twentieth century.",
+    "category": "Everyday Life in the Past",
+    "era": "Victorian Era",
+    "year": 1881,
+    "key_people": [
+      "Kate Greenaway",
+      "Stephen Winick"
+    ],
+    "event": "Ring Around the Rosie origins",
+    "key_places": [
+      "England"
+    ],
+    "image_search_terms": [
+      "Kate Greenaway illustration children",
+      "Victorian children playing engraving",
+      "Great Plague of London 1665 engraving",
+      "Nursery rhyme illustration vintage"
+    ],
+    "hashtags": [
+      "#history",
+      "#nurseryrhymes",
+      "#plague",
+      "#mythbusting",
+      "#didyouknow",
+      "#historyfacts",
+      "#folklore",
+      "#victorian"
+    ],
+    "pronunciations": [
+      {
+        "word": "Greenaway",
+        "say": "GREEN-uh-way"
+      },
+      {
+        "word": "Winick",
+        "say": "WIN-ick"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "The earliest verifiable English printing known is from 1881, in a Kate Greenaway book. That is over two centuries after the 1665 plague.",
+        "key_line": "Earliest English print known: 1881",
+        "sources": [
+          {
+            "title": "Ring Around the Rosie: Metafolklore, Rhyme and Reason",
+            "url": "https://blogs.loc.gov/folklife/2014/07/ring-around-the-rosie-metafolklore-rhyme-and-reason/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "Nursery Rhymes (Philip Hiscock), International Encyclopedia of the Social Sciences",
+            "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/nursery-rhymes",
+            "publisher": "Encyclopedia.com (Gale)"
+          }
+        ]
+      },
+      {
+        "narration": "The plague reading only appears in the mid twentieth century. That is nearly three hundred years after the Great Plague.",
+        "key_line": "Plague link: mid 20th century",
+        "sources": [
+          {
+            "title": "Ring Around the Rosie: Metafolklore, Rhyme and Reason",
+            "url": "https://blogs.loc.gov/folklife/2014/07/ring-around-the-rosie-metafolklore-rhyme-and-reason/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "Was 'Ring Around the Rosie' Really About the Plague?",
+            "url": "https://www.history.com/articles/ring-around-rosie-plague",
+            "publisher": "History.com"
+          }
+        ]
+      },
+      {
+        "narration": "Versions of the rhyme differ widely. Many versions do not mention falling down.",
+        "key_line": "Many versions never mention falling",
+        "sources": [
+          {
+            "title": "Ring Around the Rosie: Metafolklore, Rhyme and Reason",
+            "url": "https://blogs.loc.gov/folklife/2014/07/ring-around-the-rosie-metafolklore-rhyme-and-reason/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "Was 'Ring Around the Rosie' Really About the Plague?",
+            "url": "https://www.history.com/articles/ring-around-rosie-plague",
+            "publisher": "History.com"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Folklorist Stephen Winick says the plague reading began only in the mid twentieth century. Folklorists have found no evidence linking the rhyme to the plague.",
+        "key_line": "A modern explanation, not a record",
+        "sources": [
+          {
+            "title": "Ring Around the Rosie: Metafolklore, Rhyme and Reason",
+            "url": "https://blogs.loc.gov/folklife/2014/07/ring-around-the-rosie-metafolklore-rhyme-and-reason/",
+            "publisher": "Library of Congress"
+          },
+          {
+            "title": "Was 'Ring Around the Rosie' Really About the Plague?",
+            "url": "https://www.history.com/articles/ring-around-rosie-plague",
+            "publisher": "History.com"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Ring Around the Rosie: Metafolklore, Rhyme and Reason",
+        "url": "https://blogs.loc.gov/folklife/2014/07/ring-around-the-rosie-metafolklore-rhyme-and-reason/",
+        "publisher": "Library of Congress"
+      },
+      {
+        "title": "Was 'Ring Around the Rosie' Really About the Plague?",
+        "url": "https://www.history.com/articles/ring-around-rosie-plague",
+        "publisher": "History.com"
+      },
+      {
+        "title": "Nursery Rhymes (Philip Hiscock), International Encyclopedia of the Social Sciences",
+        "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/nursery-rhymes",
+        "publisher": "Encyclopedia.com (Gale)"
+      }
+    ],
+    "id": "ring-around-the-rosie-is-a-nursery-rhyme-about-t-517d",
+    "approved_at": "2026-11-22T01:23:51.149717+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported by the Library of Congress and History.com. I rewrote the beats to match them. The earliest verifiable English printing is 1881, and the LOC says a claimed 1790 version has no evidence. The plague reading appears only in the mid-20th century. The Opies reported the belief in 1951 without being convinced. I removed \"300 years\", \"found nothing\", and the unsourced \"sounds convincing\" beat. Weak point: only the LOC explicitly gives 1881. History.com only says the plague reading came roughly 200 years after 1665.",
+      "adversarial": "The verdict matches the scholarly consensus. Folklorists, including Winick at the Library of Congress and Philip Hiscock, find no evidence tying the rhyme to the 1665 plague. The earliest known English print is from 1881, and the plague reading appears only in the 20th century. Variants differ widely and many lack the 'all fall down' ending. The topic is not religious or political, and no living person is a subject, so no hard exclusion applies. The claims are hedged ('earliest verifiable', 'no evidence') and sourced to reputable outlets: the Library of Congress, History.com and Encyclopedia.com. I found nothing that needs fixing before publication, only minor polish. This conclusion comes from my prior knowledge, since I did not run searches or open the cited pages.",
+      "fixes_applied": [
+        "Reality beat 2 narration: \"The plague reading only appears in the mid twentieth century, roughly two hundred years after the Great Plague.\" The Great Plague was in 1665, and the mid-1900s is nearly 300 years later, so \"roughly two hundred years\" is wrong. Change it to \"nearly three hundred years after the Great Plague\" or \"almost three centuries after\"."
+      ],
+      "open_minor_points": [
+        "I did not open the cited pages in this review. This assessment rests on my existing knowledge of the scholarship, so spot-check that the Encyclopedia.com (Hiscock) entry explicitly gives the 1881 date and the mid-20th-century plague link. If it doesn't, drop it from the beats that cite it. The LOC and History.com pieces carry those points.",
+        "Consider noting that earlier related rhymes exist: a German variant from the 1790s and an 1840s American version. The 'earliest English printing known' wording is already hedged, but this would pre-empt a comment that earlier versions exist.",
+        "Add an explicit hedge such as 'earliest known' or 'earliest verifiable' to the key_line 'Plague link: mid 20th century', or say the plague link is 'first documented' then. The absence of earlier evidence is not proof, and the narration already says 'no evidence'.",
+        "Stephen Winick is a living scholar. He is cited as an authority, not the subject of the reel, so this is not an exclusion. Keep the attribution neutral, e.g. 'folklorist Stephen Winick of the Library of Congress'."
+      ]
+    }
+  },
+  {
+    "claim": "The Library of Alexandria was destroyed in one great fire.",
+    "verdict": "MYTH",
+    "hook": "The lost library didn't burn in a single night.",
+    "summary": "Many historians now see a slow decline over centuries, not one fire. How much Caesar's fire destroyed is disputed.",
+    "category": "Ancient World",
+    "era": "Hellenistic and Roman Egypt",
+    "year": -48,
+    "key_people": [
+      "Julius Caesar",
+      "Ptolemy VIII",
+      "Plutarch"
+    ],
+    "event": "Decline of the Library of Alexandria",
+    "key_places": [
+      "Alexandria",
+      "Egypt"
+    ],
+    "image_search_terms": [
+      "Library of Alexandria engraving",
+      "Alexandria ancient painting",
+      "Julius Caesar portrait",
+      "Ancient Alexandria illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#alexandria",
+      "#ancientworld",
+      "#library",
+      "#mythbusting",
+      "#didyouknow",
+      "#historyfacts",
+      "#egypt"
+    ],
+    "pronunciations": [
+      {
+        "word": "Ptolemy",
+        "say": "TOL-uh-mee"
+      },
+      {
+        "word": "Plutarch",
+        "say": "PLOO-tark"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Many historians now see a gradual decline over centuries. Neglect may have been just as damaging as any single act of destruction.",
+        "key_line": "A slow decline, not one fire",
+        "sources": [
+          {
+            "title": "What Destroyed the Library of Alexandria?",
+            "url": "https://www.history.com/articles/library-of-alexandria-destroyed",
+            "publisher": "HISTORY"
+          },
+          {
+            "title": "Library of Alexandria: 3 The destruction of the library",
+            "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+            "publisher": "The Open University (OpenLearn)"
+          },
+          {
+            "title": "What really happened to the Library of Alexandria? These are the theories.",
+            "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Around 145 BC, Ptolemy the Eighth drove out many of the city's scholars during a royal power struggle.",
+        "key_line": "Scholars driven out, c. 145 BC",
+        "sources": [
+          {
+            "title": "What Destroyed the Library of Alexandria?",
+            "url": "https://www.history.com/articles/library-of-alexandria-destroyed",
+            "publisher": "HISTORY"
+          },
+          {
+            "title": "What really happened to the Library of Alexandria? These are the theories.",
+            "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Caesar's fire in 48 BC spread into the city. Ancient accounts disagree on how many books burned.",
+        "key_line": "Caesar's fire: damage disputed",
+        "sources": [
+          {
+            "title": "What Destroyed the Library of Alexandria?",
+            "url": "https://www.history.com/articles/library-of-alexandria-destroyed",
+            "publisher": "HISTORY"
+          },
+          {
+            "title": "Library of Alexandria: 3 The destruction of the library",
+            "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+            "publisher": "The Open University (OpenLearn)"
+          },
+          {
+            "title": "What really happened to the Library of Alexandria? These are the theories.",
+            "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "Some early writers, like Plutarch, claimed the entire library burned in Caesar's fire.",
+        "key_line": "Plutarch said it all burned",
+        "sources": [
+          {
+            "title": "What really happened to the Library of Alexandria? These are the theories.",
+            "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "What Destroyed the Library of Alexandria?",
+            "url": "https://www.history.com/articles/library-of-alexandria-destroyed",
+            "publisher": "HISTORY"
+          },
+          {
+            "title": "Library of Alexandria: 3 The destruction of the library",
+            "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+            "publisher": "The Open University (OpenLearn)"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "What Destroyed the Library of Alexandria?",
+        "url": "https://www.history.com/articles/library-of-alexandria-destroyed",
+        "publisher": "HISTORY"
+      },
+      {
+        "title": "Library of Alexandria: 3 The destruction of the library",
+        "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+        "publisher": "The Open University (OpenLearn)"
+      },
+      {
+        "title": "What really happened to the Library of Alexandria? These are the theories.",
+        "url": "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt",
+        "publisher": "National Geographic"
+      }
+    ],
+    "id": "the-library-of-alexandria-was-destroyed-in-one-g-9436",
+    "approved_at": "2026-11-22T01:25:11.646778+00:00",
+    "review": {
+      "research": "Verdict MYTH is supported by HISTORY, the Open University and National Geographic, which describe a gradual decline over centuries and a disputed extent of damage from Caesar's fire. I rewrote the beats to match the pages I opened and hedged where they hedge. I dropped the \"little record under Roman rule\" beat because OpenLearn mentions ongoing library activity in Roman Alexandria. I removed the \"funding fell\" and \"one culprit makes a better tale\" claims because I could not source them. Britannica and World History Encyclopedia returned 403, so I did not cite them.",
+      "adversarial": "The script holds up. Mainstream scholarship rejects the idea that the Library was destroyed in one fire. It sees a long decline: scholars expelled under Ptolemy VIII around 145 BC, Caesar's fire in 48 BC with disputed losses, then later neglect and loss of funding. The script hedges the contested points ('many historians', 'may have', 'disputed', 'accounts disagree'). Dates and names are right, and Ptolemy VIII is rendered correctly. The exact moment of the Library's end is debated. The 'single great fire' framing is not, so this is not a genuine dispute. No hard exclusion applies: the topic is not religious, political, a recent event, or an atrocity, and it is not a conspiracy theory. The sources are reputable (HISTORY, the Open University, National Geographic). Most beats are backed by at least two of them.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "I did not run live searches or open the cited pages. I judged this from background knowledge, so spot-check the three URLs before publishing.",
+        "Beat 1 says 'Neglect may have been just as damaging as any single act of destruction.' This is hedged and fine. You could attribute it to 'many historians' on screen. The narration already does this.",
+        "Plutarch wrote around AD 100, about 150 years after the fire. Consider saying 'Plutarch, writing generations later' to show that the 'it all burned' claim is a late account.",
+        "Caesar's own account describes him burning ships in the harbour, and the fire spreading from there. 'Caesar's fire ... spread into the city' is consistent with that. The extra detail is optional.",
+        "The Ptolemy VIII expulsion beat is cited to two sources, which is enough. Adding the OpenLearn page would make the sourcing stronger."
+      ]
+    }
+  },
+  {
+    "claim": "Oxford University is older than the Aztec Empire.",
+    "verdict": "FACT",
+    "hook": "Oxford had students before the Aztecs had a capital.",
+    "summary": "Teaching was happening at Oxford by 1096. The Aztec city of Tenochtitlan was founded around 1325, and the Aztec Triple Alliance formed in 1428.",
+    "category": "Medieval",
+    "era": "Middle Ages",
+    "year": 1096,
+    "key_people": [],
+    "event": "Oxford and the Aztecs",
+    "key_places": [
+      "Oxford",
+      "Tenochtitlan"
+    ],
+    "image_search_terms": [
+      "Oxford University engraving old",
+      "Tenochtitlan map painting",
+      "Codex Mendoza Tenochtitlan",
+      "Oxford medieval manuscript illustration"
+    ],
+    "hashtags": [
+      "#history",
+      "#oxford",
+      "#aztec",
+      "#medieval",
+      "#didyouknow",
+      "#historyfacts",
+      "#mindblown",
+      "#timeline"
+    ],
+    "pronunciations": [
+      {
+        "word": "Tenochtitlan",
+        "say": "Teh-notch-teet-LAHN"
+      },
+      {
+        "word": "Aztec",
+        "say": "AZ-tek"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Teaching was happening at Oxford by 1096. Tenochtitlan was founded around 1325.",
+        "key_line": "Oxford teaching: 1096",
+        "sources": [
+          {
+            "title": "University of Oxford: History",
+            "url": "https://www.ox.ac.uk/about/organisation/history",
+            "publisher": "University of Oxford"
+          },
+          {
+            "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+            "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "Glimpses of Aztec civilization before the Spanish conquest",
+            "url": "https://www.nationalgeographic.com/history/2020/01/glimpses-aztec-civilization-before-spanish-conquest/",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "The Aztec Triple Alliance formed in 1428, more than three centuries after that.",
+        "key_line": "Triple Alliance: 1428",
+        "sources": [
+          {
+            "title": "Who were the Aztec?",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/who-were-the-aztec",
+            "publisher": "National Geographic"
+          },
+          {
+            "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+            "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+            "publisher": "Smithsonian Magazine"
+          }
+        ]
+      },
+      {
+        "narration": "So Oxford teaching predates Tenochtitlan's founding by about 229 years.",
+        "key_line": "A gap of about 229 years",
+        "sources": [
+          {
+            "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+            "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "Glimpses of Aztec civilization before the Spanish conquest",
+            "url": "https://www.nationalgeographic.com/history/2020/01/glimpses-aztec-civilization-before-spanish-conquest/",
+            "publisher": "National Geographic"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "It sounds false because the Aztecs feel ancient. Their empire was young, and Spanish forces took Tenochtitlan in 1521.",
+        "key_line": "The Aztec empire was young",
+        "sources": [
+          {
+            "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+            "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+            "publisher": "Smithsonian Magazine"
+          },
+          {
+            "title": "Who were the Aztec?",
+            "url": "https://www.nationalgeographic.com/history/history-magazine/article/who-were-the-aztec",
+            "publisher": "National Geographic"
+          }
+        ]
+      },
+      {
+        "narration": "Oxford has no clear founding date, so its age is counted from the earliest record of teaching.",
+        "key_line": "No exact founding date",
+        "sources": [
+          {
+            "title": "University of Oxford: History",
+            "url": "https://www.ox.ac.uk/about/organisation/history",
+            "publisher": "University of Oxford"
+          },
+          {
+            "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+            "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+            "publisher": "Smithsonian Magazine"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "University of Oxford: History",
+        "url": "https://www.ox.ac.uk/about/organisation/history",
+        "publisher": "University of Oxford"
+      },
+      {
+        "title": "The University of Oxford Is Older Than the Aztec Empire and Other Facts That Will Change Your Perspective on History",
+        "url": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+        "publisher": "Smithsonian Magazine"
+      },
+      {
+        "title": "Glimpses of Aztec civilization before the Spanish conquest",
+        "url": "https://www.nationalgeographic.com/history/2020/01/glimpses-aztec-civilization-before-spanish-conquest/",
+        "publisher": "National Geographic"
+      }
+    ],
+    "id": "oxford-university-is-older-than-the-aztec-empire-09ca",
+    "approved_at": "2026-11-22T01:27:25.068069+00:00",
+    "review": {
+      "research": "Verdict is FACT on the standard dates. Teaching at Oxford is recorded by 1096, Tenochtitlan was founded around 1325, and the Triple Alliance formed in 1428. National Geographic and Smithsonian confirm the Aztec dates and the 1521 conquest. Smithsonian and Oxford's own history page support the Oxford dates. I could only read Oxford's page through search snippets, because fetching it returned 403. I removed the \"colleges before the city\" beat, because the oldest colleges date to 1249-1264, only about 60 years before 1325, so \"long before\" was wrong. I replaced it with the 229-year gap. I hedged the origin beats to match the sources.",
+      "adversarial": "The verdict is sound. Oxford's own history page dates teaching there to 1096. The traditional founding date of Tenochtitlan is c. 1325, and the Triple Alliance formed in 1428. Historians do not seriously dispute either ordering. The claim is hedged ('around 1325', 'by 1096', 'no exact founding date'), and the arithmetic holds: 229 years and more than 300 years. No hard exclusion applies. The topic is not religious or political, and no living people or recent events are involved. The 1521 conquest is mentioned only as a date, and the script does not minimise harm. It is also not a case of an established fact being presented as a myth, because the script labels it FACT. I found no blocking issues. This is based on my own knowledge of the dates and sources, not on fresh searches or on opening the cited pages.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "I did not open the cited pages in this review. Before publishing, confirm that the National Geographic 'Glimpses of Aztec civilization' page gives the c. 1325 founding date and that the 'Who were the Aztec?' page gives 1428 for the Triple Alliance.",
+        "Consider saying 'Spanish forces and their Indigenous allies took Tenochtitlan in 1521'. The Spanish alone did not take it, and the fuller wording is more accurate.",
+        "The hook says 'before the Aztecs had a capital'. It would be safer as 'before the Aztecs founded their capital', or 'traditionally founded', since 1325 is a traditional date.",
+        "The '229 years' figure is simple subtraction (1325 minus 1096) from two approximate dates. Keep 'about' in the narration. Oxford's own page says teaching existed 'in some form' by 1096, so avoid implying a formal university at that date.",
+        "Cite the Oxford page as the main source for the 1096 date. The Smithsonian article is secondary, so it would help to add a second Aztec-side source such as Britannica."
+      ]
+    }
+  },
+  {
+    "claim": "Nero fiddled while Rome burned.",
+    "verdict": "MYTH",
+    "hook": "Nero and the fiddle: one problem with that picture.",
+    "summary": "Fiddles did not exist in 64 AD, when Rome burned. Tacitus only reports an unconfirmed rumour that Nero sang, and says he was at Antium when the fire began.",
+    "category": "Ancient World",
+    "era": "Roman Empire",
+    "year": 64,
+    "key_people": [
+      "Nero",
+      "Tacitus"
+    ],
+    "event": "Great Fire of Rome",
+    "key_places": [
+      "Rome",
+      "Antium"
+    ],
+    "image_search_terms": [
+      "Great Fire of Rome painting",
+      "Nero portrait bust",
+      "Nero watching Rome burn painting",
+      "Ancient Rome map engraving"
+    ],
+    "hashtags": [
+      "#history",
+      "#ancientrome",
+      "#nero",
+      "#mythorfact",
+      "#didyouknow",
+      "#historymyths",
+      "#romanempire",
+      "#greatfireofrome"
+    ],
+    "pronunciations": [
+      {
+        "word": "Tacitus",
+        "say": "Tass-ih-tus"
+      },
+      {
+        "word": "Antium",
+        "say": "An-tee-um"
+      },
+      {
+        "word": "Nero",
+        "say": "Neer-oh"
+      }
+    ],
+    "reality": [
+      {
+        "narration": "Fiddles did not exist in Nero's day. Bowed instruments like the fiddle came roughly a thousand years later, around the eleventh century.",
+        "key_line": "Fiddles came about 1,000 years later",
+        "sources": [
+          {
+            "title": "Did Nero Really Fiddle While Rome Burned?",
+            "url": "https://www.history.com/news/did-nero-really-fiddle-while-rome-burned",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "“Nero fiddled… Trump golfs”—but did Nero really fiddle while rome burned?",
+            "url": "https://blog.oup.com/2021/01/nero-fiddled-trump-golfs-but-did-nero-really-fiddle-while-rome-burned/",
+            "publisher": "Oxford University Press"
+          },
+          {
+            "title": "Nero Fiddled While Rome Burned (M. F. Gyles, Classical Journal 42.4, 1947)",
+            "url": "https://penelope.uchicago.edu/Thayer/E/Journals/CJ/42/4/Nero_Fiddled*.html",
+            "publisher": "Classical Journal, hosted by LacusCurtius, University of Chicago"
+          }
+        ]
+      },
+      {
+        "narration": "Nero was at his villa in Antium, about 35 miles away, when the fire began. He hurried back and began relief efforts.",
+        "key_line": "Nero was out of town",
+        "sources": [
+          {
+            "title": "Did Nero Really Fiddle While Rome Burned?",
+            "url": "https://www.history.com/news/did-nero-really-fiddle-while-rome-burned",
+            "publisher": "HISTORY (A&E Television Networks)"
+          },
+          {
+            "title": "“Nero fiddled… Trump golfs”—but did Nero really fiddle while rome burned?",
+            "url": "https://blog.oup.com/2021/01/nero-fiddled-trump-golfs-but-did-nero-really-fiddle-while-rome-burned/",
+            "publisher": "Oxford University Press"
+          }
+        ]
+      },
+      {
+        "narration": "Tacitus reports a rumour that Nero sang of Troy's fall on a private stage during the fire. He did not present it as fact.",
+        "key_line": "The singing was only a rumour",
+        "sources": [
+          {
+            "title": "“Nero fiddled… Trump golfs”—but did Nero really fiddle while rome burned?",
+            "url": "https://blog.oup.com/2021/01/nero-fiddled-trump-golfs-but-did-nero-really-fiddle-while-rome-burned/",
+            "publisher": "Oxford University Press"
+          },
+          {
+            "title": "Did Nero Really Fiddle While Rome Burned?",
+            "url": "https://www.history.com/news/did-nero-really-fiddle-while-rome-burned",
+            "publisher": "HISTORY (A&E Television Networks)"
+          }
+        ]
+      }
+    ],
+    "origin": [
+      {
+        "narration": "The fiddle image came much later. English writers like George Daniel were calling him a fiddler by 1649.",
+        "key_line": "A fiddler by 1649",
+        "sources": [
+          {
+            "title": "Fiddling While Rome Burns: The Aetiology of a Familiar English Expression",
+            "url": "https://www.cambridge.org/core/journals/greece-and-rome/article/fiddling-while-rome-burns-the-aetiology-of-a-familiar-english-expression/57F1F8CBDF4F2A8D9B3A271D1B9EB921",
+            "publisher": "Greece & Rome, Cambridge University Press"
+          },
+          {
+            "title": "Nero Fiddled While Rome Burned (M. F. Gyles, Classical Journal 42.4, 1947)",
+            "url": "https://penelope.uchicago.edu/Thayer/E/Journals/CJ/42/4/Nero_Fiddled*.html",
+            "publisher": "Classical Journal, hosted by LacusCurtius, University of Chicago"
+          }
+        ]
+      }
+    ],
+    "verdict_sources": [
+      {
+        "title": "Did Nero Really Fiddle While Rome Burned?",
+        "url": "https://www.history.com/news/did-nero-really-fiddle-while-rome-burned",
+        "publisher": "HISTORY (A&E Television Networks)"
+      },
+      {
+        "title": "“Nero fiddled… Trump golfs”—but did Nero really fiddle while rome burned?",
+        "url": "https://blog.oup.com/2021/01/nero-fiddled-trump-golfs-but-did-nero-really-fiddle-while-rome-burned/",
+        "publisher": "Oxford University Press"
+      },
+      {
+        "title": "Nero Fiddled While Rome Burned (M. F. Gyles, Classical Journal 42.4, 1947)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Journals/CJ/42/4/Nero_Fiddled*.html",
+        "publisher": "Classical Journal, hosted by LacusCurtius, University of Chicago"
+      }
+    ],
+    "id": "nero-fiddled-while-rome-burned-c5df",
+    "approved_at": "2026-11-22T01:33:26.800185+00:00",
+    "review": {
+      "research": "Verdict MYTH holds: no fiddle existed in 64 AD, Nero was at Antium, and Tacitus reports only an unconfirmed rumour of singing. I corrected the violin date (1500s) to the viol/bowed-instrument timeline (about 11th century). I removed the \"public buildings\" claim and the unsupported origin claim. The origin now rests on Gyles and Cambridge's Greece & Rome.",
+      "adversarial": "The core verdict holds: Nero cannot have fiddled in 64 AD, because the violin family did not exist then. Tacitus places Nero at Antium when the fire began and reports the singing on a private stage only as a rumour. The origin claim fits the standard account, which traces the English \"fiddler\" phrasing to the 17th century, including George Daniel in 1649. The claim is a clearly worded anachronism myth, so this is not a genuine scholarly dispute. It also hits no hard exclusion. I found no false or overstated statements that a viewer would hear or read, so there are no blocking fixes. I did this review from knowledge of the sources and did not fetch the pages, so the minor fixes cover source checks and small wording changes.",
+      "fixes_applied": [],
+      "open_minor_points": [
+        "I did not open the cited pages in this pass. The Greece & Rome (Cambridge) URL has an unusual hash-style ID, so confirm it resolves and that the article cites George Daniel's 1649 Trinarchodia. If it doesn't, swap in the Gyles piece or the OUP blog as the second source.",
+        "Optionally add that Suetonius and Cassius Dio, writing later than Tacitus, say Nero sang or played a lyre (cithara) during the fire. This would make clear the real nuance is lyre versus fiddle, and a rumour versus a certainty, so viewers are not left thinking every ancient source denies the singing.",
+        "\"Around the eleventh century\" is slightly narrow, since bowed instruments are usually dated to about the 9th–10th centuries. Consider \"roughly a thousand years later\" without a specific century, or \"around the 10th century\".",
+        "Tacitus (Annals 15.39) says the singing was a rumour, so the script's \"He did not present it as fact\" is accurate. Make sure the narration keeps the \"rumour\" wording and doesn't turn it into \"he never sang\"."
+      ]
+    }
   }
 ]
