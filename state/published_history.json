@@ -248,7 +248,9 @@
     "voice_engine": "piper",
     "render_seconds": 48.4,
     "duration_seconds": 49.2,
-    "status": "pending",
-    "container_id": "17989181081899023"
+    "status": "published",
+    "container_id": "17989181081899023",
+    "media_id": "18100925825663196",
+    "published_at": "2026-11-22T15:44:03.779228+00:00"
   }
 ]
