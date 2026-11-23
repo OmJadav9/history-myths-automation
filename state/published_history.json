@@ -270,7 +270,9 @@
     "voice_engine": "edge-tts",
     "render_seconds": 68.0,
     "duration_seconds": 58.9,
-    "status": "pending",
-    "container_id": "17989509713899023"
+    "status": "published",
+    "container_id": "17989509713899023",
+    "media_id": "17937445674142305",
+    "published_at": "2026-11-23T22:26:11.237722+00:00"
   }
 ]
