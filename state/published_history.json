@@ -252,5 +252,25 @@
     "container_id": "17989181081899023",
     "media_id": "18100925825663196",
     "published_at": "2026-11-22T15:44:03.779228+00:00"
+  },
+  {
+    "run_key": "2026-11-23-4",
+    "date_ist": "2026-11-23",
+    "slot": 4,
+    "myth_id": "lincoln-wrote-the-gettysburg-address-on-an-envel-c043",
+    "claim": "Lincoln wrote the Gettysburg Address on an envelope.",
+    "event": "Gettysburg Address",
+    "key_people": [
+      "Abraham Lincoln",
+      "Mary Shipman Andrews"
+    ],
+    "category": "Modern (1800-1950)",
+    "verdict": "MYTH",
+    "caption_head": "The famous speech was not scribbled on the train\n\nFive handw",
+    "voice_engine": "edge-tts",
+    "render_seconds": 68.0,
+    "duration_seconds": 58.9,
+    "status": "pending",
+    "container_id": "17989509713899023"
   }
 ]
