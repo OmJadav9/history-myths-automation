@@ -314,7 +314,9 @@
     "voice_engine": "edge-tts",
     "render_seconds": 65.2,
     "duration_seconds": 57.3,
-    "status": "pending",
-    "container_id": "17990039246899023"
+    "status": "published",
+    "container_id": "17990039246899023",
+    "media_id": "17905280601379005",
+    "published_at": "2026-11-25T22:32:37.763465+00:00"
   }
 ]
