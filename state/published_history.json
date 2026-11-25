@@ -274,5 +274,24 @@
     "container_id": "17989509713899023",
     "media_id": "17937445674142305",
     "published_at": "2026-11-23T22:26:11.237722+00:00"
+  },
+  {
+    "run_key": "2026-11-24-4",
+    "date_ist": "2026-11-24",
+    "slot": 4,
+    "myth_id": "people-were-once-paid-to-wake-workers-by-tapping-371a",
+    "claim": "People were once paid to wake workers by tapping on their bedroom windows.",
+    "event": "The knocker-upper trade",
+    "key_people": [
+      "Mary Smith"
+    ],
+    "category": "Everyday Life in the Past",
+    "verdict": "FACT",
+    "caption_head": "Before alarm clocks, who woke everyone up?\n\nKnocker-uppers w",
+    "voice_engine": "edge-tts",
+    "render_seconds": 103.1,
+    "duration_seconds": 63.2,
+    "status": "pending",
+    "container_id": "17989828040899023"
   }
 ]
