@@ -337,5 +337,24 @@
     "container_id": "17990196527899023",
     "media_id": "18162289132508371",
     "published_at": "2026-11-26T14:28:58.127306+00:00"
+  },
+  {
+    "run_key": "2026-11-26-4",
+    "date_ist": "2026-11-26",
+    "slot": 4,
+    "myth_id": "medieval-cooks-used-spices-to-hide-the-taste-of-9d1c",
+    "claim": "Medieval cooks used spices to hide the taste of rotten meat.",
+    "event": "Medieval spices and meat",
+    "key_people": [
+      "Paul Freedman"
+    ],
+    "category": "Medieval",
+    "verdict": "MYTH",
+    "caption_head": "Spices were too pricey to waste on bad meat\n\nSpices were gen",
+    "voice_engine": "edge-tts",
+    "render_seconds": 78.2,
+    "duration_seconds": 61.1,
+    "status": "pending",
+    "container_id": "17990284646899023"
   }
 ]
