@@ -318,5 +318,22 @@
     "container_id": "17990039246899023",
     "media_id": "17905280601379005",
     "published_at": "2026-11-25T22:32:37.763465+00:00"
+  },
+  {
+    "run_key": "2026-11-26-2",
+    "date_ist": "2026-11-26",
+    "slot": 2,
+    "myth_id": "old-windows-are-thicker-at-the-bottom-because-gl-3c8f",
+    "claim": "Old windows are thicker at the bottom because glass slowly flows.",
+    "event": "The flowing glass myth",
+    "key_people": [],
+    "category": "Science & Inventions",
+    "verdict": "MYTH",
+    "caption_head": "Wavy old windows are not melting. Here is why.\n\nOld window g",
+    "voice_engine": "edge-tts",
+    "render_seconds": 56.4,
+    "duration_seconds": 52.0,
+    "status": "pending",
+    "container_id": "17990196527899023"
   }
 ]
