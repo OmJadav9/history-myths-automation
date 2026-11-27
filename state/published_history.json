@@ -358,5 +358,24 @@
     "container_id": "17990284646899023",
     "media_id": "17915278077555747",
     "published_at": "2026-11-26T23:21:54.775704+00:00"
+  },
+  {
+    "run_key": "2026-11-27-2",
+    "date_ist": "2026-11-27",
+    "slot": 2,
+    "myth_id": "george-washington-had-wooden-teeth-3b02",
+    "claim": "George Washington had wooden teeth.",
+    "event": "Washington's dentures",
+    "key_people": [
+      "George Washington"
+    ],
+    "category": "Early Modern",
+    "verdict": "MYTH",
+    "caption_head": "Washington's dentures were never made of wood\n\nWashington's ",
+    "voice_engine": "edge-tts",
+    "render_seconds": 68.1,
+    "duration_seconds": 52.1,
+    "status": "pending",
+    "container_id": "17990465735899023"
   }
 ]
